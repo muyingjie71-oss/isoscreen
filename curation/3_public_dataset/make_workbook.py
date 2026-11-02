@@ -26,7 +26,6 @@ solv = read('solvents.csv').set_index('Solvent_Mol_ID')
 corr = read('structure_corrections.csv')
 refs = read('studies.csv').set_index('Study_ID')
 solvent_fold = json.loads((DATA / 'folds_new_solvent_test.json').read_text())['outer_assignment_solvent']
-checksums = json.loads((DATA / 'checksums.json').read_text())['sha256']
 
 FLAG = {'': '', 'DERIVED_FROM_OTHER_PROPERTY': 'Converted from another property',
         'SOLVENT_LIQUID_CRYSTAL_PHASE': 'Solvent in liquid-crystal phase',
@@ -160,16 +159,14 @@ readme = [
     'Sources',
     'NIST ThermoML archive (version 2020-09-30). NIST Ionic Liquids Database, ILThermo. Brouwer et al., Sep. Purif. Technol. 2021, 272, 118727. Tan et al., AIChE J. 2022, 68, e17789.',
     'Li et al., ACS Sustainable Chem. Eng. 2022, 10, 13927. Sherman et al., Ind. Eng. Chem. Res. 1996, 35, 1044. Individual papers collected by the authors.',
-    '',
-    'Checksums (SHA-256) of the CSV files',
-] + [f'{k}: {v}' for k, v in checksums.items() if k.endswith('.csv')]
+]
 
 ws = wb.create_sheet('README')
 ws.column_dimensions['A'].width = 160
 for i, line in enumerate(readme):
     c = WriteOnlyCell(ws, value=line)
     c.font = Font(name='Arial', size=12 if i == 0 else 10,
-                  bold=i == 0 or line in ('Contents', 'Definitions', 'Sources') or line.startswith('Checksums'))
+                  bold=i == 0 or line in ('Contents', 'Definitions', 'Sources'))
     ws.append([c])
 
 sheet('Activity coefficients', cols1, rows1, [27, 12, 24, 30, 34, 16, 34, 9, 10, 10, 30, 14, 22, 18, 12, 18, 18, 9, 9, 9, 30, 30])

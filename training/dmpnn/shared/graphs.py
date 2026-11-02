@@ -1,8 +1,6 @@
-"""Layer A only: deterministic RDKit 2D graph encoder (no 3D or quantum inputs).
+"""Deterministic RDKit 2D graph encoder of the D-MPNN (no 3D or quantum-chemical inputs).
 
-Chirality is explicit on atoms, and E/Z stereo is kept on bonds. The frozen
-original graph cache is retained separately; this encoder has a NEW cache and
-checksum so an old feature shape can never be loaded accidentally.
+Chirality is explicit on atoms, and E/Z stereo is kept on bonds.
 """
 import numpy as np
 from rdkit import Chem

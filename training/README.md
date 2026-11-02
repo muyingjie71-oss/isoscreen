@@ -6,7 +6,7 @@ Code for the three models of the paper and for the production models of the web 
 |---|---|
 | `dmpnn/` | Directed message-passing neural network (D-MPNN) in JAX/Flax. `configs/dmpnn.yaml` trains on activity coefficients and on the selectivities of isomer pairs (λ = 1), `configs/dmpnn_activities_only.yaml` on activity coefficients only (λ = 0) |
 | `ghgnn/` | Gibbs–Helmholtz graph neural network (GH-GNN) of Sanchez Medina and Minor (MIT licence, `ghgnn/ghgnn/LICENSE_GHGNN_MIT.txt`), retrained from scratch with the published hyperparameters |
-| `inputs/` | Files the training code needs besides the public dataset: the molecular structures as used for training, their graph cache and the checksums of the source tables |
+| `inputs/` | Files the training code needs besides the public dataset: the molecular structures as used for training and their graph cache |
 | `prepare_data.py` | Builds the training inputs from `data/` |
 
 ECFP + LightGBM is in `validation/ecfp_lightgbm/`.
@@ -17,7 +17,7 @@ ECFP + LightGBM is in `validation/ecfp_lightgbm/`.
 python training/prepare_data.py
 ```
 
-This writes `training/data/new_isomer_test/` and `training/data/new_solvent_test/` and checks that they equal the training data of the paper. The structures are those used for training, before the eight corrections listed in `data/structure_corrections.csv`.
+This writes `training/data/new_isomer_test/` and `training/data/new_solvent_test/`. Apart from the prefixes of the record and pair IDs and the names of the source files of individual papers, they are the training data of the paper. The structures are those used for training, before the eight corrections listed in `data/structure_corrections.csv`.
 
 ## 2. New-isomer test (whole isomer families held out)
 
@@ -26,11 +26,12 @@ Each job trains one model on one fold. The five folds of three seeds give the ou
 ```bash
 export XLA_FLAGS=--xla_gpu_deterministic_ops=true
 D=training/data/new_isomer_test
-for cfg in dmpnn dmpnn_activities_only; do
+# configuration file, output name (the name is also given as "comparison" in the configuration)
+for run in dmpnn:DMPNN dmpnn_activities_only:DMPNN_activities_only; do
   for seed in 20261007 20261008 20261009; do
     for fold in 1 2 3 4 5; do
-      python training/dmpnn/shared/run_matrix_job.py --data $D --config training/dmpnn/configs/$cfg.yaml \
-        --seed $seed --fold $fold --out runs/new_isomer/$(grep comparison training/dmpnn/configs/$cfg.yaml | cut -d' ' -f2)_seed$seed
+      python training/dmpnn/shared/run_matrix_job.py --data $D --config training/dmpnn/configs/${run%:*}.yaml \
+        --seed $seed --fold $fold --out runs/new_isomer/${run#*:}_seed$seed
     done
   done
 done
@@ -49,6 +50,8 @@ python training/ghgnn/aggregate_ghgnn.py --data $D --root runs/new_isomer --seed
 
 The same commands with `D=training/data/new_solvent_test`, the D-MPNN configuration `dmpnn.yaml` only, and `runs/new_solvent` as output folder.
 
+The aggregation scripts write `DMPNN_SUMMARY.csv` and `GHGNN_SUMMARY.csv`, as in `validation/runs/`.
+
 ## 4. Production models for the web tool
 
 All 68,763 measurements are used for training, for a fixed number of epochs (the median best epoch of the new-solvent test).
@@ -65,6 +68,16 @@ python training/ghgnn/production_check_ghgnn.py --data $D --models runs/producti
 ```
 
 The models used by the web tool are in `models/`, with the results of these checks in `models/acceptance/`. GH-GNN writes its model into a subfolder `Fold_0/`.
+
+## Tests
+
+```bash
+python training/dmpnn/tests/test_data_and_graphs.py --data training/data/new_isomer_test
+python training/dmpnn/tests/test_jax_training.py
+python training/ghgnn/tests/test_equivalence.py
+python training/ghgnn/tests/test_device.py
+python training/ghgnn/tests/test_resume.py
+```
 
 ## Environment
 

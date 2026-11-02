@@ -1,4 +1,4 @@
-"""Five unchanged original family-fold rounds; one out-of-family prediction per record."""
+"""Five folds in turn; one out-of-fold prediction per record."""
 import argparse,json,csv
 from pathlib import Path
 import numpy as np,yaml
@@ -11,7 +11,7 @@ def run(cfg,data_path,output_path,resume=False):
     reports=[]
     for fold in range(1,6):
         reports.append(train(cfg,data_path,output_path/f'Fold_{fold}',fold,resume,False))
-    ds=Dataset(data_path,'A')
+    ds=Dataset(data_path)
     predictions={};allrows=[]
     for fold in range(1,6):
         rows=csv_rows(output_path/f'Fold_{fold}/test_observations_predictions.csv')
@@ -26,9 +26,8 @@ def run(cfg,data_path,output_path,resume=False):
     combined,_,_=evaluate(ds,ids,pred,{'y_std':1.},cfg)
     for name in ('validation_score','absolute_huber','group_macro_differential_huber'):
         combined.pop(name)
-    meta={'variant':'A','configuration':cfg,'code_sha256':code_hashes(),
+    meta={'variant':cfg.get('comparison','DMPNN'),'configuration':cfg,'code_sha256':code_hashes(),
           'data_fingerprint':ds.fingerprint,
-          'split_sha256':ds.freeze['files']['split_manifest.json'],
           'seed':cfg['seed'],'outer_folds':reports,
           'pooled_out_of_family_predictions':combined,
           'n_observations_oof':len(pred),'n_pairs_oof':len(ds.pairs),

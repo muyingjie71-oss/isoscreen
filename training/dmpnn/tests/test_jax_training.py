@@ -1,10 +1,12 @@
-"""Real Flax/JAX small-step, joint-loss, optimizer and exact-resume test.
-Run inside the Colab pinned virtualenv before the formal 5-fold training.
+"""Small training step, joint loss, optimiser and exact resume from a checkpoint, with JAX/Flax.
+
+Usage: python training/dmpnn/tests/test_jax_training.py [training/data/new_isomer_test]
 """
 import sys,json,tempfile
 from pathlib import Path
 import numpy as np
 HERE=Path(__file__).resolve().parent.parent
+DATA=Path(sys.argv[1]) if len(sys.argv)>1 else HERE.parent/'data'/'new_isomer_test'
 sys.path.insert(0,str(HERE/'shared'))
 import jax,jax.numpy as jnp
 import yaml
@@ -13,9 +15,9 @@ from trainer import make_state,save_checkpoint,restore_checkpoint
 from losses import joint_loss
 
 def test():
-    cfg=yaml.safe_load((HERE/'configs/A_JOINT.yaml').read_text(encoding='utf8'))
+    cfg=yaml.safe_load((HERE/'configs/dmpnn.yaml').read_text(encoding='utf8'))
     cfg.update(hidden=32,depth=2,max_epochs=2,absolute_batch=8,pair_batch=4,eval_batch=8)
-    ds=Dataset(HERE/'data');fold=1
+    ds=Dataset(DATA);fold=1
     sp=ds.split(fold);sc=ds.scalers(sp['train'])
     sampler=GroupSampler(ds.pairs,ds.pair_indices(sp['train']))
     rng=np.random.default_rng(51)
@@ -34,7 +36,7 @@ def test():
     with tempfile.TemporaryDirectory() as tmp:
         cp=Path(tmp)/'last.msgpack'
         progress={'epoch':0,'cursor':8,'permutation':[int(x) for x in ids],'best_score':None}
-        rid='layer-a-resume-check'
+        rid='resume-check'
         save_checkpoint(cp,nxt,progress,rng,sc,rid)
         target,_,_=make_state(cfg,b,2)
         rng2=np.random.default_rng(612)

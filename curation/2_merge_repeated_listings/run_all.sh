@@ -10,6 +10,7 @@ python3 -I "$S/replicates.py"               # cross-study replicates and reporte
 python3 -I "$S/export_tables.py"            # record decisions, identifier merges, study links, counts
 python3 -I "$S/verify.py"                   # checks against the extracted tables, all must pass
 PKG="${TRAINING_TABLES_DIR:-$HERE/outputs/training_tables}"; LA="${EARLIER_TRAINING_DATA:-$HERE/inputs/earlier_training_data}"; mkdir -p "$PKG/data"
-for f in molecules.csv split_manifest.json graphs_layer_a_v2.npz source_freeze_original.json; do cp "$LA/$f" "$PKG/data/"; done
+for f in molecules.csv split_manifest.json molecule_graphs.npz; do cp "$LA/$f" "$PKG/data/"; done
 python3 -I "$S/make_training_tables.py"
+python3 -I "$S/rename_record_ids.py"          # record IDs get the prefix REC_ in the written tables
 cp "${MERGE_WORK:-$HERE/work}/replicates.csv" "${MERGE_OUT:-$HERE/outputs}/cross_study_replicates.csv"

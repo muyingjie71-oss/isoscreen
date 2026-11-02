@@ -2,16 +2,17 @@
 import sys,json
 from pathlib import Path
 HERE=Path(__file__).resolve().parent.parent;sys.path.insert(0,str(HERE));sys.path.insert(0,str(HERE/'ghgnn'))
+DATA=Path(sys.argv[1]) if len(sys.argv)>1 else HERE.parent/'data'/'new_isomer_test'
 import numpy as np,pandas as pd,torch
 from rdkit import Chem
 import mol2graph as M
 from run_ghgnn_job import mol_cache,build
-mol=pd.read_csv(HERE/'data/molecules.csv');smi=dict(zip(mol.Mol_ID,mol.SMILES))
+mol=pd.read_csv(DATA/'molecules.csv');smi=dict(zip(mol.Mol_ID,mol.SMILES))
 bad=set()
 for k,s in smi.items():
     try:[M.atom_features(a) for a in Chem.MolFromSmiles(s).GetAtoms()]
     except Exception:bad.add(k)
-t=pd.read_csv(HERE/'data/task1.csv',dtype={'canonical_record_id':str},keep_default_na=False)
+t=pd.read_csv(DATA/'task1.csv',dtype={'canonical_record_id':str},keep_default_na=False)
 t=t[~(t.Solute_Mol_ID.isin(bad)|t.Solvent_Mol_ID.isin(bad))].sample(400,random_state=0)
 df=pd.DataFrame({'Molecule_Solvent':[Chem.MolFromSmiles(smi[x]) for x in t.Solvent_Mol_ID],'Molecule_Solute':[Chem.MolFromSmiles(smi[x]) for x in t.Solute_Mol_ID],'y':t.ln_gamma_inf.astype(float).values})
 up_s,up_u=M.sys2graph(df,'Molecule_Solvent','Molecule_Solute','y')

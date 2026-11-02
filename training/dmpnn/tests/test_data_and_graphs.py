@@ -1,4 +1,7 @@
-"""Offline Layer A regression suite: no Flax or GPU required."""
+"""Checks of the training data and the graph encoder; needs no Flax or GPU.
+
+Usage: python training/dmpnn/tests/test_data_and_graphs.py --data training/data/new_isomer_test
+"""
 import argparse,json,sys
 from pathlib import Path
 import numpy as np
@@ -11,11 +14,10 @@ from metrics import evaluate
 
 def main(data):
     ds=Dataset(data)
-    exp=ds.freeze['expected_counts']
+    exp=ds.info['expected_counts']
     assert len(ds.records)==exp['task1'] and len(ds.pairs)==exp['task2']
     assert len(ds.splits['outer_assignment'])==84
     assert ds.matched_condition_validation['matched_groups_checked']==exp['matched_groups']
-    assert ds.freeze['files']['split_manifest.json']==ds.freeze['report'].get('split_manifest_sha256',ds.freeze['files']['split_manifest.json'])
     x=graph('C[C@H](F)Cl');y=graph('C[C@@H](F)Cl')
     assert not np.array_equal(x['atom'],y['atom']), 'Chiral stereoisomer atom features collapsed'
     ez=graph('F/C=C/F');zz=graph('F/C=C\\F')
@@ -26,7 +28,7 @@ def main(data):
     assert ring5['atom'].shape[1]==ring6['atom'].shape[1] and ring5['atom'].shape[1]>43
     atoms_charged=graph('[Na+].[Cl-]');assert len(atoms_charged['atom'])==2 and len(atoms_charged['src'])==0
     assert np.any(atoms_charged['atom'][0]!=atoms_charged['atom'][1])
-    bank=GraphBank(Path(data)/'graphs_layer_a_v2.npz')
+    bank=GraphBank(Path(data)/'molecule_graphs.npz')
     for mid in ([0],[0,1,2],[0,1,2,4,8],[5,5,10,5]):
         batch,lookup=bank.pack(mid)
         m=int(batch['edge_mask'].sum());n=int(batch['node_mask'].sum());
@@ -67,5 +69,5 @@ def main(data):
     print(json.dumps(report,ensure_ascii=False,indent=2))
     return report
 if __name__=='__main__':
-    p=argparse.ArgumentParser();p.add_argument('--data',default=str(HERE/'data'))
+    p=argparse.ArgumentParser();p.add_argument('--data',default=str(HERE.parent/'data'/'new_isomer_test'))
     args=p.parse_args();main(args.data)

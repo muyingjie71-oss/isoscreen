@@ -1,6 +1,6 @@
 # Code for Figures 1–6
 
-Draws the six figures of the paper from the training tables and the out-of-fold predictions in `predictions/`.
+Draws the six figures of the paper from the training tables and the out-of-fold predictions in `../validation/`.
 
 ## Running
 
@@ -18,11 +18,9 @@ Each figure can also be drawn alone, for example `python fig3.py . out`. Every f
 
 | File or folder | Contents |
 |---|---|
-| `fig1.py` – `fig6.py` | One script per figure |
+| `fig1.py` – `fig6.py` | One script per figure. Figure 4 also reads the new-solvent predictions from `validation/oof_predictions_ln_gamma.csv` |
 | `run_all.py` | Runs all scripts in turn |
-| `scripts/load_all.py` | Reads the training tables (`training/data/new_isomer_test/`) and the predictions for Figures 2–6 and joins measured values, isomer pairs and the out-of-fold predictions of every model in one table |
-| `predictions/oof_predictions_all_models.csv.gz` | Out-of-fold predictions of the new-isomer test for all models: D-MPNN (`A_JOINT_*`), D-MPNN trained on activity coefficients only (`A_ABS_*`), GH-GNN and ECFP + LightGBM |
-| `predictions/oof_ln_gamma_both_tests.csv.gz` | Predictions of both tests in one table. Figure 4 takes the new-solvent predictions (`newsolv_*` columns) from it |
+| `scripts/load_all.py` | Reads the training tables (`training/data/new_isomer_test/`) and the out-of-fold predictions of the new-isomer test (`validation/oof_predictions_all_models.csv.gz`), and joins measured values, isomer pairs and the predictions of every model in one table |
 | `outputs/` | Summary tables used by Figures 2 and 4: metrics of every training run and deviations between cross-study replicates |
 | `plot_data/fig1/` | Inputs of Figure 1: example isomer pairs, boiling points and the number of pairs in each resolution range |
 

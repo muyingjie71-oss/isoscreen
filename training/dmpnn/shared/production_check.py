@@ -44,7 +44,7 @@ for m in P.members:
     tp=trainer_predict(ds,ids,s,lambda prm,b,fn=m['fn']:fn(prm,b),m['scalers'],512)
     path_diff[m['name']]=float(np.max(np.abs(tp-pr[m['name']])))
 seed_r2={m['name']:float(1-np.sum((pr[m['name']]-y)**2)/np.sum((y-y.mean())**2)) for m in P.members}
-rep={'model':'D-MPNN (A_JOINT, lambda=1)','seeds':P.seeds,'device':jax.devices()[0].platform,
+rep={'model':'D-MPNN (lambda=1)','seeds':P.seeds,'device':jax.devices()[0].platform,
      'n_records':int(len(y)),'n_pairs':int(len(ds.pairs)),
      'ln_gamma_R2_train':float(r2),'ln_gamma_R2_train_per_seed':seed_r2,
      'ln_gamma_median_abs_error':float(np.median(err)),'typical_gamma_error_pct':float(100*(np.exp(np.median(err))-1)),

@@ -1,5 +1,5 @@
 {
- "model": "D-MPNN (A_JOINT, lambda=1)",
+ "model": "D-MPNN (lambda=1)",
  "seeds": [
   "seed_20261007",
   "seed_20261008",

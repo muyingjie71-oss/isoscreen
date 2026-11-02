@@ -7,14 +7,15 @@ split_manifest.json and cross_study_replicates.csv) and, from inputs/, the solve
 of the new-solvent test as used in the analyses.
 
 Changes made for the public dataset:
-- English file names, column names and labels, and source file paths with forward slashes.
+- English file names, column names and labels, and source file paths with forward slashes. Files of the
+  individually collected papers are given English names (SOURCE_FILES).
 - Corrected structures of eight solvents (list in structure_corrections.csv). Measured values, records,
   pairs, Mol_IDs and folds are unchanged. The models in the paper used the original structures,
   which training/inputs/molecules_as_trained.csv keeps.
 """
 import csv
-import hashlib
 import json
+import re
 import shutil
 import sys
 from pathlib import Path
@@ -36,6 +37,19 @@ RELATION = {'骨架/链异构': 'skeletal (chain branching)', '位置异构': 'p
             '不饱和类型异构': 'unsaturation type'}
 COLUMNS = {'Raw_压力_kPa': 'Reported_Pressure_kPa', 'Raw_相态': 'Reported_Phase', 'Raw_标准态': 'Reported_Standard_State',
            'Raw_实验方法': 'Reported_Method', 'Raw_其他固定条件': 'Reported_Other_Conditions'}
+# Individually collected papers: folder and file names in the source archive -> names in the public dataset
+SOURCE_FILES = {'07_单独收集论文/': '07_Individual_papers/',
+                '2000_Castells_烷烃实验论文.pdf': '2000_Castells_alkanes.pdf',
+                '2026_离子液体_实验附表.xlsx': '2026_ionic_liquids_SI_tables.xlsx',
+                '2022_离子液体混合物_实验附表.pdf': '2022_ionic_liquid_mixtures_SI_tables.pdf',
+                '2020_吗啉鎓离子液体_论文全文_Table_1.html': '2020_morpholinium_ionic_liquids_Table_1.html',
+                '2020_吗啉鎓离子液体_论文全文_Table_2.html': '2020_morpholinium_ionic_liquids_Table_2.html',
+                '2020_己二醇溶剂_实验论文.pdf': '2020_hexanediol_solvents.pdf',
+                '2022_柠檬烯溶剂_实验论文.pdf': '2022_limonene_solvents.pdf',
+                '1995_酚类水溶液_实验论文.pdf': '1995_phenols_in_water.pdf',
+                '2024_Danisa_Cyrene_学位论文.pdf': '2024_Danisa_Cyrene_thesis.pdf',
+                '2025_氯化胆碱尿素_实验附表.xlsx': '2025_choline_chloride_urea_SI_tables.xlsx'}
+CJK = re.compile('[\u4e00-\u9fff]')
 SOLVENT_COLUMNS = {'smiles': 'SMILES', 'cation': 'Cation_SMILES', 'anion': 'Anion_SMILES', 'is_IL': 'Is_Ionic_Liquid',
                    'group_solvent': 'Group_Solvent', 'group_cation': 'Group_Cation', 'n_records': 'Records'}
 REPLICATE_COLUMNS = {'pair': 'Isomer_Pair', 'solvent': 'Solvent_Mol_ID', 'T': 'T_K', 's1': 'Study_1', 's2': 'Study_2',
@@ -87,6 +101,10 @@ t1, c1 = read('task1.csv')
 for r in t1:
     r['Source'] = SOURCE[r['Source']]
     r['Original_Source_File'] = r['Original_Source_File'].replace('\\', '/')
+    for k in ('Original_Source_File', 'Original_Source_Location'):
+        for a, b in SOURCE_FILES.items():
+            r[k] = r[k].replace(a, b)
+        assert not CJK.search(r[k]), r[k]
 write('activity_coefficients.csv', *renamed(t1, c1, COLUMNS))
 
 # isomer pairs
@@ -130,9 +148,5 @@ shutil.copyfile(HERE / 'inputs' / 'folds_new_solvent_test_summary.csv', OUT / 'f
 rep, cr = read(MERGE / 'cross_study_replicates.csv')
 write('cross_study_replicates.csv', *renamed(rep, cr, REPLICATE_COLUMNS))
 
-# checksums
-sha = lambda p: hashlib.sha256(p.read_bytes()).hexdigest()
 counts = {'activity_coefficients': len(t1), 'isomer_pairs': len(t2), 'molecules': len(mol), 'solvents': len(solv)}
-files = {p.name: sha(p) for p in sorted(OUT.iterdir()) if p.suffix in ('.csv', '.json') and p.name != 'checksums.json'}
-(OUT / 'checksums.json').write_text(json.dumps({'counts': counts, 'sha256': files}, indent=2) + '\n')
 print(json.dumps(counts))

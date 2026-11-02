@@ -3,7 +3,7 @@
 Written with plain tensor ops (gather, matmul, elementwise) so the same graphs can be exported to ONNX and run in the browser.
 Every function is checked against the production predictors (predict_dmpnn.py, predict_ghgnn.py) in verify_split.py.
 
-D-MPNN (Layer A, A_JOINT):   ln g = MLP([hi, hs, hi-hs, hi*hs, silu(W_T t + b), 0]) * y_std + y_mean,  t = (1000/T - t_mean)/t_std
+D-MPNN (lambda = 1):         ln g = MLP([hi, hs, hi-hs, hi*hs, silu(W_T t + b), 0]) * y_std + y_mean,  t = (1000/T - t_mean)/t_std
 GH-GNN (IL-extended):        per molecule: graphnet1 -> GraphNorm -> graphnet2 -> GraphNorm -> mean pool -> [xg, u] (226)
                              per pair: 2-node system graph (NNConv + GRU, every edge carries inter_hb), two MLP heads -> A, B;
                              ln g = A + B / T  (T in K)

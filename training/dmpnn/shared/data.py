@@ -1,18 +1,15 @@
-"""Frozen records, whole-family splits, unbiased group-first pair sampling.
+"""Training records, splits by isomer family or by solvent, and group-first sampling of isomer pairs.
 
 Reported atmospheric pressures are canonicalised, a merged measurement keeps all its
-publication contexts for the study check, and expected counts are read from freeze.json.
+publication contexts for the study check, and expected counts are read from dataset.json.
 """
 from pathlib import Path
 import numpy as np
 import csv,json,hashlib,html,math,re,unicodedata
 from graphs import GraphBank
 
-# This delivery uses ONE joint Layer A model; only 2D molecular graphs are loaded.
-
 def csv_rows(p):
     with open(p,encoding='utf-8-sig',newline='') as f:return list(csv.DictReader(f))
-def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
 
 CONDITION_FIELDS=('pressure','phase','standard_state','method','fixed')
 
@@ -58,7 +55,7 @@ def _reported_conditions(record):
     value=[record.get('Raw_压力_kPa',''),record.get('Raw_相态',''),record.get('Raw_标准态',''),record.get('Raw_实验方法',''),fixed]
     label=record.get('canonical_record_id','')
     signature=_condition_values(value,label+' source conditions')
-    # Production freezes preserve the selected source declaration under this
+    # The training tables keep the selected source declaration under this
     # longer name. Validate both spellings and every known raw declaration.
     for field in ('Reported_Conditions','Reported_Condition_Declaration'):
         if _has_signature(record,field):
@@ -77,21 +74,18 @@ def _covers(signature,conditions,label):
     for target,value,field in zip(signature,conditions,CONDITION_FIELDS):
         if value and target!=value:raise ValueError('Matched signature omits or changes condition: '+label+' '+field)
 
-def _requires_signatures(freeze):
-    flag=freeze.get('requires_matched_condition_signature',False)
+def _requires_signatures(info):
+    flag=info.get('requires_matched_condition_signature',False)
     if isinstance(flag,str):flag=flag.lower() in ('true','1','yes')
-    try:major=int(str(freeze.get('version','1.0')).split('.')[0])
-    except ValueError:major=1
-    return bool(flag) or major>=2
+    return bool(flag)
 
-def validate_matched_conditions(records,pairs,freeze):
+def validate_matched_conditions(records,pairs,info):
     """Validate endpoint conditions and one exact condition signature per group.
 
-    Version 2 production freezes require signatures on records and pairs.
-    Old version 1 engineering fixtures may omit the new metadata, while any
-    supplied metadata still receives the same consistency checks.
+    dataset.json can require signatures on records and pairs. Supplied signatures are always
+    checked for consistency.
     """
-    required=_requires_signatures(freeze)
+    required=_requires_signatures(info)
     ids={row['canonical_record_id']:row for row in records}
     if len(ids)!=len(records):raise ValueError('Duplicate canonical_record_id')
     effective={};reported={}
@@ -112,7 +106,7 @@ def validate_matched_conditions(records,pairs,freeze):
             values=legacy_values.setdefault(gid,[set() for _ in CONDITION_FIELDS])
             for endpoint in ('canonical_record_id_A','canonical_record_id_B'):
                 rid=pair.get(endpoint)
-                if rid not in effective:raise ValueError('Pair endpoint not in frozen Task1: '+pair.get('Pair_ID',''))
+                if rid not in effective:raise ValueError('Pair endpoint not in task1: '+pair.get('Pair_ID',''))
                 for index,value in enumerate(effective[rid]):
                     if value:values[index].add(value)
             for field in ('Matched_Conditions','Effective_Conditions'):
@@ -129,7 +123,7 @@ def validate_matched_conditions(records,pairs,freeze):
         if not pid or pid in pair_ids:raise ValueError('Pair_ID must be nonempty and unique')
         pair_ids.add(pid)
         try:a=ids[pair['canonical_record_id_A']];b=ids[pair['canonical_record_id_B']]
-        except KeyError as error:raise ValueError('Pair endpoint not in frozen Task1: '+pid) from error
+        except KeyError as error:raise ValueError('Pair endpoint not in task1: '+pid) from error
         ai,bi=a['canonical_record_id'],b['canonical_record_id']
         _compatible(effective[ai],effective[bi],pid)
         _compatible(reported[ai],reported[bi],pid+' reported')
@@ -170,23 +164,18 @@ def study_contexts(record):
     return ctx
 
 class Dataset:
-    def __init__(self,path,layer='A',feature_file=None):
-        if layer!='A' or feature_file is not None:
-            raise ValueError('This standalone package only supports Layer A, without physical features')
+    def __init__(self,path):
         self.path=Path(path)
-        self.freeze=json.loads((self.path/'freeze.json').read_text(encoding='utf8'))
-        for name,digest in self.freeze['files'].items():
-            if sha(self.path/name)!=digest:raise ValueError('Frozen Layer A dataset/checksum mismatch: '+name)
-        if sha(self.path/'source_freeze_original.json')!=self.freeze['source_original_freeze_sha256']:
-            raise ValueError('Original-source freeze provenance changed')
-        self.fingerprint=sha(self.path/'freeze.json')
+        self.info=json.loads((self.path/'dataset.json').read_text(encoding='utf8'))
+        # identifies the training data of a run, so that a checkpoint is only resumed on the same data
+        self.fingerprint=hashlib.sha256(b''.join((self.path/n).read_bytes() for n in ('dataset.json','task1.csv','task2.csv','split_manifest.json'))).hexdigest()
         self.records=csv_rows(self.path/'task1.csv');self.pairs=csv_rows(self.path/'task2.csv')
         self.splits=json.loads((self.path/'split_manifest.json').read_text(encoding='utf8'))
-        self.bank=GraphBank(self.path/'graphs_layer_a_v2.npz')
+        self.bank=GraphBank(self.path/'molecule_graphs.npz')
         if len({r['canonical_record_id'] for r in self.records})!=len(self.records):
             raise ValueError('Duplicate experiment ID')
         self.ids={r['canonical_record_id']:i for i,r in enumerate(self.records)}
-        self.matched_condition_validation=validate_matched_conditions(self.records,self.pairs,self.freeze)
+        self.matched_condition_validation=validate_matched_conditions(self.records,self.pairs,self.info)
         self.y64=np.asarray([float(r['ln_gamma_inf']) for r in self.records],np.float64)
         self.y=self.y64.astype(np.float32)
         self.dy64=np.asarray([float(p['D_AB']) for p in self.pairs],np.float64)
@@ -199,7 +188,7 @@ class Dataset:
         self.molecule_ids=[r['Mol_ID'] for r in self.molecules]
         if len(set(self.molecule_ids))!=len(self.molecule_ids):raise ValueError('Duplicate molecule identity')
         if len(self.molecule_ids)!=len(self.bank.arr['atom_ptr'])-1:
-            raise ValueError('Graph cache molecule count differs from frozen molecules')
+            raise ValueError('Graph cache and molecules.csv differ in the number of molecules')
         for r,si,vi in zip(self.records,self.sm,self.vm):
             if self.molecule_ids[si]!=r['Solute_Mol_ID'] or self.molecule_ids[vi]!=r['Solvent_Mol_ID']:
                 raise ValueError('Record molecule identity/index mismatch: '+r['canonical_record_id'])
@@ -215,11 +204,11 @@ class Dataset:
                 raise ValueError('Pair endpoints represent the same isomer: '+p['Pair_ID'])
             if abs(float(p['D_AB'])-(float(a['ln_gamma_inf'])-float(b['ln_gamma_inf'])))>1e-9:
                 raise ValueError('Pair differential target changed: '+p['Pair_ID'])
-        expected=self.freeze['expected_counts']
+        expected=self.info['expected_counts']
         if len(self.records)!=expected['task1'] or len(self.pairs)!=expected['task2']:
-            raise ValueError('Unexpected frozen sample counts: expected '+json.dumps(expected))
-        self.layer='A';self.feature_fingerprint='none';self.feature_names=[]
-        self.cohort=self.freeze.get('comparison_cohort','A_FULL_DATA')
+            raise ValueError('Unexpected numbers of records or pairs: expected '+json.dumps(expected))
+        self.feature_fingerprint='none';self.feature_names=[]
+        self.cohort=self.info.get('cohort','')
 
     def split(self,fold):
         spec=self.splits['rounds'][str(fold)]

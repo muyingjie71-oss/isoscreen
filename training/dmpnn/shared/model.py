@@ -1,4 +1,4 @@
-"""Layer A directed-message GNN; ONE scalar ln(gamma_inf) output."""
+"""Directed message-passing neural network (D-MPNN) with one output, ln gamma_inf."""
 import jax
 import jax.numpy as jnp
 from flax import linen as nn
@@ -34,17 +34,15 @@ class IDACModel(nn.Module):
     hidden:int=256
     depth:int=4
     dropout:float=.10
-    layer:str='A'
     @nn.compact
     def __call__(self,b,training=False):
-        if self.layer!='A':raise ValueError('This package supports Layer A only')
         h=DMPNN(self.hidden,self.depth,name='shared_encoder')(b['graph'])
         hi,hs=h[b['solute_graph']],h[b['solvent_graph']]
         ht=nn.silu(nn.Dense(32,name='temperature')(b['temperature'][:,None]))
         n=hi.shape[0]
         zero=jnp.zeros((n,128),dtype=jnp.float32)
-        # Original role-ordered fusion is retained. The three zero slots are
-        # legacy placeholders, NOT any B-layer descriptors or physical inputs.
+        # Fusion input in solute-solvent order. The three blocks of zeros are part of the input
+        # layout of the trained models and carry no information.
         x=jnp.concatenate([hi,hs,hi-hs,hi*hs,ht,zero,zero,zero],axis=-1)
         for nout in (512,256):
             x=nn.silu(nn.Dense(nout,name=f'fusion_{nout}')(x))

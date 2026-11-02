@@ -10,7 +10,9 @@ Returned dict:
   pairs  : one row per isomer pair under matched conditions (task2); D = ln gA - ln gB (experimental),
            plus D_<model> = predicted difference for every model column, and helper columns
            (abs_D, S_inf = exp|D|, relation_en, solvent_is_IL, pair_key = sorted solute Mol_IDs)
-  models : {'JOINT': [3 seed columns], 'ABS': [...], 'GHGNN': [...], 'ECFP': ['ECFP_LGBM']}
+  models : {'JOINT': [3 seed columns], 'ABS': [...], 'GHGNN': [...], 'ECFP': ['newiso_ECFP']}
+           JOINT is D-MPNN trained on activity coefficients and selectivities (lambda = 1),
+           ABS is D-MPNN trained on activity coefficients only (lambda = 0)
   ens    : ensemble (seed-mean) column names: JOINT_ens, ABS_ens, GHGNN_ens
   mol    : Mol_ID -> SMILES
 """
@@ -20,6 +22,7 @@ import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT.parent / 'training' / 'data' / 'new_isomer_test'   # written by training/prepare_data.py
+PREDICTIONS = ROOT.parent / 'validation' / 'oof_predictions_all_models.csv.gz'
 
 RELATION_EN = {
     '位置异构': 'positional',
@@ -32,10 +35,10 @@ RELATION_EN = {
 }
 
 MODELS = {
-    'JOINT': ['A_JOINT_seed20261007', 'A_JOINT_seed20261008', 'A_JOINT_seed20261009'],
-    'ABS': ['A_ABS_seed20261007', 'A_ABS_seed20261008', 'A_ABS_seed20261009'],
-    'GHGNN': ['GHGNN_seed20261007', 'GHGNN_seed20261008', 'GHGNN_seed20261009'],
-    'ECFP': ['ECFP_LGBM'],
+    'JOINT': ['newiso_DMPNN_20261007', 'newiso_DMPNN_20261008', 'newiso_DMPNN_20261009'],
+    'ABS': ['newiso_DMPNNact_20261007', 'newiso_DMPNNact_20261008', 'newiso_DMPNNact_20261009'],
+    'GHGNN': ['newiso_GHGNN_20261007', 'newiso_GHGNN_20261008', 'newiso_GHGNN_20261009'],
+    'ECFP': ['newiso_ECFP'],
 }
 
 
@@ -43,7 +46,8 @@ def load(common_domain=True):
     t = pd.read_csv(DATA / 'task1.csv', dtype={'canonical_record_id': str}, keep_default_na=False, encoding='utf-8-sig')
     p = pd.read_csv(DATA / 'task2.csv', dtype={'canonical_record_id_A': str, 'canonical_record_id_B': str},
                     keep_default_na=False, encoding='utf-8-sig')
-    pr = pd.read_csv(ROOT / 'predictions/oof_predictions_all_models.csv.gz', dtype={'canonical_record_id': str})
+    pr = pd.read_csv(PREDICTIONS, dtype={'canonical_record_id': str})
+    pr = pr[['canonical_record_id'] + sum(MODELS.values(), [])]
     mol = pd.read_csv(DATA / 'molecules.csv', encoding='utf-8-sig')
     smi = dict(zip(mol.Mol_ID, mol.SMILES))
     for c in ('T_K', 'ln_gamma_inf', 'gamma_inf'):

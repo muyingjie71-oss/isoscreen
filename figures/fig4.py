@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 """Figure 4. Errors of the two isomers of a pair: experiments (a), D-MPNN (b) and GH-GNN (c) on new isomer families, and the
 share of error that cancels for new isomers and new solvents (d). New-solvent predictions come from
-predictions/oof_ln_gamma_both_tests.csv (columns newsolv_*).
+validation/oof_predictions_ln_gamma.csv (columns newsolv_*).
 Usage: python fig4.py <this folder> <out_dir>"""
 import sys, os, math
 from pathlib import Path
@@ -22,8 +22,8 @@ plt.rcParams.update({'font.family': ['Arial', 'Liberation Sans', 'DejaVu Sans'],
 # ---------------- data ----------------
 d = load(); obs, M, pairs = d['obs'], d['models'], d['pairs']
 SO = {'SO_GHGNN': [], 'SO_JOINT': []}
-# new-solvent test (solvents held out): out-of-fold ln gamma for 3 seeds of each model, from predictions/oof_ln_gamma_both_tests.csv
-both = pd.read_csv(ROOT / 'predictions/oof_ln_gamma_both_tests.csv.gz', dtype={'canonical_record_id': str})
+# new-solvent test (solvents held out): out-of-fold ln gamma for 3 seeds of each model
+both = pd.read_csv(ROOT.parent / 'validation' / 'oof_predictions_ln_gamma.csv', dtype={'canonical_record_id': str})
 for tag, pre in (('SO_GHGNN', 'newsolv_GHGNN_'), ('SO_JOINT', 'newsolv_DMPNN_')):
     for col in sorted(c for c in both.columns if c.startswith(pre)):
         name = tag + '_' + col.split('_')[-1]

@@ -35,7 +35,7 @@ def restore_checkpoint(path,target,host_rng,run_id):
 
 def make_state(cfg,batch,nsteps):
     key=jax.random.PRNGKey(cfg['seed']);initkey,key=jax.random.split(key)
-    model=IDACModel(cfg['hidden'],cfg['depth'],cfg['dropout'],cfg['layer'])
+    model=IDACModel(cfg['hidden'],cfg['depth'],cfg['dropout'])
     params=model.init(initkey,batch,training=False)['params']
     total=max(2,nsteps*cfg['max_epochs']);warmup=min(total-1,max(1,int(total*cfg['warmup_fraction'])))
     schedule=optax.warmup_cosine_decay_schedule(0.,cfg['learning_rate'],warmup,total,end_value=cfg['learning_rate']*.05)
@@ -75,9 +75,8 @@ def write_predictions(out,ds,ids,pred,pi,pd,fold):
         for i,p in zip(pi,pd):w.writerow({**{c:ds.pairs[i].get(c,'') for c in cols},'Fold_ID':f'Fold_{fold}','pred_D_AB':repr(float(p))})
 
 def train(cfg,data_path,out_path,fold,resume=False,smoke=False,feature_file=None,fixed_epochs=None):
-    if cfg['layer']!='A':raise ValueError('Standalone package supports Layer A only')
-    if feature_file is not None:raise ValueError('Layer A does not accept physical descriptor files')
-    ds=Dataset(data_path,cfg['layer']);cfg=dict(cfg)
+    if feature_file is not None:raise ValueError('Only 2D molecular graphs are supported')
+    ds=Dataset(data_path);cfg=dict(cfg)
     # fixed_epochs: fold 0 = every record trains; stop after fixed_epochs; no validation or test.
     # max_epochs is unchanged, so warmup and cosine decay follow the same per-epoch curve as the cross-validation runs.
     production=fixed_epochs is not None
@@ -88,7 +87,7 @@ def train(cfg,data_path,out_path,fold,resume=False,smoke=False,feature_file=None
         cfg.update(fixed_epochs=int(fixed_epochs),production_full_data=True)
     else:split=ds.split(fold)
     train_all=split['train']  # same set ds.split(fold)['train'] gave below; captured before smoke truncation
-    comparison=cfg.get('comparison','A_FULL')  # A_JOINT (lambda_diff=1) or A_ABS (lambda_diff=0), same data/splits
+    comparison=cfg.get('comparison','DMPNN')  # DMPNN (lambda_diff=1) or DMPNN_activities_only (lambda_diff=0), same data and splits
     if smoke:
         cfg.update(hidden=32,depth=2,absolute_batch=8,pair_batch=4,eval_batch=16,max_epochs=2,patience=2,checkpoint_interval_steps=4)
         # Smoke samples only from non-test families; never reports test performance.
@@ -99,7 +98,7 @@ def train(cfg,data_path,out_path,fold,resume=False,smoke=False,feature_file=None
     if (out/'completed.json').exists():
         done=json.loads((out/'completed.json').read_text(encoding='utf8'))
         if done['run_id']!=rid:raise ValueError('Output directory belongs to a different run')
-        print('Already complete; retained frozen test results.',flush=True);return done
+        print('Run already complete.',flush=True);return done
     if (out/'last.msgpack').exists() and not resume:raise ValueError('Existing run: use --resume or a fresh output directory')
     scalers=ds.scalers(train_all)
     pair_ids=ds.pair_indices(train_all);sampler=GroupSampler(ds.pairs,pair_ids)
@@ -109,7 +108,7 @@ def train(cfg,data_path,out_path,fold,resume=False,smoke=False,feature_file=None
     cfg['seed']+=fold;state,step,infer=make_state(cfg,init_b,nsteps)
     progress={'epoch':0,'cursor':0,'permutation':[],'best_score':None,'best_epoch':None,'bad_epochs':0,'history':[],'epoch_loss_sum':0.,'epoch_abs_sum':0.,'epoch_pair_sum':0.,'epoch_grad_sum':0.,'epoch_steps':0}
     if resume and (out/'last.msgpack').exists():state,progress,scalers=restore_checkpoint(out/'last.msgpack',state,rng,rid)
-    dump(out/'run_manifest.json',{'run_id':rid,'configuration':cfg,'code_sha256':code_hashes(),'data_fingerprint':ds.fingerprint,'feature_fingerprint':ds.feature_fingerprint,'feature_names':ds.feature_names,'comparison':comparison,'cohort':ds.cohort,'split_sha256':ds.freeze['files']['split_manifest.json'],'initialization':'fresh per variant/fold; resume only same complete run fingerprint','fold':fold,'split':(ds.splits['rounds'][str(fold)] if not production else 'ALL_RECORDS_PRODUCTION'),'counts':{k:len(v) for k,v in split.items()},'training_pairs':len(pair_ids),'training_matched_groups':len(sampler.groups),'steps_per_epoch':nsteps,'epoch_definition':'Every training Task1 record exactly once; each optimizer step samples groups uniformly with replacement, then one pair uniformly per group.','smoke_only':smoke,'versions':{'jax':jax.__version__,'flax':flax.__version__,'optax':optax.__version__,'numpy':np.__version__,'python':platform.python_version()},'devices':[str(d) for d in jax.devices()]})
+    dump(out/'run_manifest.json',{'run_id':rid,'configuration':cfg,'code_sha256':code_hashes(),'data_fingerprint':ds.fingerprint,'feature_fingerprint':ds.feature_fingerprint,'feature_names':ds.feature_names,'comparison':comparison,'cohort':ds.cohort,'initialization':'fresh per variant/fold; resume only same complete run fingerprint','fold':fold,'split':(ds.splits['rounds'][str(fold)] if not production else 'ALL_RECORDS_PRODUCTION'),'counts':{k:len(v) for k,v in split.items()},'training_pairs':len(pair_ids),'training_matched_groups':len(sampler.groups),'steps_per_epoch':nsteps,'epoch_definition':'Every training Task1 record exactly once; each optimizer step samples groups uniformly with replacement, then one pair uniformly per group.','smoke_only':smoke,'versions':{'jax':jax.__version__,'flax':flax.__version__,'optax':optax.__version__,'numpy':np.__version__,'python':platform.python_version()},'devices':[str(d) for d in jax.devices()]})
     dump(out/'scalers.json',scalers)
     started=time.perf_counter()
     stop_epoch=min(cfg['max_epochs'],cfg['fixed_epochs']) if production else cfg['max_epochs']

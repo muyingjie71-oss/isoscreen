@@ -38,7 +38,7 @@ The inputs from step 1 are in `inputs/`. The step changes only which records are
 
 `outputs/record_decisions.csv.gz` gives the decision for each of the 73,243 records: kept, merged into another record (`copy_cluster` names the kept record) or held back. `outputs/study_identifier_merges.csv` lists the 16 merged identifiers, `outputs/study_links.csv` the 91 pairs of studies that share identical values with the decision taken, and `outputs/counts.json` the counts above. The training tables (`outputs/training_tables/`) drop eight further pairs whose conditions conflict once pressures are normalized or whose two temperatures differ slightly. `scripts/verify.py` checks the result against the input tables.
 
-Rerunning this step reproduces the training tables of the paper exactly, apart from the source file paths, which are given relative to the source archive. The cross-study replicates agree to within 2 × 10⁻¹⁶.
+Record IDs from step 1 receive the prefix `REC_` in the tables of this step (`scripts/rename_record_ids.py`), and pair and matched-group IDs the prefixes `PAIR_` and `GROUP_`. The hash part of each ID is kept, so every record can be traced back to the tables in `inputs/`. Rerunning this step reproduces the training tables of the paper apart from these prefixes and the source file paths, which are given relative to the source archive. The cross-study replicates agree to within 2 × 10⁻¹⁶.
 
 ## 3. Public files
 

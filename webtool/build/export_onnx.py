@@ -2,7 +2,7 @@
 Weights are stored as float16 initialisers and cast to float32 inside the graph (halves the download; effect measured in tests).
 Also writes weights_js.bin (float16) with what the JavaScript side needs: both solute encoders and the GH-GNN edge network.
 Usage: python export_onnx.py <out dir>"""
-import sys, json, hashlib
+import sys, json
 from pathlib import Path
 import numpy as np, torch
 HERE = Path(__file__).resolve().parent
@@ -99,7 +99,5 @@ for k, s in enumerate(SEEDS):
     Wt, b = L(gc.gnn_layer.nn[2]); put(f'g{k}/enet2/W', Wt); put(f'g{k}/enet2/b', b)
 data = np.concatenate(js); data.astype('<f2').tofile(OUT / 'weights_js.f16'); data.astype('<f4').tofile(OUT / 'weights_js.f32')
 meta['index'] = index; meta['n'] = int(off); meta['dtype'] = 'float16'
-sha = lambda p: hashlib.sha256(Path(p).read_bytes()).hexdigest()
-meta['files'] = {str(p.relative_to(OUT)): sha(p) for p in sorted(list(ONX.glob('*.onnx')) + [OUT / 'weights_js.f16'])}
 (OUT / 'weights_js.json').write_text(json.dumps(meta))
-tot = sum((OUT / f).stat().st_size for f in meta['files']); print('model files MB', round(tot / 1e6, 1))
+tot = sum(p.stat().st_size for p in list(ONX.glob('*.onnx')) + [OUT / 'weights_js.f16']); print('model files MB', round(tot / 1e6, 1))

@@ -120,4 +120,4 @@ def main(data):
     print(json.dumps({'status': 'PASS', 'check': 'virtual-device consistency (GPU code paths on CPU)', 'checked': res}))
 
 if __name__ == '__main__':
-    main(sys.argv[1] if len(sys.argv) > 1 else str(ROOT / 'data'))
+    main(sys.argv[1] if len(sys.argv) > 1 else str(ROOT.parent / 'data' / 'new_isomer_test'))

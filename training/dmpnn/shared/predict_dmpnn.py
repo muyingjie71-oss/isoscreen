@@ -3,7 +3,7 @@
     P = DMPNNPredictor('models/dmpnn')          # folder with seed_*/{final_params.msgpack, scalers.json, config.json}
     ln_gamma = P.predict(solute_smiles, solvent_smiles, T_K)   # mean of the seed models
 
-Graphs are built by graphs.graph(SMILES), the featuriser that wrote graphs_layer_a_v2.npz
+Graphs are built by graphs.graph(SMILES), the featuriser that wrote molecule_graphs.npz
 (prepare_training_data.py --verify checks bit equality for all 981 dataset molecules).
 A record's prediction does not depend on the other records in its batch (per-graph pooling, no dropout at inference).
 Runs on CPU or GPU (JAX_PLATFORMS=cpu forces CPU)."""
@@ -32,7 +32,7 @@ class DMPNNPredictor:
             cfg=json.loads((d/'config.json').read_text(encoding='utf8'))
             scalers=json.loads((d/'scalers.json').read_text(encoding='utf8'))
             params=jax.device_put(serialization.msgpack_restore((d/'final_params.msgpack').read_bytes()))
-            model=IDACModel(cfg['hidden'],cfg['depth'],cfg['dropout'],'A')
+            model=IDACModel(cfg['hidden'],cfg['depth'],cfg['dropout'])
             fn=jax.jit(lambda p,b,model=model:model.apply({'params':p},b,training=False))
             self.members.append({'name':d.name,'params':params,'scalers':scalers,'fn':fn})
         if not self.members:raise FileNotFoundError('No seed_* model folders in '+str(model_dir))

@@ -1,5 +1,5 @@
 // IsoScreen browser featuriser: RDKit.js (MinimalLib) -> the exact molecular graphs and descriptors the two models were trained on.
-// D-MPNN: Layer A graphs.graph() (50 atom + 14 bond features). GH-GNN: mol2graph atom/bond features (37 + 9) and
+// D-MPNN: graphs.graph() of training/dmpnn/shared/graphs.py (50 atom + 14 bond features). GH-GNN: mol2graph atom/bond features (37 + 9) and
 // APol, BPol (mordred, polarizability94, explicit H), TopoPSA (= RDKit TPSA, N/O only), NumHBA, NumHBD.
 // RDKit.js does not expose bond conjugation; it is reproduced from RDKit's ConjugHybrid.cpp / Aromaticity.cpp (Release_2025_09_4).
 // Hybridisation, valence and ring membership are read from RDKit itself through SMARTS queries.
@@ -92,7 +92,7 @@ export function makeFeaturizer(RDKit, ELEMENTS) {
     return same ? 'Z' : 'E';
   }
 
-  // ---- D-MPNN Layer A features ----
+  // ---- D-MPNN features ----
   const D_EL = [1, 5, 6, 7, 8, 9, 14, 15, 16, 17, 35, 53];
   const oh = (x, vals) => { const r = vals.map((v) => (x === v ? 1 : 0)); r.push(vals.includes(x) ? 0 : 1); return r; };
   function dmpnnGraph(P) {

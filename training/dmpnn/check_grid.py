@@ -1,6 +1,6 @@
 """Fixed CPU/GPU check grid shared by both models: 5 training solvents
 (3 ionic liquids and 2 molecular solvents with the most records, GH-GNN-supported elements only)
-x every dataset solute x 3 temperatures. Deterministic, read from the frozen data only."""
+x every dataset solute x 3 temperatures. Deterministic, read from the training tables only."""
 import csv
 from collections import Counter
 from pathlib import Path

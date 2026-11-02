@@ -4,10 +4,10 @@ Outputs (in <out>):
   solvents.json            metadata in library order (+ hba, hbd for GH-GNN inter_hb)
   dmpnn_solvents.f32/.f16 encodings, little-endian, shape (3, S, 256); the site stores the .f16 copy
   ghgnn_solvents.f32/.f16 encodings, little-endian, shape (3, S, 226)
-  solvents_manifest.json   shapes, seeds, sha256 of each file, source library sha256
+  solvents_manifest.json   number of solvents, seeds and array shapes
 Usage: python precompute_solvents.py [solvent_library.csv] [output folder]
 """
-import sys, json, csv, hashlib
+import sys, json, csv
 from pathlib import Path
 import numpy as np, torch
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -61,7 +61,5 @@ assert np.isfinite(dm).all() and np.isfinite(gh).all()
 keep = ['solvent_id', 'name', 'name_short', 'kind', 'cation_class', 'status', 'domain', 'max_sim', 'nearest_training_solvent', 'n_records', 'smiles', 'cas', 'source']
 meta = [{**{k: r[k] for k in keep}, 'hba': int(hba[i]), 'hbd': int(hbd[i])} for i, r in enumerate(lib)]
 (OUT / 'solvents.json').write_text(json.dumps(meta, ensure_ascii=False, separators=(',', ':')))
-sha = lambda p: hashlib.sha256(Path(p).read_bytes()).hexdigest()
-(OUT / 'solvents_manifest.json').write_text(json.dumps({'n_solvents': S, 'seeds': SEEDS, 'dmpnn_shape': [3, S, 256], 'ghgnn_shape': [3, S, 226], 'dtype': 'float32 little-endian',
-    'files': {n: sha(OUT / n) for n in ('solvents.json', 'dmpnn_solvents.f32', 'ghgnn_solvents.f32')}, 'library_sha256': sha(LIB)}, indent=1))
+(OUT / 'solvents_manifest.json').write_text(json.dumps({'n_solvents': S, 'seeds': SEEDS, 'dmpnn_shape': [3, S, 256], 'ghgnn_shape': [3, S, 226], 'dtype': 'float32 little-endian'}, indent=1))
 print('done', S)

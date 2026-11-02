@@ -21,7 +21,7 @@ The paper compares machine-learning predictions of isomer selectivities with exp
 
 ## Reproducing the results
 
-1. `python training/prepare_data.py` builds the training tables from `data/` and checks them against those of the paper.
+1. `python training/prepare_data.py` builds the training tables from `data/` in the format read by the training code.
 2. `training/README.md` gives the commands for both tests and for the production models.
 3. `python figures/run_all.py` draws Figures 1–6 from the out-of-fold predictions.
 4. `webtool/README.md` describes how the web tool is built from the production models.

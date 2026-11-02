@@ -1,6 +1,6 @@
 """Write the data and model files the web tool loads (site/data, site/model) from data/, validation/ and the build assets.
 Usage: python build_site_data.py [site folder]"""
-import sys, csv, json, math, shutil, hashlib, collections, re
+import sys, csv, json, math, shutil, collections, re
 from pathlib import Path
 import numpy as np, pandas as pd
 from rdkit import Chem, RDLogger; RDLogger.DisableLog('rdApp.*')
@@ -9,7 +9,6 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from paths import DATA as D, VALIDATION as V, ASSETS as A, SITE
 SITE = Path(sys.argv[1]) if len(sys.argv) > 1 else SITE
 OUT = SITE / 'data'; MOD = SITE / 'model'; OUT.mkdir(parents=True, exist_ok=True); (MOD / 'onnx').mkdir(parents=True, exist_ok=True)
-sha = lambda p: hashlib.sha256(Path(p).read_bytes()).hexdigest()
 def rows(p):
     with open(p, encoding='utf-8-sig', newline='') as f: return list(csv.DictReader(f))
 dump = lambda p, o: Path(p).write_text(json.dumps(o, ensure_ascii=False, separators=(',', ':')))
@@ -27,7 +26,6 @@ for name, (off, shape) in wm['index'].items():
 np.concatenate(enc).astype('<f4').tofile(MOD / 'enc.f32.bin'); np.concatenate(enet).astype('<f2').tofile(MOD / 'enet.f16.bin')
 mm = {'seeds': wm['seeds'], 'dmpnn': wm['dmpnn'], 'ghgnn': wm['ghgnn'], 'enc_index': enc_idx, 'enet_index': enet_idx,
       'precision': 'ONNX heads and encoders float32; GH-GNN edge network and solvent encodings stored as float16'}
-mm['files'] = {str(p.relative_to(SITE)): sha(p) for p in sorted(list((MOD / 'onnx').glob('*.onnx.bin')) + [MOD / 'enc.f32.bin', MOD / 'enet.f16.bin'])}
 dump(MOD / 'meta.json', mm)
 
 # ------------------------------------------------------------------ solvents
@@ -112,11 +110,8 @@ for lab, lo, hi in (('in domain', 0.5, 9), ('near domain', 0.3, 0.5), ('outside 
     for kind, mask in (('molecular solvents', il == False), ('ionic liquids', il == True)):
         k = (ms >= lo) & (ms < hi) & mask
         dom.append({'domain': lab, 'sim': f'{lo:g}–{hi:g}' if hi < 9 else f'≥ {lo:g}', 'kind': kind, 'n_pairs': int(k.sum()), 'resolution': round(float(np.exp(np.median(err[k]))), 3) if k.sum() else None})
-val = {'calibration': [r for r in cal if r['model'] == 'AVG'], 'calibration_all': cal, 'summary': summ, 'types': typ, 'typical_gamma_error': gam, 'domain': dom,
-       'sources': {'validation': {f.name: sha(f) for f in sorted(V.glob('*.csv'))}}}
+val = {'calibration': [r for r in cal if r['model'] == 'AVG'], 'calibration_all': cal, 'summary': summ, 'types': typ, 'typical_gamma_error': gam, 'domain': dom}
 dump(OUT / 'validation.json', val)
-man = {str(p.relative_to(SITE)): sha(p) for p in sorted(OUT.glob('*')) if p.name != 'manifest.json'}
-dump(OUT / 'manifest.json', man)
 print(json.dumps({'solvents': len(solv), 'solutes': len(solutes), 'pairs': len(plist), 'meas': sum(len(p['m']) for p in plist), 'gamma_err': gam, 'domain': dom}, indent=1))
 for f in sorted(list(OUT.glob('*')) + list(MOD.rglob('*'))):
     if f.is_file(): print(f'{f.stat().st_size/1e6:7.2f} MB  {f.relative_to(SITE)}')

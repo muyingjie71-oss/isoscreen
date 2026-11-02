@@ -52,9 +52,6 @@ def main():
     if production and a.fold!=0:raise ValueError('Production training uses --fold 0 (all records)')
     out=Path(a.out)/f'Fold_{a.fold}';out.mkdir(parents=True,exist_ok=True);D=Path(a.data)
     if (out/'completed.json').exists():print('Already complete');print('JOB done:',a.seed,a.fold);return
-    fz=json.loads((D/'freeze.json').read_text())
-    for n in ('task1.csv','molecules.csv','split_manifest.json'):
-        if sha(D/n)!=fz['files'][n]:raise ValueError('Training data checksum mismatch: '+n)
     t=pd.read_csv(D/'task1.csv',dtype={'canonical_record_id':str},keep_default_na=False)
     mol=pd.read_csv(D/'molecules.csv');smi=dict(zip(mol.Mol_ID,mol.SMILES))
     # GH-GNN applicability domain: its one-hot featuriser has no Al/Co/Fe/Sb (4 metal-anion ionic liquids, 0.33% of records).
@@ -98,7 +95,7 @@ def main():
         if torch.cuda.is_available() and ck.get('cuda_rng') is not None:torch.cuda.set_rng_state_all([cpu_u8(x) for x in ck['cuda_rng']])
         print('resumed at epoch',state['epoch'],flush=True)
     (out/'run_manifest.json').write_text(json.dumps({'model':'GH-GNN (IL-extended), retrained from scratch','hyperparameters':hp,'production_fixed_epochs':a.fixed_epochs,'seed':a.seed,'fold':a.fold,
-        'counts':{k:int(len(v)) for k,v in roles.items()},'excluded_unsupported_molecules':unsupported,'parameters':count_parameters(model),'data_freeze_sha256':sha(D/'freeze.json'),
+        'counts':{k:int(len(v)) for k,v in roles.items()},'excluded_unsupported_molecules':unsupported,'parameters':count_parameters(model),
         'torch':torch.__version__,'device':str(dev)},indent=1))
     yva=np.array([rows[i][2] for i in roles['validation']]);ytr=np.array([rows[i][2] for i in roles['train']])
     t0=time.time()

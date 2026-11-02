@@ -2,8 +2,7 @@
   "variant": "A",
   "configuration": {
     "seed": 20261007,
-    "layer": "A",
-    "comparison": "A_JOINT",
+    "comparison": "DMPNN",
     "hidden": 256,
     "depth": 4,
     "dropout": 0.1,

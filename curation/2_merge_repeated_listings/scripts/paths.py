@@ -1,8 +1,8 @@
 """Locations used by this step. Defaults are relative to this folder and can be changed with environment variables.
 
 EXTRACTED_TABLES_DIR   tables from step 1: deduplicated_experiments.csv.gz, reviewed_model_task2.csv.gz, family_fold_manifest.json
-EARLIER_TRAINING_DATA  training tables built from step 1: task1.csv.gz, freeze.json, molecules.csv, split_manifest.json,
-                       graphs_layer_a_v2.npz, source_freeze_original.json
+EARLIER_TRAINING_DATA  training tables built from step 1: task1.csv.gz, molecules.csv, split_manifest.json and
+                       molecule_graphs.npz
 MERGE_WORK             intermediate files
 MERGE_OUT              output tables
 TRAINING_TABLES_DIR    folder whose data/ receives the training tables

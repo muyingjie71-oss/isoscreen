@@ -4,7 +4,7 @@
 On a GPU, torch.load(map_location=<cuda device>) also moves the saved CPU RNG states onto the GPU, and
 torch.set_rng_state / Generator.set_state reject them ("RNG state must be a torch.ByteTensor").
 Here torch.load is wrapped so that a map_location given as a torch.device object (the job passes its run
-device, which is cuda on Colab) puts those RNG entries on a non-CPU device ('meta'), exactly reproducing
+device, which is cuda on a GPU) puts those RNG entries on a non-CPU device ('meta'), exactly reproducing
 that failure; only the literal map_location='cpu' keeps them on the host. The resumed job must succeed and
 leave model weights, optimiser state and RNG state unchanged (the smoke run has no epochs left to train)."""
 import sys, json, runpy, shutil, tempfile
@@ -26,7 +26,7 @@ def run(args):
 
 def main():
     tmp = Path(tempfile.mkdtemp()); out = tmp / 'job'
-    args = ['--data', str(ROOT / 'data'), '--seed', '1', '--fold', '1', '--out', str(out), '--smoke']
+    args = ['--data', str(ROOT.parent / 'data' / 'new_isomer_test'), '--seed', '1', '--fold', '1', '--out', str(out), '--smoke']
     run(args)
     fold = out / 'Fold_1'
     ck = _load(fold / 'last.pt', map_location='cpu', weights_only=False)

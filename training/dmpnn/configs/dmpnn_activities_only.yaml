@@ -1,7 +1,6 @@
 # D-MPNN. The two configurations share architecture, optimiser and epoch selection; only lambda_diff differs.
 seed: 20261007
-layer: A
-comparison: A_ABS
+comparison: DMPNN_activities_only
 hidden: 256
 depth: 4
 dropout: 0.10

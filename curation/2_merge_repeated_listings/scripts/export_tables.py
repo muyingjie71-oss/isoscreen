@@ -5,7 +5,7 @@ from identity import ALIAS, COMPILATIONS
 from paths import W, O, LA
 h=lambda *s: hashlib.sha1('|'.join(map(str,s)).encode()).hexdigest()[:24]
 m=pd.read_pickle(W+'model_extracted_annot.pkl'); t1=pd.read_pickle(W+'task1_merged.pkl'); p=pd.read_pickle(W+'task2_merged.pkl'); C=pd.read_pickle(W+'copies.pkl')
-L=pd.read_pickle(W+'study_links.pkl'); alias=pd.read_pickle(W+'alias.pkl'); p7=pd.read_pickle(W+'pairs_extracted.pkl')
+L=pd.read_pickle(W+'study_links.pkl'); alias=pd.read_pickle(W+'alias.pkl'); pairs_extracted=pd.read_pickle(W+'pairs_extracted.pkl')
 la1=pd.read_csv(LA+'task1.csv.gz',usecols=['Solute_Mol_ID','Solvent_Mol_ID','solute_mol_index','solvent_mol_index','Reported_Condition_Declaration','Raw_其他固定条件','canonical_record_id'])
 mol_idx={**dict(zip(la1.Solute_Mol_ID,la1.solute_mol_index)),**dict(zip(la1.Solvent_Mol_ID,la1.solvent_mol_index))}
 extra=la1.set_index('canonical_record_id')
@@ -25,9 +25,9 @@ T=T.sort_values('canonical_record_id'); T.to_csv(O+'task1_merged.csv',index=Fals
 g=dict(zip(T.canonical_record_id,T.gamma_inf))
 P=pd.DataFrame({'Family_ID':p.Family_ID,'Study_ID':p.Study_ID,'Solvent_Mol_ID':p.Solvent_Mol_ID,'Solvent':p.Solvent,'T_K':p.T_K,'Matched_Conditions':p.Matched_Conditions,
  'Isomer_A':p.Isomer_A,'Isomer_B':p.Isomer_B,'canonical_record_id_A':p.canonical_record_id_A,'canonical_record_id_B':p.canonical_record_id_B})
-P['MatchedGroup_ID']=['MGV8_'+h(f,s,v,round(t,2),c) for f,s,v,t,c in zip(P.Family_ID,P.Study_ID,P.Solvent_Mol_ID,P.T_K,P.Matched_Conditions)]
+P['MatchedGroup_ID']=['GROUP_'+h(f,s,v,round(t,2),c) for f,s,v,t,c in zip(P.Family_ID,P.Study_ID,P.Solvent_Mol_ID,P.T_K,P.Matched_Conditions)]
 P['Condition_Signature_ID']=['COND_'+h(c) for c in P.Matched_Conditions]
-P['Pair_ID']=['PAIRV8_'+h(a,b) for a,b in zip(P.canonical_record_id_A,P.canonical_record_id_B)]
+P['Pair_ID']=['PAIR_'+h(a,b) for a,b in zip(P.canonical_record_id_A,P.canonical_record_id_B)]
 P['gamma_A']=P.canonical_record_id_A.map(g); P['gamma_B']=P.canonical_record_id_B.map(g)
 P['ln_gamma_A']=np.log(P.gamma_A); P['ln_gamma_B']=np.log(P.gamma_B); P['D_AB']=P.ln_gamma_A-P.ln_gamma_B
 P['Isomer_Relation']=p.Isomer_Relation.values; P['Fold_ID']=p.Fold_ID.values; P['n_study_contexts']=p.n_study_contexts.values
@@ -65,9 +65,9 @@ def stats(t,pp):
     return dict(single_points=int(len(t)),pairs=int(len(pp)),families_pairs=int(pp.Family_ID.nunique()),studies_pairs=int(pp.Study_ID.nunique()),solvents_pairs=int(pp.Solvent_Mol_ID.nunique()),
                 solutes_single=int(t.Solute_Mol_ID.nunique()),solvents_single=int(t.Solvent_Mol_ID.nunique()))
 vc=D.Decision.str.replace(r'MERGED_INTO_.*','MERGED_COPY',regex=True).value_counts().to_dict()
-closure=dict(before_merge=stats(m,p7.assign(Solvent_Mol_ID=p7.Solvent_Mol_ID)),after_merge=stats(T,P),
+closure=dict(before_merge=stats(m,pairs_extracted.assign(Solvent_Mol_ID=pairs_extracted.Solvent_Mol_ID)),after_merge=stats(T,P),
   records_before_to_after=dict(records_before=int(len(m)),**{k:int(v) for k,v in vc.items()}),
-  pairs_before_to_after=dict(pairs_before=int(len(p7)),pairs_after_copy_remap_and_dedup=31558,lost_due_to_secondary_conflict_holds=15,new_from_alias_unification=6,pairs_after=int(len(P))),
+  pairs_before_to_after=dict(pairs_before=int(len(pairs_extracted)),pairs_after_copy_remap_and_dedup=31558,lost_due_to_secondary_conflict_holds=15,new_from_alias_unification=6,pairs_after=int(len(P))),
   studies=dict(study_ids_before=int(m.Study_ID.nunique()),study_ids_after=int(T.Study_ID.dropna().nunique()),alias_links=len(ALIAS)),
   noise_floor=dict(reported_rel_uncertainty_median=float(nuu.u_rel_median),uD_if_independent_median=float(nuu.uD_median),n_pairs_with_reported_u=int(nuu.n_pairs_u),
                    cross_study_replicates=nu),

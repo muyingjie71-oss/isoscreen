@@ -4,7 +4,7 @@ sys.path.insert(0,__import__('os').path.dirname(__import__('os').path.abspath(__
 from paths import W
 from pairing import sig, compat
 PTOL=0.5
-d=pd.read_pickle(W+'exp_merged.pkl'); C=pd.read_pickle(W+'copies.pkl'); p7=pd.read_pickle(W+'pairs_extracted.pkl')
+d=pd.read_pickle(W+'exp_merged.pkl'); C=pd.read_pickle(W+'copies.pkl'); pairs_extracted=pd.read_pickle(W+'pairs_extracted.pkl')
 m=d[d.Model_Eligible=='是'].copy()
 rep=dict(zip(C.canonical_record_id,C.copy_cluster)); m['rep']=m.canonical_record_id.map(lambda i: rep.get(i,i))
 m['Tr']=m.T_K.round(2); m['sg']=m.Effective_Conditions.map(sig)
@@ -75,19 +75,19 @@ for (a,b),ctx in out.items():
     pairs.append(dict(canonical_record_id_A=a,canonical_record_id_B=b,Family_ID=ra.Family_ID,Study_ID=ctx[0]['study'],n_study_contexts=len(ctx),
         Solvent_Mol_ID=ra.Solvent_Mol_ID,Solvent=ra.Solvent,T_K=ra.T_K,Isomer_A=ra.Solute,Isomer_B=rb.Solute,
         ln_gamma_A=np.log(ra.gamma_inf),ln_gamma_B=np.log(rb.gamma_inf),D_AB=np.log(ra.gamma_inf)-np.log(rb.gamma_inf),Fold_ID=ra.Fold_ID,Matched_Conditions=ctx[0]['sig']))
-p8=pd.DataFrame(pairs)
+pairs_merged=pd.DataFrame(pairs)
 # relation labels from extracted pairs (by member pair)
 lab={}
-for a,b,r in zip(p7.canonical_record_id_A,p7.canonical_record_id_B,p7.Isomer_Relation):
+for a,b,r in zip(pairs_extracted.canonical_record_id_A,pairs_extracted.canonical_record_id_B,pairs_extracted.Isomer_Relation):
     lab[frozenset((mi.at[a,'Member_ID'],mi.at[b,'Member_ID']))]=r
-p8['Isomer_Relation']=[lab.get(frozenset((mi.at[a,'Member_ID'],mi.at[b,'Member_ID'])),'') for a,b in zip(p8.canonical_record_id_A,p8.canonical_record_id_B)]
-t1.to_pickle(W+'task1_merged.pkl'); p8.to_pickle(W+'task2_merged.pkl'); m.to_pickle(W+'model_extracted_annot.pkl')
+pairs_merged['Isomer_Relation']=[lab.get(frozenset((mi.at[a,'Member_ID'],mi.at[b,'Member_ID'])),'') for a,b in zip(pairs_merged.canonical_record_id_A,pairs_merged.canonical_record_id_B)]
+t1.to_pickle(W+'task1_merged.pkl'); pairs_merged.to_pickle(W+'task2_merged.pkl'); m.to_pickle(W+'model_extracted_annot.pkl')
 # ---- closure / comparison ----
-extracted_set={frozenset((rep.get(a,a),rep.get(b,b))) for a,b in zip(p7.canonical_record_id_A,p7.canonical_record_id_B)}
-merged_set={frozenset((a,b)) for a,b in zip(p8.canonical_record_id_A,p8.canonical_record_id_B)}
+extracted_set={frozenset((rep.get(a,a),rep.get(b,b))) for a,b in zip(pairs_extracted.canonical_record_id_A,pairs_extracted.canonical_record_id_B)}
+merged_set={frozenset((a,b)) for a,b in zip(pairs_merged.canonical_record_id_A,pairs_merged.canonical_record_id_B)}
 print('task1 extracted',len(m),'-> merged',len(t1),'(removed copies',len(m)-len(t1),')')
-print('pairs extracted',len(p7),'| extracted after remap+dedupe',len(extracted_set),'| merged',len(p8))
+print('pairs extracted',len(pairs_extracted),'| extracted after remap+dedupe',len(extracted_set),'| merged',len(pairs_merged))
 print('extracted(remapped) not in merged:',len(extracted_set-merged_set),' new in merged:',len(merged_set-extracted_set))
-print('unlabelled relation pairs:',(p8.Isomer_Relation=='').sum())
-print('families',p8.Family_ID.nunique(),'studies',p8.Study_ID.nunique(),'solvents',p8.Solvent_Mol_ID.nunique())
+print('unlabelled relation pairs:',(pairs_merged.Isomer_Relation=='').sum())
+print('families',pairs_merged.Family_ID.nunique(),'studies',pairs_merged.Study_ID.nunique(),'solvents',pairs_merged.Solvent_Mol_ID.nunique())
 print('flags task1:',t1.Special_Record_Flag.value_counts().to_dict())

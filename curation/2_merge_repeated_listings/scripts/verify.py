@@ -29,8 +29,8 @@ r.append(ok((A.Solvent_Mol_ID.values==B.Solvent_Mol_ID.values).all() and (A.Solv
 r.append(ok((np.abs(A.T_K.values-B.T_K.values)<=0.005).all(),'pairs: same temperature (±0.005 K)'))
 r.append(ok(np.allclose(p.D_AB,np.log(A.gamma_inf.values)-np.log(B.gamma_inf.values)),'D_AB = lnγA − lnγB from task1 values'))
 fm=fold['assignment'] if 'assignment' in fold else fold
-r.append(ok((t.Family_ID.map(fm)==t.Fold_ID).all(),'task1 folds equal frozen family→fold manifest'))
-r.append(ok((p.Family_ID.map(fm)==p.Fold_ID).all(),'pair folds equal frozen manifest'))
+r.append(ok((t.Family_ID.map(fm)==t.Fold_ID).all(),'task1 folds equal the fixed family→fold manifest'))
+r.append(ok((p.Family_ID.map(fm)==p.Fold_ID).all(),'pair folds equal the fixed manifest'))
 r.append(ok((t.Study_Provenance_Status[t.canonical_record_id.isin(set(p.canonical_record_id_A)|set(p.canonical_record_id_B))]=='CONFIRMED').all(),'all pair endpoints have confirmed original study'))
 cross=(A.Study_ID.values!=p.Study_ID.values)|(B.Study_ID.values!=p.Study_ID.values)
 print(f'INFO pairs whose endpoint is a representative from another publication (copy remap): {int(cross.sum())}')

@@ -13,13 +13,12 @@
 | `folds_new_solvent_test.json`, `folds_new_solvent_test_summary.csv` | Folds of the test that holds out whole solvents |
 | `cross_study_replicates.csv` | The same isomer pair, solvent and temperature measured in two independent studies, used for the experimental resolution |
 | `structure_corrections.csv` | Eight solvent structures corrected after the analyses |
-| `checksums.json` | Row counts and SHA-256 checksums of these files |
 
 ## activity_coefficients.csv
 
 | Column | Meaning |
 |---|---|
-| `canonical_record_id` | Record ID |
+| `canonical_record_id` | Record ID: `REC_` followed by a hash of the record |
 | `Family_ID`, `Member_ID` | Isomer family (molecular formula) and isomer |
 | `Study_ID` | Original study: `DOI:`, `BIB:[journal, volume, first page]`, `TITLE:` key or `REF:` key. Empty for 6,718 records listed only in a compilation |
 | `Source` | Database or compilation the record was taken from |
@@ -29,7 +28,7 @@
 | `Solute_Mol_ID`, `Solvent_Mol_ID`, `solute_mol_index`, `solvent_mol_index` | Links to `molecules.csv` |
 | `Effective_Conditions`, `Reported_Condition_Declaration` | Normalized conditions used for pairing: pressure, phase, standard state, method, other |
 | `Reported_Pressure_kPa`, `Reported_Phase`, `Reported_Standard_State`, `Reported_Method`, `Reported_Other_Conditions` | Conditions as reported by the source |
-| `Original_Source_File`, `Original_Source_Location` | File in the source archive and location in it (sheet and cell, page, or JSON path) |
+| `Original_Source_File`, `Original_Source_Location` | File in the source archive and location in it (sheet and cell, page, or JSON path). The files of individually collected papers are given English names |
 | `Study_Context_IDs` | All study identifiers under which the measurement was listed |
 | `Study_ID_Before_Merge` | Study identifier before identifiers of the same paper were merged |
 | `Special_Record_Flag` | Kept but flagged: converted from another property, solvent in a liquid-crystal phase, or solute labelled gaseous |
@@ -38,7 +37,7 @@
 
 ## isomer_pairs.csv
 
-`Pair_ID`, `MatchedGroup_ID`, `Family_ID`, `Study_ID`, `Solvent_Mol_ID`, `Solvent`, `T_K`, the matched conditions, the two isomers (`Isomer_A`, `Isomer_B`) with their record IDs, γ∞ and ln γ∞, `D_AB` = ln γ∞(A) − ln γ∞(B), so that the selectivity is exp|D_AB|, `Isomer_Relation` (type of isomerism), `Fold_ID` and `n_study_contexts`.
+`Pair_ID` (`PAIR_` and a hash), `MatchedGroup_ID` (`GROUP_` and a hash; the pairs of one study, solvent, temperature and conditions), `Family_ID`, `Study_ID`, `Solvent_Mol_ID`, `Solvent`, `T_K`, the matched conditions, the two isomers (`Isomer_A`, `Isomer_B`) with their record IDs, γ∞ and ln γ∞, `D_AB` = ln γ∞(A) − ln γ∞(B), so that the selectivity is exp|D_AB|, `Isomer_Relation` (type of isomerism), `Fold_ID` and `n_study_contexts`.
 
 ## Structures
 
