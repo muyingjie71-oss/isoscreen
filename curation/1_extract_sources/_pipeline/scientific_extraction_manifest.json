@@ -1,0 +1,96 @@
+{
+  "parsers": {
+    "thermoml": {
+      "historical_file": "01_ThermoML\\thermoml_build_simple.py",
+      "historical_sha256": "0b98f6ecd3941b8503d10b449245b8e267e76d316173ad9860459c7ec6bf5b34",
+      "module_file": "_pipeline\\sources\\thermoml.py",
+      "pure_code_sha256": "ce001bbbbb2314db398014c679aaf687c7c8afb6c63a8ab140f24a2b65bc377a"
+    },
+    "ilthermo": {
+      "historical_file": "02_ILThermo\\ilthermo_build_simple.py",
+      "historical_sha256": "9c321bc62e701508a84cc5d50d00047c911b946185d5d0e242508a9dba541d61",
+      "module_file": "_pipeline\\sources\\ilthermo.py",
+      "pure_code_sha256": "15d2d129700a3ce470adaa82b02b5f79cd6d3683485e62d3c39802f1dfda4cb0"
+    },
+    "brouwer": {
+      "historical_file": "03_Brouwer\\brouwer_build_simple.py",
+      "historical_sha256": "588a812ae3940f01867e8b6de27ae004558463da187b79c29554349b9206d3b7",
+      "module_file": "_pipeline\\sources\\brouwer.py",
+      "pure_code_sha256": "9dcc2dfed919f6ff0d0042acc04b3fb735a5b030f7b738f3ba915449cb556614"
+    },
+    "deepfm": {
+      "historical_file": "04_DeepFM\\deepfm_build_simple.py",
+      "historical_sha256": "741d28e56c336652176ddd69028ff0b366c0c1fba5d3da727917c7767587e338",
+      "module_file": "_pipeline\\sources\\deepfm.py",
+      "pure_code_sha256": "0cc85fa87bb8d657e75c53b7889fe16f9e2a974074ce9c78e3d7312d94956d66"
+    },
+    "tan": {
+      "historical_file": "05_Tan\\tan_build_simple.py",
+      "historical_sha256": "24862cf849c241eb8e43f1f12b280866bf8bab633e02760c31575b7e612538a2",
+      "module_file": "_pipeline\\sources\\tan.py",
+      "pure_code_sha256": "4c75679c3b264612d09f825a9f216435096670a7812363d81c3e1beaa2506e48"
+    },
+    "sherman": {
+      "historical_file": "06_Sherman\\sherman_build_simple.py",
+      "historical_sha256": "e9d75980468a2fea8855bacd4a29cde05972348fe197279cb6e2b974da266289",
+      "module_file": "_pipeline\\sources\\sherman.py",
+      "pure_code_sha256": "85b61354cc3947718246c57d9d95ffd1a716b2efca747b74c43dec8a5da58bc2"
+    },
+    "papers": {
+      "historical_file": "07_单独收集论文\\individual_papers_build_simple.py",
+      "historical_sha256": "df7fbe23f04b1cf178cd83a8f2492e6e6dfc892b574947842f905966ba69c250",
+      "module_file": "_pipeline\\sources\\papers.py",
+      "pure_code_sha256": "c61aaa0c5f3ad279a706f09cd7ab5e6ab4202e74d1994707ebad322134094fd8"
+    }
+  },
+  "shared_ast_identical_functions": [
+    "utc_now_iso",
+    "norm_text",
+    "norm_name",
+    "safe_float",
+    "clean_formula",
+    "safe_id_piece",
+    "split_multi",
+    "representative_name",
+    "excel_safe",
+    "derive_source_label",
+    "mol_from_inchi",
+    "mol_from_smiles",
+    "canonical_smiles",
+    "inchi_from_mol",
+    "inchikey_from_inchi",
+    "connectivity_key",
+    "formula_from_mol_or_source",
+    "solvent_canonical_smiles",
+    "observation_key",
+    "cache_key",
+    "workbook_idac_headers",
+    "is_standard_idac_workbook",
+    "discover_inputs",
+    "load_structure_cache",
+    "save_structure_cache",
+    "normalize_structure_payload",
+    "pubchem_lookup",
+    "resolution_from_cached_record",
+    "canonical_tautomer",
+    "functional_signature",
+    "functional_signature_without_unsaturation",
+    "unsaturation_signature",
+    "is_cyclic",
+    "carbon_skeleton_signature",
+    "normalized_ring_scaffold_signature",
+    "connected_non_scaffold_components",
+    "rooted_substituent_inventory",
+    "has_bridging_group",
+    "structural_difference_tags",
+    "connected_components",
+    "assign_isomer_families_and_relations",
+    "stereo_only_records",
+    "output_headers",
+    "build_output_row"
+  ],
+  "variants": [
+    "ThermoML structure_features/classify_pair_relation"
+  ],
+  "note": "Original scientific functions, writers/CLI removed; source parsers consume raw files. Classification is recomputed from strict effective identities."
+}

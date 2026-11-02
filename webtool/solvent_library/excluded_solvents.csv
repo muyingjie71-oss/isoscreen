@@ -1,0 +1,5 @@
+id,name,smiles,source,reason
+MOL_CSHAOLBENQQIBR-UHFFFAOYSA-H,1-butyl-3-methylimidazolium hexafluoroantimonate,CCCCn1cc[n+](C)c1.F[Sb-](F)(F)(F)(F)F,training solvent,element outside the GH-GNN featuriser (Al/Co/Fe/Sb); consensus prediction not possible
+MOL_FYHLFBVHUIJIII-UHFFFAOYSA-J,1-butyl-3-methylimidazolium tetrachloroferrate,CCCCn1cc[n+](C)c1.[Cl][Fe-]([Cl])([Cl])[Cl],training solvent,element outside the GH-GNN featuriser (Al/Co/Fe/Sb); consensus prediction not possible
+MOL_PZMFVKDFXFYHCI-UHFFFAOYSA-J,3-butyl-1-methyl-1H-imidazolium tetrabromocobaltate(II),CCCCn1cc[n+](C)c1.CCCCn1cc[n+](C)c1.Br[Co-2](Br)(Br)Br,training solvent,element outside the GH-GNN featuriser (Al/Co/Fe/Sb); consensus prediction not possible
+MOL_UYYXEZMYUOVMPT-UHFFFAOYSA-J,1-ethyl-3-methyl-1H-imidazolium tetrachloroaluminate,CCn1cc[n+](C)c1.[Cl][Al-]([Cl])([Cl])[Cl],training solvent,element outside the GH-GNN featuriser (Al/Co/Fe/Sb); consensus prediction not possible

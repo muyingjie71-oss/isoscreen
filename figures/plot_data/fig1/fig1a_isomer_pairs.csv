@@ -1,0 +1,6 @@
+type,A,A_smiles,B,B_smiles,Tb_A_C,Tb_B_C,dTb_K
+Branching,hexane,CCCCCC,3-methylpentane,CCC(C)CC,68.7,63.3,5.5
+Position,m-xylene,Cc1cccc(C)c1,o-xylene,Cc1ccccc1C,139.1,144.4,5.3
+Ring vs chain,1-hexene,C=CCCCC,methylcyclopentane,CC1CCCC1,63.5,71.8,8.3
+Connectivity,ethyl acetate,CCOC(C)=O,methyl propanoate,CCC(=O)OC,77.1,79.4,2.3
+Ring size,methylcyclohexane,CC1CCCCC1,ethylcyclopentane,CCC1CCCC1,100.9,103.5,2.6

@@ -1,0 +1,59 @@
+{
+  "before_merge": {
+    "single_points": 73243,
+    "pairs": 33330,
+    "families_pairs": 59,
+    "studies_pairs": 374,
+    "solvents_pairs": 564,
+    "solutes_single": 336,
+    "solvents_single": 771
+  },
+  "after_merge": {
+    "single_points": 68763,
+    "pairs": 31549,
+    "families_pairs": 59,
+    "studies_pairs": 359,
+    "solvents_pairs": 564,
+    "solutes_single": 336,
+    "solvents_single": 771
+  },
+  "records_before_to_after": {
+    "records_before": 73243,
+    "KEEP": 68763,
+    "MERGED_COPY": 4436,
+    "HOLD_SECONDARY_TRANSCRIPTION_CONFLICT": 44
+  },
+  "pairs_before_to_after": {
+    "pairs_before": 33330,
+    "pairs_after_copy_remap_and_dedup": 31558,
+    "lost_due_to_secondary_conflict_holds": 15,
+    "new_from_alias_unification": 6,
+    "pairs_after": 31549
+  },
+  "studies": {
+    "study_ids_before": 502,
+    "study_ids_after": 485,
+    "alias_links": 16
+  },
+  "noise_floor": {
+    "reported_rel_uncertainty_median": 0.068452381,
+    "uD_if_independent_median": 0.0966357411,
+    "n_pairs_with_reported_u": 21890,
+    "cross_study_replicates": {
+      "n": 148,
+      "n_study_pairs": 42,
+      "q": [
+        0.01,
+        0.022,
+        0.079,
+        0.267
+      ],
+      "sigma": 0.022772300854508577,
+      "studypair_median": 0.03253150835701571
+    }
+  },
+  "residual_identical_pairs_3dp": 4,
+  "residual_identical_points_3dp": 38,
+  "copy_clusters_spanning_folds": 0,
+  "folds_unchanged": true
+}

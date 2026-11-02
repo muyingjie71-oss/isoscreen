@@ -1,0 +1,15 @@
+# Original training version line, with RDKit pinned to the verified graph-cache writer.
+# On GPU, install the CUDA 12 JAX wheels of the same version.
+jax==0.4.38
+flax==0.10.2
+optax==0.2.4
+chex==0.1.88
+toolz==1.0.0
+orbax-checkpoint==0.10.3
+tensorstore==0.1.68
+numpy==2.2.6
+scipy==1.15.2
+ml_dtypes==0.5.1
+msgpack==1.1.0
+rdkit==2025.9.4
+PyYAML==6.0.3

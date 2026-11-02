@@ -1,0 +1,86 @@
+{
+ "dmpnn": {
+  "model": "D-MPNN (A_JOINT, lambda=1)",
+  "seeds": [
+   "seed_20261007",
+   "seed_20261008",
+   "seed_20261009"
+  ],
+  "device": "gpu",
+  "n_records": 68763,
+  "n_pairs": 31541,
+  "ln_gamma_R2_train": 0.983328485112882,
+  "ln_gamma_R2_train_per_seed": {
+   "seed_20261007": 0.9807524481455455,
+   "seed_20261008": 0.9808116092003373,
+   "seed_20261009": 0.9808803954044686
+  },
+  "ln_gamma_median_abs_error": 0.06920030693811896,
+  "typical_gamma_error_pct": 7.165084675077327,
+  "selectivity_median_error_factor": 1.0287539664427363,
+  "selectivity_lnS_R2_train": 0.923686186450711,
+  "smiles_vs_training_path_max_abs_diff": {
+   "seed_20261007": 1.5988523216492467e-06,
+   "seed_20261008": 1.5988523216492467e-06,
+   "seed_20261009": 1.5988523216492467e-06
+  },
+  "seconds": 68.69454312324524,
+  "pass": {
+   "R2_gt_0.95": true,
+   "selectivity_factor_lt_1.04": true,
+   "smiles_path_equals_training_path_1e-4": true,
+   "cpu_equals_gpu_1e-4": true
+  },
+  "cpu_vs_gpu_max_abs_diff": 7.994261608246234e-06
+ },
+ "ghgnn": {
+  "model": "GH-GNN (IL-extended, retrained)",
+  "seeds": [
+   "seed_20261007",
+   "seed_20261008",
+   "seed_20261009"
+  ],
+  "device": "cuda",
+  "n_records": 68538,
+  "n_pairs": 31496,
+  "excluded_unsupported_molecules": [
+   "MOL_CSHAOLBENQQIBR-UHFFFAOYSA-H",
+   "MOL_FYHLFBVHUIJIII-UHFFFAOYSA-J",
+   "MOL_PZMFVKDFXFYHCI-UHFFFAOYSA-J",
+   "MOL_UYYXEZMYUOVMPT-UHFFFAOYSA-J"
+  ],
+  "ln_gamma_R2_train": 0.9874406303003471,
+  "ln_gamma_R2_train_per_seed": {
+   "seed_20261007": 0.9826707826397882,
+   "seed_20261008": 0.9841636085308132,
+   "seed_20261009": 0.9833440489568249
+  },
+  "ln_gamma_median_abs_error": 0.06383456851368874,
+  "typical_gamma_error_pct": 6.591604809881124,
+  "selectivity_median_error_factor": 1.0421179648194792,
+  "selectivity_lnS_R2_train": 0.8880650491252648,
+  "seconds": 35.77911901473999,
+  "pass": {
+   "R2_gt_0.95": true,
+   "selectivity_factor_lt_1.04": false,
+   "cpu_equals_gpu_1e-4": false
+  },
+  "cpu_vs_gpu_max_abs_diff": 0.0006837844848632812
+ },
+ "consensus": {
+  "n_records": 68538,
+  "n_pairs": 31496,
+  "ln_gamma_R2_train": 0.9872100572734205,
+  "typical_gamma_error_pct": 5.89791630208063,
+  "selectivity_median_error_factor": 1.0303023580968322,
+  "pass": {
+   "R2_gt_0.95": true,
+   "selectivity_factor_lt_1.04": true
+  }
+ },
+ "gpu": "NVIDIA A100-SXM4-40GB",
+ "epochs": {
+  "dmpnn": 44,
+  "ghgnn": 26
+ }
+}

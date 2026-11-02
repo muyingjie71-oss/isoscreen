@@ -1,0 +1,411 @@
+{
+  "version": "STRICT_SOURCE_IDENTITY_SELECTION_V3_FINAL_2026-10-09",
+  "decision_csv_sha256": "6e8d2440cb6e802dec9ebdb1e2a6c36a35d058fb7f782348a2d0a0ce2e999999",
+  "decision_csv_filename": "strict_identity_decisions_v3_final.csv.gz",
+  "counts": {
+    "06_Sherman": {
+      "source02_rows": 111,
+      "old_source03_points": 69,
+      "structure_and_qc_pass": 104,
+      "new_source03_points": 69,
+      "old03_now_removed": 0,
+      "new03_not_previously_present": 0,
+      "old_families": 23,
+      "new_families": 23,
+      "old_family_members": 68,
+      "new_family_members": 68,
+      "old_member_relations_possible": 80,
+      "new_member_relations_possible": 80,
+      "failure_reasons_nonadditive": {
+        "SOLUTE_STRUCTURE": 7,
+        "SOURCE_QC": 7
+      },
+      "old03_removed_by_cause_nonadditive": {
+        "solute": 0,
+        "solvent": 0,
+        "source_qc": 0
+      }
+    },
+    "07_单独收集论文": {
+      "source02_rows": 2603,
+      "old_source03_points": 1673,
+      "structure_and_qc_pass": 2545,
+      "new_source03_points": 1648,
+      "old03_now_removed": 25,
+      "new03_not_previously_present": 0,
+      "old_families": 20,
+      "new_families": 19,
+      "old_family_members": 57,
+      "new_family_members": 54,
+      "old_member_relations_possible": 64,
+      "new_member_relations_possible": 61,
+      "failure_reasons_nonadditive": {
+        "SOURCE_QC": 48,
+        "SOLVENT_STRUCTURE": 10
+      },
+      "old03_removed_by_cause_nonadditive": {
+        "solute": 0,
+        "solvent": 8,
+        "source_qc": 17
+      }
+    },
+    "04_DeepFM": {
+      "source02_rows": 51542,
+      "old_source03_points": 32533,
+      "structure_and_qc_pass": 51542,
+      "new_source03_points": 32533,
+      "old03_now_removed": 0,
+      "new03_not_previously_present": 0,
+      "old_families": 22,
+      "new_families": 22,
+      "old_family_members": 63,
+      "new_family_members": 63,
+      "old_member_relations_possible": 69,
+      "new_member_relations_possible": 69,
+      "failure_reasons_nonadditive": {},
+      "old03_removed_by_cause_nonadditive": {
+        "solute": 0,
+        "solvent": 0,
+        "source_qc": 0
+      }
+    },
+    "05_Tan": {
+      "source02_rows": 21048,
+      "old_source03_points": 15397,
+      "structure_and_qc_pass": 21048,
+      "new_source03_points": 15397,
+      "old03_now_removed": 0,
+      "new03_not_previously_present": 0,
+      "old_families": 50,
+      "new_families": 50,
+      "old_family_members": 177,
+      "new_family_members": 177,
+      "old_member_relations_possible": 309,
+      "new_member_relations_possible": 309,
+      "failure_reasons_nonadditive": {},
+      "old03_removed_by_cause_nonadditive": {
+        "solute": 0,
+        "solvent": 0,
+        "source_qc": 0
+      }
+    },
+    "01_ThermoML": {
+      "source02_rows": 42562,
+      "old_source03_points": 30964,
+      "structure_and_qc_pass": 42558,
+      "new_source03_points": 30964,
+      "old03_now_removed": 0,
+      "new03_not_previously_present": 0,
+      "old_families": 54,
+      "new_families": 54,
+      "old_family_members": 172,
+      "new_family_members": 172,
+      "old_member_relations_possible": 257,
+      "new_member_relations_possible": 257,
+      "failure_reasons_nonadditive": {
+        "SOURCE_QC": 4
+      },
+      "old03_removed_by_cause_nonadditive": {
+        "solute": 0,
+        "solvent": 0,
+        "source_qc": 0
+      }
+    },
+    "02_ILThermo": {
+      "source02_rows": 52309,
+      "old_source03_points": 34582,
+      "structure_and_qc_pass": 51720,
+      "new_source03_points": 34277,
+      "old03_now_removed": 305,
+      "new03_not_previously_present": 0,
+      "old_families": 36,
+      "new_families": 36,
+      "old_family_members": 124,
+      "new_family_members": 124,
+      "old_member_relations_possible": 194,
+      "new_member_relations_possible": 194,
+      "failure_reasons_nonadditive": {
+        "SOLUTE_STRUCTURE": 251,
+        "SOLVENT_STRUCTURE": 338
+      },
+      "old03_removed_by_cause_nonadditive": {
+        "solute": 75,
+        "solvent": 230,
+        "source_qc": 0
+      }
+    },
+    "03_Brouwer": {
+      "source02_rows": 76894,
+      "old_source03_points": 56247,
+      "structure_and_qc_pass": 65199,
+      "new_source03_points": 48186,
+      "old03_now_removed": 8061,
+      "new03_not_previously_present": 0,
+      "old_families": 70,
+      "new_families": 70,
+      "old_family_members": 258,
+      "new_family_members": 258,
+      "old_member_relations_possible": 532,
+      "new_member_relations_possible": 532,
+      "failure_reasons_nonadditive": {
+        "SOURCE_QC": 759,
+        "SOLVENT_STRUCTURE": 11577,
+        "SOLUTE_STRUCTURE": 63
+      },
+      "old03_removed_by_cause_nonadditive": {
+        "solute": 0,
+        "solvent": 8057,
+        "source_qc": 4
+      }
+    }
+  },
+  "input_sha256": {
+    "06_Sherman\\02_IDAC.xlsx": "785f404da92ad8879e80a71dce7b2f83bd74db9c2e49a63c5a4c4e333e164203",
+    "06_Sherman\\03_ISOMERS.xlsx": "38f4d9b79f52314aaffc9027421153a55fec85a21e91feba68cb3de613a3487d",
+    "07_单独收集论文\\02_IDAC.xlsx": "ebea7cba261467cb39554073f617b08d4c766d013697f4d0a931766073cb490f",
+    "07_单独收集论文\\03_ISOMERS.xlsx": "d4b2dc4632dbf309a2bcb3c2736fe2f1f9d20601b589325a6752ce93fd7d65fe",
+    "04_DeepFM\\02_IDAC.xlsx": "d443d62125596cc3ab96186690c4e6870bd5001e225157f9b7e36850205ecc36",
+    "04_DeepFM\\03_ISOMERS.xlsx": "05dff66a204596c6398d6c643a57e3bb14bfdcfe09133196e54fbb2da4990853",
+    "05_Tan\\02_IDAC.xlsx": "d6328333c0e4e222ffe26712e2739153bf97667889c0c9869cab8101eb51b364",
+    "05_Tan\\03_ISOMERS.xlsx": "d1bc9156fd63b5e8d027ac7076152caea50e19f906b1cef9b2f3c09a41eca6dc",
+    "01_ThermoML\\02_IDAC.xlsx": "8ae54fc73ba90cc5186d81aa4276a4374b4590d4dfd931e677351bbd2c9237cf",
+    "01_ThermoML\\03_ISOMERS.xlsx": "0811cc43115310a06dd3b569e8bbec04af2282defeedb9fdfef3d68da1e10fd5",
+    "02_ILThermo\\02_IDAC.xlsx": "f80b5f492273f90a3e9edae46e31415c14fc56cafa32ce613985c9066cbb5048",
+    "02_ILThermo\\03_ISOMERS.xlsx": "036d6a25b00af72dcc09c186fc58b43830f5963bdbfe09ae7aa0a1b3bc3dbf80",
+    "03_Brouwer\\02_IDAC.xlsx": "8e0af86435f681741e7dc963c62b66227370186dd65bb7bd4e2507c23eda27da",
+    "03_Brouwer\\03_ISOMERS.xlsx": "a8ef24ed069bac3501835806f5346535555fbb766eff956b79d983187d7b2b43"
+  },
+  "audit_registry_sha256": {
+    "02_ILThermo\\audited_structure_registry.json": "2f97c44dc953685e409882d24a195f22b0671ad6326df080553afdac2bc842d3",
+    "03_Brouwer\\audited_structure_registry.json": "9db3b69eefcff15ce07738a61a238960bacba7b2e2ac5330beeaed5ba52a61b3",
+    "07_单独收集论文\\audited_structure_registry.json": "b7cdae8291de8523c89a5541ae91d5555f2b4b11f59c7848d53c09247f553ee1"
+  },
+  "rules": [
+    "02保留原始实验与原始结构字段，补充身份和当前NN资格独立保存",
+    "NN资格要求双方结构确认且已审源QC通过；03另外重算本来源formula+不同连接结构>=2成员",
+    "已审来源/具体原实验范围的否定优先于任意同Key/同formula或全局同名候选",
+    "不修改γ∞或温度，不把未确认07 nitro的身份赋成已确认B记录身份，不连坐删除B原点",
+    "N-methylformamide物理图沿用CNC=O审核更正，不回退CN=CO",
+    "盐按已审阳离子与阴离子完整身份作为单一化学实体，混合溶剂/聚合物分布不能伪装单分子"
+  ],
+  "family_changes": {
+    "06_Sherman": [],
+    "07_单独收集论文": [
+      {
+        "family_id": "ISO_C6H5ClO",
+        "old_members": [
+          "HORNXRXVQWOLPJ",
+          "ISPYQTSUDJAMAB",
+          "WXNZTHHGJRFXKQ"
+        ],
+        "new_members": []
+      }
+    ],
+    "04_DeepFM": [],
+    "05_Tan": [],
+    "01_ThermoML": [],
+    "02_ILThermo": [],
+    "03_Brouwer": []
+  },
+  "decision_csv_compression": "gzip",
+  "decision_jsonl_by_source": {
+    "01_ThermoML": {
+      "filename": "strict_identity_v3_final_01_ThermoML.jsonl.gz",
+      "sha256": "ab7f36447157f9f56feb7ea35de64fa4dfc2d1093a263d03f290d61aaa1bd0e6",
+      "records": 42562
+    },
+    "02_ILThermo": {
+      "filename": "strict_identity_v3_final_02_ILThermo.jsonl.gz",
+      "sha256": "9f71cedd783e41935fed88b65626fbc81035a5b0a8f35c5df211b756772fea9e",
+      "records": 52309
+    },
+    "03_Brouwer": {
+      "filename": "strict_identity_v3_final_03_Brouwer.jsonl.gz",
+      "sha256": "f6aed857583d54ac87280c39a41e344b5e6f7ca1d8ca2623b5bb3ae812e31c01",
+      "records": 76894
+    },
+    "04_DeepFM": {
+      "filename": "strict_identity_v3_final_04_DeepFM.jsonl.gz",
+      "sha256": "bdeff39249f15d863d948db4942417679947eceaf8bdde36ca80c5e21b742472",
+      "records": 51542
+    },
+    "05_Tan": {
+      "filename": "strict_identity_v3_final_05_Tan.jsonl.gz",
+      "sha256": "10993ea3d0e470b335b5c67cd797f9bd0954ccbd9e1a6a421595c678f5de2d32",
+      "records": 21048
+    },
+    "06_Sherman": {
+      "filename": "strict_identity_v3_final_06_Sherman.jsonl.gz",
+      "sha256": "cdfcfa5349b0f3a73b618f7bdb4b6aba11464a773ea179cbaba6c92fc8c73bd2",
+      "records": 111
+    },
+    "07_单独收集论文": {
+      "filename": "strict_identity_v3_final_07_单独收集论文.jsonl.gz",
+      "sha256": "374d0a3caf4af149617c72d1a906e4555a62056c5adb2b6087536e12ebc0f4ae",
+      "records": 2603
+    }
+  },
+  "numeric_xml_assets": {
+    "01_ThermoML": {
+      "filename": "numeric_xml_01_ThermoML.jsonl.gz",
+      "sha256": "6f73d4d3e934948a70247627ead544b283da7df1ab6be592a9dc42635f29ddff",
+      "rows": 42562,
+      "old03_rows": 30964
+    },
+    "02_ILThermo": {
+      "filename": "numeric_xml_02_ILThermo.jsonl.gz",
+      "sha256": "d8b41760ebc99a39cc3d2b6697a48fa28d466cbf732591d85f1bb9db55088f9e",
+      "rows": 52309,
+      "old03_rows": 34582
+    },
+    "03_Brouwer": {
+      "filename": "numeric_xml_03_Brouwer.jsonl.gz",
+      "sha256": "105fcfc63bf45615c8b5a29511b177d209acc0ed65deea2213165863b77d1b7d",
+      "rows": 76894,
+      "old03_rows": 56247
+    },
+    "04_DeepFM": {
+      "filename": "numeric_xml_04_DeepFM.jsonl.gz",
+      "sha256": "6520e83847d6b12074466d75f0f1277ac53c1af444e34ca53ad46d28358581d2",
+      "rows": 51542,
+      "old03_rows": 32533
+    },
+    "05_Tan": {
+      "filename": "numeric_xml_05_Tan.jsonl.gz",
+      "sha256": "cbdc0f6cd19f730b245f86a6d62f75dc0c007d7e783f8988116432a9bc8e0338",
+      "rows": 21048,
+      "old03_rows": 15397
+    },
+    "06_Sherman": {
+      "filename": "numeric_xml_06_Sherman.jsonl.gz",
+      "sha256": "1ef3e756e8c2d31a64d38849b348f175a1d0d510319e57cf19a98ef0ef614b8f",
+      "rows": 111,
+      "old03_rows": 69
+    },
+    "07_单独收集论文": {
+      "filename": "numeric_xml_07_单独收集论文.jsonl.gz",
+      "sha256": "aea1455e47ca2be77085dcc485e5da772e5f148c6bbc734f28b819708d93a486",
+      "rows": 2603,
+      "old03_rows": 1673
+    }
+  },
+  "records_storage": "per-source JSONL gzip; no large inline records object",
+  "representation_review": {
+    "numeric_difference_audit_file": "numeric_representation_audit.jsonl.gz",
+    "sha256": "e86648166f81747cc7c913d652d17405c7723a064736d127e77ba99da9b1c633",
+    "counts": {
+      "bound_frozen_original_ids": 171951,
+      "all_source02_records": 247069
+    },
+    "by_source": {
+      "01_ThermoML": {
+        "records": 42562
+      },
+      "02_ILThermo": {
+        "records": 52309
+      },
+      "03_Brouwer": {
+        "records": 76894
+      },
+      "04_DeepFM": {
+        "records": 51542
+      },
+      "05_Tan": {
+        "records": 21048
+      },
+      "06_Sherman": {
+        "records": 111
+      },
+      "07_单独收集论文": {
+        "records": 2603
+      }
+    },
+    "maximum_ulp_difference": 0,
+    "larger_than_four_ulp_count": 0,
+    "source02_vs_source03_scientific_numeric_differences": 0,
+    "sample_differences": [],
+    "large_differences": []
+  },
+  "independent_verification": {
+    "status": "PASS",
+    "all_effective_complete_inchi_key_physical_graphs_crosschecked": {
+      "approved_solute": 246823,
+      "approved_solvent": 235144
+    },
+    "ilthermo_exact_original_json_component_scope_verified": 52309,
+    "frozen_raw_bank_sha_verified": true,
+    "no_original_record_binds_multiple_frozen_ids": true,
+    "source02_original_numeric_xml_is_presentation_asset_not_experimental_correction": true
+  },
+  "display_polish": {
+    "scientific_content_unchanged_from_v2": false,
+    "v2_csv_sha256": "a69251c48e827e4cce19991436d856a40fdee4aa2f9649a60792998d7c08391f",
+    "counts": {
+      "all_records": 247069,
+      "numeric_token_text_only_fields": 75227,
+      "numeric_token_text_only_records": 61262,
+      "locked_scientific_records_unchanged": 247069
+    },
+    "by_source": {
+      "01_ThermoML": {
+        "numeric_token_text_only_fields": 23635,
+        "numeric_token_text_only_records": 16458,
+        "records": 42562,
+        "reasons_changed": 4
+      },
+      "02_ILThermo": {
+        "records": 52309,
+        "numeric_token_text_only_fields": 17113,
+        "numeric_token_text_only_records": 15126,
+        "reasons_changed": 514
+      },
+      "03_Brouwer": {
+        "records": 76894,
+        "numeric_token_text_only_fields": 34479,
+        "numeric_token_text_only_records": 29678,
+        "reasons_changed": 48
+      },
+      "04_DeepFM": {
+        "records": 51542
+      },
+      "05_Tan": {
+        "records": 21048,
+        "pdf_targets_with_page": 15397
+      },
+      "06_Sherman": {
+        "records": 111,
+        "pdf_targets_with_page": 111,
+        "reasons_changed": 7
+      },
+      "07_单独收集论文": {
+        "records": 2603,
+        "pdf_targets_with_page": 1629,
+        "reasons_changed": 48
+      }
+    },
+    "metadata_audit_file": "display_metadata_change_audit_v3.jsonl.gz",
+    "metadata_audit_sha256": "c1aeb56daf0ca651ea1dff4bf4b74bedf75348c28fed2fb4eb2ce3572abec716",
+    "numeric_text_audit_file": "numeric_representation_text_audit_v3.jsonl.gz",
+    "numeric_text_audit_sha256": "f4d7f7de6c560579ac2d944a24f0b3949368a1847f09d2b2900cebac59cd8c83",
+    "maximum_ulp_difference": 0,
+    "original32_values_not_modified": true
+  },
+  "final_identity_scope_review": {
+    "new_stereo_holds": 75,
+    "source_qc_flags_unchanged": true,
+    "gamma_temperature_and_frozen_parent_hex_unchanged": true,
+    "source02_original32_values_unchanged": true,
+    "source03_family_partner_counts_recomputed": true,
+    "identity_graph_review_file": "identity_graph_scope_review_v3.json",
+    "identity_graph_review_sha256": "6cba8a6206620066ce5d34577507ca867b48259d25b4dd6d3dde71bd9f5474b8",
+    "decision_change_audit_file": "identity_decision_change_audit_v3.jsonl.gz",
+    "decision_change_audit_sha256": "57d016ff6f3a58fb7e1ff675d16640d24a3c1f0e5dfbf5f0d34f0f9994ced417",
+    "scope_counts": {
+      "sulfobutyl_confirmed_source_points": 82,
+      "stereo_hold": 75,
+      "alcl4_confirmed_source_points": 152,
+      "tosylate_confirmed_source_points": 31
+    },
+    "p10_tosylate_correction_count": 18
+  }
+}

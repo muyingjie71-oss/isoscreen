@@ -1,0 +1,26 @@
+{
+  "version": "current-source03-two-workbooks-v1",
+  "source_scope": "The seven current final 03_ISOMERS sheets only",
+  "expected_input_rows": 163074,
+  "public_workbooks": [
+    "01_MERGED_DEDUPLICATED",
+    "02_EXPERIMENTS_PAIRS_ISOMERS"
+  ],
+  "fixed_family_assignment_preserved": true,
+  "complete_round_family_roles_preserved": true,
+  "fixed_family_role_signature_sha256": "e47b0bfc29e8c23602ca770e0acdbeb68e647ecbb5e1e8d3508db770b5df99d3",
+  "files": {
+    "family_fold_manifest.json": "9f8bf037bb8a0dc4bad91e3c4c98683e57907bf07bfad060118caa37aab2aacf",
+    "fixed_model_split_v7.json": "e18ac2f081505edb88266dd112f8340742384cd071891f88002c5940036a45be",
+    "common_modules/canonicalize_v2.py": "7a6a2f34d5667cb55b8b8c3401048661a22860a0d959c07f9b56e73c474767ec",
+    "common_modules/dataset_helpers_v2.py": "354a08d63a8abb71179dbdae4c061902d678466b0900ad07b061e04fb53d895a",
+    "common_modules/excel_file_link_v1.py": "42bedc85d7242c95791b6f9ef30a6977d4d1195fec97ed41c8871821cc4af0a6",
+    "common_modules/graphs.py": "50cc8d6160d3179ce82e5d01a4a4e6d9c086133cd9b158d53d15ed65e492ca9e",
+    "common_modules/other_quality_v2.py": "05d3a7ba73036a57740fc9ecd16c9e2418a0ee24a9c17e1554963081491a7a97",
+    "common_modules/relations_v2.py": "0b327e7c5968eb33280133871ff435f90ba39f7854680882006c35985d74b93b",
+    "common_modules/source_overlap_audit.py": "eb181f563705bc9d1df49b664235fc92c47406f4cbec5e008f4c2fa12fac7b20",
+    "common_modules/strict_identity_gate_v1.py": "43796b13a29e160f6407c7c02b061951bb7d9cd49d39ca731c8fa0fe6581ffc3",
+    "common_modules/study_identity_v2.py": "4f1aab68c8a77f0ce0137bf381207af8c4166c42a1c510aba97667a2c0f44830",
+    "common_modules/temperature_qc_v2.py": "1fe9d0730219cc9d0d7a68fbfa016b602d4dc31e791c828d22a8833b5a7ca261"
+  }
+}

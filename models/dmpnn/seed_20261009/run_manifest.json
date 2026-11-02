@@ -1,0 +1,66 @@
+{
+  "run_id": "22ea7c95b61f9b8145597366f16bec0af86b8d7614bbc92b7dae8b65c3c430be",
+  "configuration": {
+    "seed": 20261009,
+    "layer": "A",
+    "comparison": "A_JOINT",
+    "hidden": 256,
+    "depth": 4,
+    "dropout": 0.1,
+    "absolute_batch": 512,
+    "pair_batch": 256,
+    "eval_batch": 512,
+    "max_epochs": 300,
+    "patience": 30,
+    "learning_rate": 0.0003,
+    "weight_decay": 1e-05,
+    "clip_norm": 1.0,
+    "warmup_fraction": 0.05,
+    "lambda_diff": 1.0,
+    "huber_delta": 1.0,
+    "validation_diff_weight": 1.0,
+    "checkpoint_interval_steps": 50,
+    "sign_threshold": 0.05,
+    "fixed_epochs": 44,
+    "production_full_data": true
+  },
+  "code_sha256": {
+    "graphs.py": "a848316aece2fbc5f87a5a81e1e2ac015b5fd97f61face87ad93e44dda186e4d",
+    "model.py": "00d1fbf3c6ddf0cfabf106d2ac4934e3a308d467fb146a7a38563c1e7ee312ff",
+    "losses.py": "baa6414dfb4026ed3e9246c07e0d42f19f51a4d12ee941cbbcc47bbc4e0463b3",
+    "data.py": "53fd38f995e9e0e66bbbebc4494ed52b3df1af07f3289163e4e0f8e6d1a5adf9",
+    "metrics.py": "079f5daa07d20b2bc081bda49c1306302e193532536d89c3398a94cabd39039d",
+    "trainer.py": "3d2c757ff940620c6c8e59c4317210a13a244dde60585427fd37dd8e34867903",
+    "prepare_training_data.py": "ffcac14cd0550935802060e6d242fafc7b443c251691ee809da607fa54442017",
+    "requirements.txt": "f460f4ca78ea3fd945304109ae72991e67ec615462c54bf8b2c06ab5d47a882b"
+  },
+  "data_fingerprint": "e77a4d20f42186045053b0667de43dadd389a143f5737bfb5f1b0341d4d713e1",
+  "feature_fingerprint": "none",
+  "feature_names": [],
+  "comparison": "A_JOINT",
+  "cohort": "A_V8_DEDUP",
+  "split_sha256": "12bb0c7840b406eaebe4aa3e9d81d256cd7b5e525fda47270f4359e40b11fc2f",
+  "initialization": "fresh per variant/fold; resume only same complete run fingerprint",
+  "fold": 0,
+  "split": "ALL_RECORDS_PRODUCTION",
+  "counts": {
+    "train": 68763,
+    "validation": 0,
+    "test": 0
+  },
+  "training_pairs": 31541,
+  "training_matched_groups": 14075,
+  "steps_per_epoch": 135,
+  "epoch_definition": "Every training Task1 record exactly once; each optimizer step samples groups uniformly with replacement, then one pair uniformly per group.",
+  "smoke_only": false,
+  "versions": {
+    "jax": "0.4.38",
+    "flax": "0.10.2",
+    "optax": "0.2.4",
+    "numpy": "2.2.6",
+    "python": "3.12.3"
+  },
+  "devices": [
+    "cuda:0"
+  ]
+}

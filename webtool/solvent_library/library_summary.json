@@ -1,0 +1,114 @@
+{
+ "total": 6911,
+ "by_source": {
+  "training data": 767,
+  "ion combination (training cations x training anions)": 5759,
+  "CHEM21 solvent selection guide (Prat et al. 2016)": 12,
+  "Langner & Brabec 2022, list of common organic solvents (Mendeley Data, CC BY 4.0)": 373
+ },
+ "by_kind": {
+  "molecular solvent": 842,
+  "ionic liquid": 6069
+ },
+ "by_domain": {
+  "measured": 767,
+  "in domain": 5133,
+  "near domain": 947,
+  "outside domain": 64
+ },
+ "by_domain_new_IL": {
+  "in domain": 4996,
+  "near domain": 763
+ },
+ "by_domain_new_organic": {
+  "in domain": 137,
+  "near domain": 184,
+  "outside domain": 64
+ },
+ "cations_total": 148,
+ "cations_in_combinations": 148,
+ "cations_with_abbreviation": 148,
+ "anions_total_nonempty": 46,
+ "anions_in_combinations": 42,
+ "chem21_listed": 73,
+ "langner2022": {
+  "listed": 499,
+  "added": 373,
+  "already_in_library": 125,
+  "unsupported": [
+   [
+    "Methylene Diiodide (Diiodomethane)",
+    "outside GH-GNN featuriser"
+   ]
+  ],
+  "cas_check": {
+   "SMILES matches CAS": 361,
+   "CAS not in reference database; SMILES as published": 12
+  }
+ },
+ "chem21_already_training": [
+  "Water",
+  "Ethanol",
+  "2-Propanol",
+  "1-Butanol",
+  "Ethyl acetate",
+  "Isopropyl acetate",
+  "n-Butyl acetate",
+  "Anisole",
+  "Sulfolane",
+  "Methanol",
+  "tert-Butanol",
+  "Benzyl alcohol",
+  "Ethylene glycol",
+  "Acetone",
+  "Methyl ethyl ketone",
+  "Methyl isobutyl ketone",
+  "Cyclohexanone",
+  "Methyl acetate",
+  "Acetic acid",
+  "Heptane",
+  "Methylcyclohexane",
+  "Toluene",
+  "Chlorobenzene",
+  "Acetonitrile",
+  "Dimethyl sulfoxide",
+  "Methyl tert-butyl ether",
+  "Tetrahydrofuran",
+  "Cyclohexane",
+  "Dichloromethane",
+  "Formic acid",
+  "Pyridine",
+  "Diisopropyl ether",
+  "1,4-Dioxane",
+  "Pentane",
+  "Hexane",
+  "N,N-Dimethylformamide",
+  "N,N-Dimethylacetamide",
+  "N-Methyl-2-pyrrolidone",
+  "2-Methoxyethanol",
+  "Triethylamine",
+  "Diethyl ether",
+  "Benzene",
+  "Chloroform",
+  "Carbon tetrachloride",
+  "1,2-Dichloroethane",
+  "Nitromethane",
+  "Carbon disulfide",
+  "HMPA",
+  "Isobutanol",
+  "Isoamyl alcohol",
+  "1,3-Propanediol",
+  "Glycerol",
+  "tert-Amyl methyl ether",
+  "Ethyl tert-butyl ether",
+  "Limonene",
+  "Dimethyl carbonate",
+  "Ethylene carbonate",
+  "Propylene carbonate",
+  "Cyrene",
+  "Lactic acid",
+  "Tetrahydrofurfuryl alcohol"
+ ],
+ "excluded_training_solvents": 4,
+ "domain_method": "max Tanimoto, Morgan radius 2, 2048 bits (RDKit MorganGenerator) on the full solvent SMILES, against all training solvents except itself; reproduces validation/test_solvent_similarity_solvent_out.csv exactly when the pool is the non-test solvents of each fold"
+}

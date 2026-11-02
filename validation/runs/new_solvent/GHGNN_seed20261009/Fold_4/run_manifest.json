@@ -1,0 +1,27 @@
+{
+ "model": "GH-GNN (IL-extended), retrained from scratch",
+ "hyperparameters": {
+  "hidden_dim": 113,
+  "lr": 0.0002532501358651798,
+  "max_epochs": 250,
+  "batch_size": 32,
+  "patience": 30
+ },
+ "seed": 20261009,
+ "fold": 4,
+ "counts": {
+  "train": 46513,
+  "validation": 8273,
+  "test": 13752
+ },
+ "excluded_unsupported_molecules": [
+  "MOL_CSHAOLBENQQIBR-UHFFFAOYSA-H",
+  "MOL_FYHLFBVHUIJIII-UHFFFAOYSA-J",
+  "MOL_PZMFVKDFXFYHCI-UHFFFAOYSA-J",
+  "MOL_UYYXEZMYUOVMPT-UHFFFAOYSA-J"
+ ],
+ "parameters": 2486292,
+ "data_freeze_sha256": "bfcaecfe38190c9fee6fad523f9d1368154aa9d4beb34665cf9e77f5846dbe5c",
+ "torch": "2.11.0+cu130",
+ "device": "cuda"
+}

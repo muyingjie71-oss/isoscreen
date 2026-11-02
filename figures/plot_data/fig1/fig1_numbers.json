@@ -1,0 +1,14 @@
+{
+ "n_pairs": 31541,
+ "n_observations": 68763,
+ "n_studies": 486,
+ "exp_resolution": 1.0260330923696246,
+ "model_resolution_DMPNN": 1.1224345145482792,
+ "zone_share": {
+  "neither": 0.1662,
+  "experiments_only": 0.3849,
+  "both": 0.4489
+ },
+ "share_above_1p5": 0.14346406264861608,
+ "note": "resolution = exp(median |error of D|): experiments 0.0257 -> 1.026 (shown as 1.03), D-MPNN 0.1155 -> 1.122 (1.12); GH-GNN 0.1351 -> 1.145"
+}

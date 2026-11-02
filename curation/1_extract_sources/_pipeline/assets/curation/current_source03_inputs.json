@@ -1,0 +1,710 @@
+{
+  "version": "CURRENT_SOURCE03_LOCKED_BANK_V1",
+  "source_scope": 163074,
+  "inputs": [
+    {
+      "folder": "01_ThermoML",
+      "source": "ThermoML",
+      "points": 30964,
+      "current_workbook_sha256": "360eb78707b078d8bf6dbe79270c916dc0b7cd7bdd22b1967174f441e42f7254",
+      "science_bank_sha256": "f7c18477883f5e28a5c5c58f65b8ad29c9cf7fcc0c052671224b1170809334b3"
+    },
+    {
+      "folder": "02_ILThermo",
+      "source": "ILThermo",
+      "points": 34277,
+      "current_workbook_sha256": "e686a6ac8557979545f1a4718d280118852b42476abd3fdcddc9a992ffdf216a",
+      "science_bank_sha256": "2301469fca211b942cfa88c80b2b2fa575d16c603e7c0d7c646d6b48b9b6ec39"
+    },
+    {
+      "folder": "03_Brouwer",
+      "source": "Brouwer",
+      "points": 48186,
+      "current_workbook_sha256": "43af2dc6e6ddb96c256254fdb7a1e042761ed98b7d7f600abde6cdb06257fb87",
+      "science_bank_sha256": "e94bcf4a651c77ce9f3e6096cb67c6427116c93591dd175836df5434c64b77fe"
+    },
+    {
+      "folder": "04_DeepFM",
+      "source": "DeepFM",
+      "points": 32533,
+      "current_workbook_sha256": "64dcb0871fa5b5e03b938f22f768e79a50801c7bcd45e0771b1bd0a9501d683d",
+      "science_bank_sha256": "b700e6a11695fb70a00a67b79865d5bec046d7b5c251f1f80cd58621cde58c86"
+    },
+    {
+      "folder": "05_Tan",
+      "source": "Tan",
+      "points": 15397,
+      "current_workbook_sha256": "a41885e638e06eb39adcd6c67d7fe50cb95a8fbe5941fd50436ae87c9c1e2350",
+      "science_bank_sha256": "11147f09d669b2e0fada127e7b811a2f784a2768fdef860f02cb4ca28d07fcc2"
+    },
+    {
+      "folder": "06_Sherman",
+      "source": "Sherman",
+      "points": 69,
+      "current_workbook_sha256": "d51f4deb2c75d0daf821c3f61973f9cfc1c2b5c7779e2a56ab4e308353e865d0",
+      "science_bank_sha256": "a84d50ec1504924fadaccb2a1ee2bc519d0f6e0b26bbff857a5aa1ebbcbb5743"
+    },
+    {
+      "folder": "07_单独收集论文",
+      "source": "单独收集论文",
+      "points": 1648,
+      "current_workbook_sha256": "f5536fdfb459700ec6af9773098157bc568edc7d65f81825e59cc905296801f9",
+      "science_bank_sha256": "6b12916efa4ee4169449a986ca744c5e14a8db6fa8fc545339b21466353eb9b0"
+    }
+  ],
+  "source_counts": {
+    "ThermoML": 30964,
+    "ILThermo": 34277,
+    "Brouwer": 48186,
+    "DeepFM": 32533,
+    "Tan": 15397,
+    "Sherman": 69,
+    "单独收集论文": 1648
+  },
+  "asset_sha256": {
+    "current_source03_observations.csv.gz": "7e8eddacd9d5637e74b902fcdc3bbac98dd44401b04b022f2d272b544b6dbb70",
+    "current_source03_relations.json": "95027c7680d1914f165b0b19cc33309409adfff25440a8fd9171b109764524c0",
+    "current_source03_solvent_registry.json": "57601f8a380ee34ae4c2e0bf7a23a5d2f518914dd0714cf8177d0a84d2ba18b5",
+    "current_scope_exclusions.csv": "4e1134a6b224fd4295481545a5f512e26aa11a8556f4c06559bd6b3518497ccd",
+    "current_source03_family_members.csv": "5d90cd6b7c1eaba68f0a668c72b59980a3dc6aae37b789e46d691838b773684f",
+    "current_source03_study_updates.json": "a29b9ddbc1d979efe6d3d64d30d30754ced098fb83007ad71944f2bffd950e02",
+    "current_source03_prior_mapping.csv": "8d177adf10ce3543e5c7c2cb54a373e4d831ddfcf1d756fdca123f21e008bfe7",
+    "current_source03_quality_context.json": "7596ecd52214ab272d40c14866c5ce9cecbd85ed1a464fedfb1e6157f9a8deb6",
+    "family_fold_manifest.json": "9f8bf037bb8a0dc4bad91e3c4c98683e57907bf07bfad060118caa37aab2aacf",
+    "fixed_model_split_v7.json": "e18ac2f081505edb88266dd112f8340742384cd071891f88002c5940036a45be"
+  },
+  "raw_source_sha256": {
+    "03_Brouwer/00_Source/Brouwer_IDAC_Source.xlsx": "eab4df10cdb0cf75b016b5aa37a7a9717de0e15f9a088fefe4e563ef61aff57f",
+    "01_ThermoML/00_Source/ThermoML.v2020-09-30/10.1021/je0503554.json": "3fc888d458a137ccd8b88203d87db2d8dbd1f6a7a1ad2559d135c501c4a76850"
+  },
+  "report_metadata": {
+    "version": "CURRENT_03_TWO_WORKBOOKS_V2_STUDY_PROVENANCE",
+    "input_scope": "七份当前03_ISOMERS最终保留主实验；不从历史171951范围缓存继承科学值",
+    "input_raw_observations": 163074,
+    "source_counts": {
+      "ThermoML": 30964,
+      "ILThermo": 34277,
+      "Brouwer": 48186,
+      "DeepFM": 32533,
+      "Tan": 15397,
+      "Sherman": 69,
+      "单独收集论文": 1648
+    },
+    "inputs": [
+      {
+        "folder": "01_ThermoML",
+        "source": "ThermoML",
+        "points": 30964,
+        "current_workbook_sha256": "360eb78707b078d8bf6dbe79270c916dc0b7cd7bdd22b1967174f441e42f7254",
+        "science_bank_sha256": "f7c18477883f5e28a5c5c58f65b8ad29c9cf7fcc0c052671224b1170809334b3"
+      },
+      {
+        "folder": "02_ILThermo",
+        "source": "ILThermo",
+        "points": 34277,
+        "current_workbook_sha256": "e686a6ac8557979545f1a4718d280118852b42476abd3fdcddc9a992ffdf216a",
+        "science_bank_sha256": "2301469fca211b942cfa88c80b2b2fa575d16c603e7c0d7c646d6b48b9b6ec39"
+      },
+      {
+        "folder": "03_Brouwer",
+        "source": "Brouwer",
+        "points": 48186,
+        "current_workbook_sha256": "43af2dc6e6ddb96c256254fdb7a1e042761ed98b7d7f600abde6cdb06257fb87",
+        "science_bank_sha256": "e94bcf4a651c77ce9f3e6096cb67c6427116c93591dd175836df5434c64b77fe"
+      },
+      {
+        "folder": "04_DeepFM",
+        "source": "DeepFM",
+        "points": 32533,
+        "current_workbook_sha256": "64dcb0871fa5b5e03b938f22f768e79a50801c7bcd45e0771b1bd0a9501d683d",
+        "science_bank_sha256": "b700e6a11695fb70a00a67b79865d5bec046d7b5c251f1f80cd58621cde58c86"
+      },
+      {
+        "folder": "05_Tan",
+        "source": "Tan",
+        "points": 15397,
+        "current_workbook_sha256": "a41885e638e06eb39adcd6c67d7fe50cb95a8fbe5941fd50436ae87c9c1e2350",
+        "science_bank_sha256": "11147f09d669b2e0fada127e7b811a2f784a2768fdef860f02cb4ca28d07fcc2"
+      },
+      {
+        "folder": "06_Sherman",
+        "source": "Sherman",
+        "points": 69,
+        "current_workbook_sha256": "d51f4deb2c75d0daf821c3f61973f9cfc1c2b5c7779e2a56ab4e308353e865d0",
+        "science_bank_sha256": "a84d50ec1504924fadaccb2a1ee2bc519d0f6e0b26bbff857a5aa1ebbcbb5743"
+      },
+      {
+        "folder": "07_单独收集论文",
+        "source": "单独收集论文",
+        "points": 1648,
+        "current_workbook_sha256": "f5536fdfb459700ec6af9773098157bc568edc7d65f81825e59cc905296801f9",
+        "science_bank_sha256": "6b12916efa4ee4169449a986ca744c5e14a8db6fa8fc545339b21466353eb9b0"
+      }
+    ],
+    "historical_bibliography_only_count": 171951,
+    "historical_outside_current_scope_records": 8914,
+    "unbound_current_original_ids": [
+      [
+        "ILThermo",
+        "ILTIDAC::Mmmed::POINT1"
+      ],
+      [
+        "ILThermo",
+        "ILTIDAC::Mmmed::POINT2"
+      ],
+      [
+        "ILThermo",
+        "ILTIDAC::Mmmed::POINT3"
+      ],
+      [
+        "ILThermo",
+        "ILTIDAC::Mmmed::POINT4"
+      ],
+      [
+        "ILThermo",
+        "ILTIDAC::Mmmed::POINT5"
+      ],
+      [
+        "ILThermo",
+        "ILTIDAC::Mmmed::POINT6"
+      ],
+      [
+        "ILThermo",
+        "ILTIDAC::ToWmi::POINT1"
+      ],
+      [
+        "ILThermo",
+        "ILTIDAC::ToWmi::POINT2"
+      ],
+      [
+        "ILThermo",
+        "ILTIDAC::ToWmi::POINT3"
+      ],
+      [
+        "ILThermo",
+        "ILTIDAC::ToWmi::POINT4"
+      ],
+      [
+        "ILThermo",
+        "ILTIDAC::ToWmi::POINT5"
+      ],
+      [
+        "ILThermo",
+        "ILTIDAC::ToWmi::POINT6"
+      ],
+      [
+        "ILThermo",
+        "ILTIDAC::cYPov::POINT1"
+      ],
+      [
+        "ILThermo",
+        "ILTIDAC::cYPov::POINT2"
+      ],
+      [
+        "ILThermo",
+        "ILTIDAC::cYPov::POINT3"
+      ],
+      [
+        "ILThermo",
+        "ILTIDAC::cYPov::POINT4"
+      ],
+      [
+        "ILThermo",
+        "ILTIDAC::cYPov::POINT5"
+      ],
+      [
+        "ILThermo",
+        "ILTIDAC::dnvXI::POINT1"
+      ],
+      [
+        "ILThermo",
+        "ILTIDAC::dnvXI::POINT2"
+      ],
+      [
+        "ILThermo",
+        "ILTIDAC::dnvXI::POINT3"
+      ],
+      [
+        "ILThermo",
+        "ILTIDAC::dnvXI::POINT4"
+      ],
+      [
+        "ILThermo",
+        "ILTIDAC::dnvXI::POINT5"
+      ],
+      [
+        "ILThermo",
+        "ILTIDAC::dnvXI::POINT6"
+      ],
+      [
+        "ILThermo",
+        "ILTIDAC::lbFLK::POINT1"
+      ],
+      [
+        "ILThermo",
+        "ILTIDAC::lbFLK::POINT2"
+      ],
+      [
+        "ILThermo",
+        "ILTIDAC::mtvna::POINT1"
+      ],
+      [
+        "ILThermo",
+        "ILTIDAC::mtvna::POINT2"
+      ],
+      [
+        "ILThermo",
+        "ILTIDAC::mtvna::POINT3"
+      ],
+      [
+        "ILThermo",
+        "ILTIDAC::mtvna::POINT4"
+      ],
+      [
+        "ILThermo",
+        "ILTIDAC::mtvna::POINT5"
+      ],
+      [
+        "ILThermo",
+        "ILTIDAC::mtvna::POINT6"
+      ],
+      [
+        "ILThermo",
+        "ILTIDAC::wbYYA::POINT1"
+      ],
+      [
+        "ILThermo",
+        "ILTIDAC::wbYYA::POINT2"
+      ],
+      [
+        "ILThermo",
+        "ILTIDAC::wbYYA::POINT3"
+      ],
+      [
+        "ILThermo",
+        "ILTIDAC::wbYYA::POINT4"
+      ],
+      [
+        "ILThermo",
+        "ILTIDAC::wbYYA::POINT5"
+      ],
+      [
+        "ILThermo",
+        "ILTIDAC::wbYYA::POINT6"
+      ]
+    ],
+    "canonical_before_temperature_qc": 84147,
+    "experimental_master_task1": 84147,
+    "experimental_master_task2_pairs": 33330,
+    "experimental_matched_groups": 14868,
+    "task1": 73243,
+    "task2_pairs": 33330,
+    "matched_groups": 14868,
+    "families_task1": 84,
+    "families_current_sources": 84,
+    "members_current_sources": 326,
+    "relation_count": 702,
+    "global_new_relation_count": 35,
+    "original_gamma_and_T_unchanged": true,
+    "no_original_source_workbook_modified": true,
+    "outer_family_assignment_changed": false,
+    "raw_to_canonical_mapping_authoritative": true,
+    "model_pair_endpoint_inheritance_verified": true,
+    "known_study_count": 144062,
+    "unknown_study_count": 19012,
+    "strict_dual_identity_prequalified_input": true,
+    "formal_qc_policy_unchanged": {
+      "review_factor": 3.0,
+      "severe_factor": 10.0,
+      "minimum_temperatures": 3,
+      "peer_loo_max_factor": 1.5,
+      "reference_prediction_stability_factor": 2.0,
+      "three_temperature_extreme_factor": 100.0,
+      "three_temperature_peer_gamma_spread_factor": 1.5,
+      "maximum_endpoint_extrapolation_fraction": 1.0,
+      "fit": "Theil-Sen median pair slope and median intercept in ln(gamma) versus 1/T; leave-one-out",
+      "grouping": "Study + full solute identity + audited solvent identity + uniquely compatible maximal observed condition signature across temperatures",
+      "condition_assignment": "Only QC series metadata may be completed from a unique compatible signature; unknown declarations never bridge conflicting methods/pressures/phases/standard/fixed conditions",
+      "no_iteration": "At most one uniquely isolated point may be excluded from one series",
+      "three_point_protection": "3-temperature exclusion additionally needs factor>=100 and peer gamma spread<=1.5; this is a modelling exclusion, not a confirmed source error",
+      "source_values": "Input values are never modified, imputed, or replaced with trend predictions"
+    },
+    "revision": "STUDY_PROVENANCE_V2",
+    "public_final": true,
+    "current_new_original_study_evidence": [
+      {
+        "Source": "ILThermo",
+        "original_record_id": "ILTIDAC::Mmmed::POINT1",
+        "source_file": "02_ILThermo\\00_Source\\ILThermo.Activity.source\\ilset\\Mmmed.json",
+        "source_location": "ref.title / ref.full",
+        "original_title": "Selection of Ionic Liquids to be used as Separation Agents for Terpenes and Terpenoids",
+        "original_full_reference": "Martins, Monia A. R.; Domanska, Urszula; Schroeder, Bernd; Coutinho, Joao A. P.; Pinho, Simao P. (2016) ACS Sustainable Chem. Eng. 4, 548-556.",
+        "Reported_Study_ID": "TITLE:selectionofionicliquidstobeusedasseparationagentsforterpenesandterpenoids",
+        "rule": "Complete original JSON ref.title equals the current source03 reported title exactly; no values or similarity matching infer DOI. DOI promotion, if any, requires exact normalized full title with one existing DOI-backed original study."
+      },
+      {
+        "Source": "ILThermo",
+        "original_record_id": "ILTIDAC::Mmmed::POINT2",
+        "source_file": "02_ILThermo\\00_Source\\ILThermo.Activity.source\\ilset\\Mmmed.json",
+        "source_location": "ref.title / ref.full",
+        "original_title": "Selection of Ionic Liquids to be used as Separation Agents for Terpenes and Terpenoids",
+        "original_full_reference": "Martins, Monia A. R.; Domanska, Urszula; Schroeder, Bernd; Coutinho, Joao A. P.; Pinho, Simao P. (2016) ACS Sustainable Chem. Eng. 4, 548-556.",
+        "Reported_Study_ID": "TITLE:selectionofionicliquidstobeusedasseparationagentsforterpenesandterpenoids",
+        "rule": "Complete original JSON ref.title equals the current source03 reported title exactly; no values or similarity matching infer DOI. DOI promotion, if any, requires exact normalized full title with one existing DOI-backed original study."
+      },
+      {
+        "Source": "ILThermo",
+        "original_record_id": "ILTIDAC::Mmmed::POINT3",
+        "source_file": "02_ILThermo\\00_Source\\ILThermo.Activity.source\\ilset\\Mmmed.json",
+        "source_location": "ref.title / ref.full",
+        "original_title": "Selection of Ionic Liquids to be used as Separation Agents for Terpenes and Terpenoids",
+        "original_full_reference": "Martins, Monia A. R.; Domanska, Urszula; Schroeder, Bernd; Coutinho, Joao A. P.; Pinho, Simao P. (2016) ACS Sustainable Chem. Eng. 4, 548-556.",
+        "Reported_Study_ID": "TITLE:selectionofionicliquidstobeusedasseparationagentsforterpenesandterpenoids",
+        "rule": "Complete original JSON ref.title equals the current source03 reported title exactly; no values or similarity matching infer DOI. DOI promotion, if any, requires exact normalized full title with one existing DOI-backed original study."
+      },
+      {
+        "Source": "ILThermo",
+        "original_record_id": "ILTIDAC::Mmmed::POINT4",
+        "source_file": "02_ILThermo\\00_Source\\ILThermo.Activity.source\\ilset\\Mmmed.json",
+        "source_location": "ref.title / ref.full",
+        "original_title": "Selection of Ionic Liquids to be used as Separation Agents for Terpenes and Terpenoids",
+        "original_full_reference": "Martins, Monia A. R.; Domanska, Urszula; Schroeder, Bernd; Coutinho, Joao A. P.; Pinho, Simao P. (2016) ACS Sustainable Chem. Eng. 4, 548-556.",
+        "Reported_Study_ID": "TITLE:selectionofionicliquidstobeusedasseparationagentsforterpenesandterpenoids",
+        "rule": "Complete original JSON ref.title equals the current source03 reported title exactly; no values or similarity matching infer DOI. DOI promotion, if any, requires exact normalized full title with one existing DOI-backed original study."
+      },
+      {
+        "Source": "ILThermo",
+        "original_record_id": "ILTIDAC::Mmmed::POINT5",
+        "source_file": "02_ILThermo\\00_Source\\ILThermo.Activity.source\\ilset\\Mmmed.json",
+        "source_location": "ref.title / ref.full",
+        "original_title": "Selection of Ionic Liquids to be used as Separation Agents for Terpenes and Terpenoids",
+        "original_full_reference": "Martins, Monia A. R.; Domanska, Urszula; Schroeder, Bernd; Coutinho, Joao A. P.; Pinho, Simao P. (2016) ACS Sustainable Chem. Eng. 4, 548-556.",
+        "Reported_Study_ID": "TITLE:selectionofionicliquidstobeusedasseparationagentsforterpenesandterpenoids",
+        "rule": "Complete original JSON ref.title equals the current source03 reported title exactly; no values or similarity matching infer DOI. DOI promotion, if any, requires exact normalized full title with one existing DOI-backed original study."
+      },
+      {
+        "Source": "ILThermo",
+        "original_record_id": "ILTIDAC::Mmmed::POINT6",
+        "source_file": "02_ILThermo\\00_Source\\ILThermo.Activity.source\\ilset\\Mmmed.json",
+        "source_location": "ref.title / ref.full",
+        "original_title": "Selection of Ionic Liquids to be used as Separation Agents for Terpenes and Terpenoids",
+        "original_full_reference": "Martins, Monia A. R.; Domanska, Urszula; Schroeder, Bernd; Coutinho, Joao A. P.; Pinho, Simao P. (2016) ACS Sustainable Chem. Eng. 4, 548-556.",
+        "Reported_Study_ID": "TITLE:selectionofionicliquidstobeusedasseparationagentsforterpenesandterpenoids",
+        "rule": "Complete original JSON ref.title equals the current source03 reported title exactly; no values or similarity matching infer DOI. DOI promotion, if any, requires exact normalized full title with one existing DOI-backed original study."
+      },
+      {
+        "Source": "ILThermo",
+        "original_record_id": "ILTIDAC::ToWmi::POINT1",
+        "source_file": "02_ILThermo\\00_Source\\ILThermo.Activity.source\\ilset\\ToWmi.json",
+        "source_location": "ref.title / ref.full",
+        "original_title": "Selection of Ionic Liquids to be used as Separation Agents for Terpenes and Terpenoids",
+        "original_full_reference": "Martins, Monia A. R.; Domanska, Urszula; Schroeder, Bernd; Coutinho, Joao A. P.; Pinho, Simao P. (2016) ACS Sustainable Chem. Eng. 4, 548-556.",
+        "Reported_Study_ID": "TITLE:selectionofionicliquidstobeusedasseparationagentsforterpenesandterpenoids",
+        "rule": "Complete original JSON ref.title equals the current source03 reported title exactly; no values or similarity matching infer DOI. DOI promotion, if any, requires exact normalized full title with one existing DOI-backed original study."
+      },
+      {
+        "Source": "ILThermo",
+        "original_record_id": "ILTIDAC::ToWmi::POINT2",
+        "source_file": "02_ILThermo\\00_Source\\ILThermo.Activity.source\\ilset\\ToWmi.json",
+        "source_location": "ref.title / ref.full",
+        "original_title": "Selection of Ionic Liquids to be used as Separation Agents for Terpenes and Terpenoids",
+        "original_full_reference": "Martins, Monia A. R.; Domanska, Urszula; Schroeder, Bernd; Coutinho, Joao A. P.; Pinho, Simao P. (2016) ACS Sustainable Chem. Eng. 4, 548-556.",
+        "Reported_Study_ID": "TITLE:selectionofionicliquidstobeusedasseparationagentsforterpenesandterpenoids",
+        "rule": "Complete original JSON ref.title equals the current source03 reported title exactly; no values or similarity matching infer DOI. DOI promotion, if any, requires exact normalized full title with one existing DOI-backed original study."
+      },
+      {
+        "Source": "ILThermo",
+        "original_record_id": "ILTIDAC::ToWmi::POINT3",
+        "source_file": "02_ILThermo\\00_Source\\ILThermo.Activity.source\\ilset\\ToWmi.json",
+        "source_location": "ref.title / ref.full",
+        "original_title": "Selection of Ionic Liquids to be used as Separation Agents for Terpenes and Terpenoids",
+        "original_full_reference": "Martins, Monia A. R.; Domanska, Urszula; Schroeder, Bernd; Coutinho, Joao A. P.; Pinho, Simao P. (2016) ACS Sustainable Chem. Eng. 4, 548-556.",
+        "Reported_Study_ID": "TITLE:selectionofionicliquidstobeusedasseparationagentsforterpenesandterpenoids",
+        "rule": "Complete original JSON ref.title equals the current source03 reported title exactly; no values or similarity matching infer DOI. DOI promotion, if any, requires exact normalized full title with one existing DOI-backed original study."
+      },
+      {
+        "Source": "ILThermo",
+        "original_record_id": "ILTIDAC::ToWmi::POINT4",
+        "source_file": "02_ILThermo\\00_Source\\ILThermo.Activity.source\\ilset\\ToWmi.json",
+        "source_location": "ref.title / ref.full",
+        "original_title": "Selection of Ionic Liquids to be used as Separation Agents for Terpenes and Terpenoids",
+        "original_full_reference": "Martins, Monia A. R.; Domanska, Urszula; Schroeder, Bernd; Coutinho, Joao A. P.; Pinho, Simao P. (2016) ACS Sustainable Chem. Eng. 4, 548-556.",
+        "Reported_Study_ID": "TITLE:selectionofionicliquidstobeusedasseparationagentsforterpenesandterpenoids",
+        "rule": "Complete original JSON ref.title equals the current source03 reported title exactly; no values or similarity matching infer DOI. DOI promotion, if any, requires exact normalized full title with one existing DOI-backed original study."
+      },
+      {
+        "Source": "ILThermo",
+        "original_record_id": "ILTIDAC::ToWmi::POINT5",
+        "source_file": "02_ILThermo\\00_Source\\ILThermo.Activity.source\\ilset\\ToWmi.json",
+        "source_location": "ref.title / ref.full",
+        "original_title": "Selection of Ionic Liquids to be used as Separation Agents for Terpenes and Terpenoids",
+        "original_full_reference": "Martins, Monia A. R.; Domanska, Urszula; Schroeder, Bernd; Coutinho, Joao A. P.; Pinho, Simao P. (2016) ACS Sustainable Chem. Eng. 4, 548-556.",
+        "Reported_Study_ID": "TITLE:selectionofionicliquidstobeusedasseparationagentsforterpenesandterpenoids",
+        "rule": "Complete original JSON ref.title equals the current source03 reported title exactly; no values or similarity matching infer DOI. DOI promotion, if any, requires exact normalized full title with one existing DOI-backed original study."
+      },
+      {
+        "Source": "ILThermo",
+        "original_record_id": "ILTIDAC::ToWmi::POINT6",
+        "source_file": "02_ILThermo\\00_Source\\ILThermo.Activity.source\\ilset\\ToWmi.json",
+        "source_location": "ref.title / ref.full",
+        "original_title": "Selection of Ionic Liquids to be used as Separation Agents for Terpenes and Terpenoids",
+        "original_full_reference": "Martins, Monia A. R.; Domanska, Urszula; Schroeder, Bernd; Coutinho, Joao A. P.; Pinho, Simao P. (2016) ACS Sustainable Chem. Eng. 4, 548-556.",
+        "Reported_Study_ID": "TITLE:selectionofionicliquidstobeusedasseparationagentsforterpenesandterpenoids",
+        "rule": "Complete original JSON ref.title equals the current source03 reported title exactly; no values or similarity matching infer DOI. DOI promotion, if any, requires exact normalized full title with one existing DOI-backed original study."
+      },
+      {
+        "Source": "ILThermo",
+        "original_record_id": "ILTIDAC::cYPov::POINT1",
+        "source_file": "02_ILThermo\\00_Source\\ILThermo.Activity.source\\ilset\\cYPov.json",
+        "source_location": "ref.title / ref.full",
+        "original_title": "Selection of Ionic Liquids to be used as Separation Agents for Terpenes and Terpenoids",
+        "original_full_reference": "Martins, Monia A. R.; Domanska, Urszula; Schroeder, Bernd; Coutinho, Joao A. P.; Pinho, Simao P. (2016) ACS Sustainable Chem. Eng. 4, 548-556.",
+        "Reported_Study_ID": "TITLE:selectionofionicliquidstobeusedasseparationagentsforterpenesandterpenoids",
+        "rule": "Complete original JSON ref.title equals the current source03 reported title exactly; no values or similarity matching infer DOI. DOI promotion, if any, requires exact normalized full title with one existing DOI-backed original study."
+      },
+      {
+        "Source": "ILThermo",
+        "original_record_id": "ILTIDAC::cYPov::POINT2",
+        "source_file": "02_ILThermo\\00_Source\\ILThermo.Activity.source\\ilset\\cYPov.json",
+        "source_location": "ref.title / ref.full",
+        "original_title": "Selection of Ionic Liquids to be used as Separation Agents for Terpenes and Terpenoids",
+        "original_full_reference": "Martins, Monia A. R.; Domanska, Urszula; Schroeder, Bernd; Coutinho, Joao A. P.; Pinho, Simao P. (2016) ACS Sustainable Chem. Eng. 4, 548-556.",
+        "Reported_Study_ID": "TITLE:selectionofionicliquidstobeusedasseparationagentsforterpenesandterpenoids",
+        "rule": "Complete original JSON ref.title equals the current source03 reported title exactly; no values or similarity matching infer DOI. DOI promotion, if any, requires exact normalized full title with one existing DOI-backed original study."
+      },
+      {
+        "Source": "ILThermo",
+        "original_record_id": "ILTIDAC::cYPov::POINT3",
+        "source_file": "02_ILThermo\\00_Source\\ILThermo.Activity.source\\ilset\\cYPov.json",
+        "source_location": "ref.title / ref.full",
+        "original_title": "Selection of Ionic Liquids to be used as Separation Agents for Terpenes and Terpenoids",
+        "original_full_reference": "Martins, Monia A. R.; Domanska, Urszula; Schroeder, Bernd; Coutinho, Joao A. P.; Pinho, Simao P. (2016) ACS Sustainable Chem. Eng. 4, 548-556.",
+        "Reported_Study_ID": "TITLE:selectionofionicliquidstobeusedasseparationagentsforterpenesandterpenoids",
+        "rule": "Complete original JSON ref.title equals the current source03 reported title exactly; no values or similarity matching infer DOI. DOI promotion, if any, requires exact normalized full title with one existing DOI-backed original study."
+      },
+      {
+        "Source": "ILThermo",
+        "original_record_id": "ILTIDAC::cYPov::POINT4",
+        "source_file": "02_ILThermo\\00_Source\\ILThermo.Activity.source\\ilset\\cYPov.json",
+        "source_location": "ref.title / ref.full",
+        "original_title": "Selection of Ionic Liquids to be used as Separation Agents for Terpenes and Terpenoids",
+        "original_full_reference": "Martins, Monia A. R.; Domanska, Urszula; Schroeder, Bernd; Coutinho, Joao A. P.; Pinho, Simao P. (2016) ACS Sustainable Chem. Eng. 4, 548-556.",
+        "Reported_Study_ID": "TITLE:selectionofionicliquidstobeusedasseparationagentsforterpenesandterpenoids",
+        "rule": "Complete original JSON ref.title equals the current source03 reported title exactly; no values or similarity matching infer DOI. DOI promotion, if any, requires exact normalized full title with one existing DOI-backed original study."
+      },
+      {
+        "Source": "ILThermo",
+        "original_record_id": "ILTIDAC::cYPov::POINT5",
+        "source_file": "02_ILThermo\\00_Source\\ILThermo.Activity.source\\ilset\\cYPov.json",
+        "source_location": "ref.title / ref.full",
+        "original_title": "Selection of Ionic Liquids to be used as Separation Agents for Terpenes and Terpenoids",
+        "original_full_reference": "Martins, Monia A. R.; Domanska, Urszula; Schroeder, Bernd; Coutinho, Joao A. P.; Pinho, Simao P. (2016) ACS Sustainable Chem. Eng. 4, 548-556.",
+        "Reported_Study_ID": "TITLE:selectionofionicliquidstobeusedasseparationagentsforterpenesandterpenoids",
+        "rule": "Complete original JSON ref.title equals the current source03 reported title exactly; no values or similarity matching infer DOI. DOI promotion, if any, requires exact normalized full title with one existing DOI-backed original study."
+      },
+      {
+        "Source": "ILThermo",
+        "original_record_id": "ILTIDAC::dnvXI::POINT1",
+        "source_file": "02_ILThermo\\00_Source\\ILThermo.Activity.source\\ilset\\dnvXI.json",
+        "source_location": "ref.title / ref.full",
+        "original_title": "Ionic liquids as entrainers for terpenes fractionation and other relevant separation problems",
+        "original_full_reference": "Vilas-Boas, S. M.; Teixeira, G.; Rosini, S.; Martins, M. A.R.; Gaschi, P. S.; Coutinho, J. A.P.; Ferreira, O.; Pinho, S. P. (2021) J. Mol. Liq. 323, 114647.",
+        "Reported_Study_ID": "TITLE:ionicliquidsasentrainersforterpenesfractionationandotherrelevantseparationproblems",
+        "rule": "Complete original JSON ref.title equals the current source03 reported title exactly; no values or similarity matching infer DOI. DOI promotion, if any, requires exact normalized full title with one existing DOI-backed original study."
+      },
+      {
+        "Source": "ILThermo",
+        "original_record_id": "ILTIDAC::dnvXI::POINT2",
+        "source_file": "02_ILThermo\\00_Source\\ILThermo.Activity.source\\ilset\\dnvXI.json",
+        "source_location": "ref.title / ref.full",
+        "original_title": "Ionic liquids as entrainers for terpenes fractionation and other relevant separation problems",
+        "original_full_reference": "Vilas-Boas, S. M.; Teixeira, G.; Rosini, S.; Martins, M. A.R.; Gaschi, P. S.; Coutinho, J. A.P.; Ferreira, O.; Pinho, S. P. (2021) J. Mol. Liq. 323, 114647.",
+        "Reported_Study_ID": "TITLE:ionicliquidsasentrainersforterpenesfractionationandotherrelevantseparationproblems",
+        "rule": "Complete original JSON ref.title equals the current source03 reported title exactly; no values or similarity matching infer DOI. DOI promotion, if any, requires exact normalized full title with one existing DOI-backed original study."
+      },
+      {
+        "Source": "ILThermo",
+        "original_record_id": "ILTIDAC::dnvXI::POINT3",
+        "source_file": "02_ILThermo\\00_Source\\ILThermo.Activity.source\\ilset\\dnvXI.json",
+        "source_location": "ref.title / ref.full",
+        "original_title": "Ionic liquids as entrainers for terpenes fractionation and other relevant separation problems",
+        "original_full_reference": "Vilas-Boas, S. M.; Teixeira, G.; Rosini, S.; Martins, M. A.R.; Gaschi, P. S.; Coutinho, J. A.P.; Ferreira, O.; Pinho, S. P. (2021) J. Mol. Liq. 323, 114647.",
+        "Reported_Study_ID": "TITLE:ionicliquidsasentrainersforterpenesfractionationandotherrelevantseparationproblems",
+        "rule": "Complete original JSON ref.title equals the current source03 reported title exactly; no values or similarity matching infer DOI. DOI promotion, if any, requires exact normalized full title with one existing DOI-backed original study."
+      },
+      {
+        "Source": "ILThermo",
+        "original_record_id": "ILTIDAC::dnvXI::POINT4",
+        "source_file": "02_ILThermo\\00_Source\\ILThermo.Activity.source\\ilset\\dnvXI.json",
+        "source_location": "ref.title / ref.full",
+        "original_title": "Ionic liquids as entrainers for terpenes fractionation and other relevant separation problems",
+        "original_full_reference": "Vilas-Boas, S. M.; Teixeira, G.; Rosini, S.; Martins, M. A.R.; Gaschi, P. S.; Coutinho, J. A.P.; Ferreira, O.; Pinho, S. P. (2021) J. Mol. Liq. 323, 114647.",
+        "Reported_Study_ID": "TITLE:ionicliquidsasentrainersforterpenesfractionationandotherrelevantseparationproblems",
+        "rule": "Complete original JSON ref.title equals the current source03 reported title exactly; no values or similarity matching infer DOI. DOI promotion, if any, requires exact normalized full title with one existing DOI-backed original study."
+      },
+      {
+        "Source": "ILThermo",
+        "original_record_id": "ILTIDAC::dnvXI::POINT5",
+        "source_file": "02_ILThermo\\00_Source\\ILThermo.Activity.source\\ilset\\dnvXI.json",
+        "source_location": "ref.title / ref.full",
+        "original_title": "Ionic liquids as entrainers for terpenes fractionation and other relevant separation problems",
+        "original_full_reference": "Vilas-Boas, S. M.; Teixeira, G.; Rosini, S.; Martins, M. A.R.; Gaschi, P. S.; Coutinho, J. A.P.; Ferreira, O.; Pinho, S. P. (2021) J. Mol. Liq. 323, 114647.",
+        "Reported_Study_ID": "TITLE:ionicliquidsasentrainersforterpenesfractionationandotherrelevantseparationproblems",
+        "rule": "Complete original JSON ref.title equals the current source03 reported title exactly; no values or similarity matching infer DOI. DOI promotion, if any, requires exact normalized full title with one existing DOI-backed original study."
+      },
+      {
+        "Source": "ILThermo",
+        "original_record_id": "ILTIDAC::dnvXI::POINT6",
+        "source_file": "02_ILThermo\\00_Source\\ILThermo.Activity.source\\ilset\\dnvXI.json",
+        "source_location": "ref.title / ref.full",
+        "original_title": "Ionic liquids as entrainers for terpenes fractionation and other relevant separation problems",
+        "original_full_reference": "Vilas-Boas, S. M.; Teixeira, G.; Rosini, S.; Martins, M. A.R.; Gaschi, P. S.; Coutinho, J. A.P.; Ferreira, O.; Pinho, S. P. (2021) J. Mol. Liq. 323, 114647.",
+        "Reported_Study_ID": "TITLE:ionicliquidsasentrainersforterpenesfractionationandotherrelevantseparationproblems",
+        "rule": "Complete original JSON ref.title equals the current source03 reported title exactly; no values or similarity matching infer DOI. DOI promotion, if any, requires exact normalized full title with one existing DOI-backed original study."
+      },
+      {
+        "Source": "ILThermo",
+        "original_record_id": "ILTIDAC::lbFLK::POINT1",
+        "source_file": "02_ILThermo\\00_Source\\ILThermo.Activity.source\\ilset\\lbFLK.json",
+        "source_location": "ref.title / ref.full",
+        "original_title": "The Role of the Anion in Imidazolium-Based Ionic Liquids for Fuel and Terpenes Processing",
+        "original_full_reference": "Aline Zambom, Sergio M. Vilas-Boas; Silva, Liliana P.; Martins, Monia A. R.; Olga Ferreira, Simao P. Pinho (2023) Molecules 28, 2456.",
+        "Reported_Study_ID": "TITLE:theroleoftheanioninimidazoliumbasedionicliquidsforfuelandterpenesprocessing",
+        "rule": "Complete original JSON ref.title equals the current source03 reported title exactly; no values or similarity matching infer DOI. DOI promotion, if any, requires exact normalized full title with one existing DOI-backed original study."
+      },
+      {
+        "Source": "ILThermo",
+        "original_record_id": "ILTIDAC::lbFLK::POINT2",
+        "source_file": "02_ILThermo\\00_Source\\ILThermo.Activity.source\\ilset\\lbFLK.json",
+        "source_location": "ref.title / ref.full",
+        "original_title": "The Role of the Anion in Imidazolium-Based Ionic Liquids for Fuel and Terpenes Processing",
+        "original_full_reference": "Aline Zambom, Sergio M. Vilas-Boas; Silva, Liliana P.; Martins, Monia A. R.; Olga Ferreira, Simao P. Pinho (2023) Molecules 28, 2456.",
+        "Reported_Study_ID": "TITLE:theroleoftheanioninimidazoliumbasedionicliquidsforfuelandterpenesprocessing",
+        "rule": "Complete original JSON ref.title equals the current source03 reported title exactly; no values or similarity matching infer DOI. DOI promotion, if any, requires exact normalized full title with one existing DOI-backed original study."
+      },
+      {
+        "Source": "ILThermo",
+        "original_record_id": "ILTIDAC::mtvna::POINT1",
+        "source_file": "02_ILThermo\\00_Source\\ILThermo.Activity.source\\ilset\\mtvna.json",
+        "source_location": "ref.title / ref.full",
+        "original_title": "The Role of the Anion in Imidazolium-Based Ionic Liquids for Fuel and Terpenes Processing",
+        "original_full_reference": "Aline Zambom, Sergio M. Vilas-Boas; Silva, Liliana P.; Martins, Monia A. R.; Olga Ferreira, Simao P. Pinho (2023) Molecules 28, 2456.",
+        "Reported_Study_ID": "TITLE:theroleoftheanioninimidazoliumbasedionicliquidsforfuelandterpenesprocessing",
+        "rule": "Complete original JSON ref.title equals the current source03 reported title exactly; no values or similarity matching infer DOI. DOI promotion, if any, requires exact normalized full title with one existing DOI-backed original study."
+      },
+      {
+        "Source": "ILThermo",
+        "original_record_id": "ILTIDAC::mtvna::POINT2",
+        "source_file": "02_ILThermo\\00_Source\\ILThermo.Activity.source\\ilset\\mtvna.json",
+        "source_location": "ref.title / ref.full",
+        "original_title": "The Role of the Anion in Imidazolium-Based Ionic Liquids for Fuel and Terpenes Processing",
+        "original_full_reference": "Aline Zambom, Sergio M. Vilas-Boas; Silva, Liliana P.; Martins, Monia A. R.; Olga Ferreira, Simao P. Pinho (2023) Molecules 28, 2456.",
+        "Reported_Study_ID": "TITLE:theroleoftheanioninimidazoliumbasedionicliquidsforfuelandterpenesprocessing",
+        "rule": "Complete original JSON ref.title equals the current source03 reported title exactly; no values or similarity matching infer DOI. DOI promotion, if any, requires exact normalized full title with one existing DOI-backed original study."
+      },
+      {
+        "Source": "ILThermo",
+        "original_record_id": "ILTIDAC::mtvna::POINT3",
+        "source_file": "02_ILThermo\\00_Source\\ILThermo.Activity.source\\ilset\\mtvna.json",
+        "source_location": "ref.title / ref.full",
+        "original_title": "The Role of the Anion in Imidazolium-Based Ionic Liquids for Fuel and Terpenes Processing",
+        "original_full_reference": "Aline Zambom, Sergio M. Vilas-Boas; Silva, Liliana P.; Martins, Monia A. R.; Olga Ferreira, Simao P. Pinho (2023) Molecules 28, 2456.",
+        "Reported_Study_ID": "TITLE:theroleoftheanioninimidazoliumbasedionicliquidsforfuelandterpenesprocessing",
+        "rule": "Complete original JSON ref.title equals the current source03 reported title exactly; no values or similarity matching infer DOI. DOI promotion, if any, requires exact normalized full title with one existing DOI-backed original study."
+      },
+      {
+        "Source": "ILThermo",
+        "original_record_id": "ILTIDAC::mtvna::POINT4",
+        "source_file": "02_ILThermo\\00_Source\\ILThermo.Activity.source\\ilset\\mtvna.json",
+        "source_location": "ref.title / ref.full",
+        "original_title": "The Role of the Anion in Imidazolium-Based Ionic Liquids for Fuel and Terpenes Processing",
+        "original_full_reference": "Aline Zambom, Sergio M. Vilas-Boas; Silva, Liliana P.; Martins, Monia A. R.; Olga Ferreira, Simao P. Pinho (2023) Molecules 28, 2456.",
+        "Reported_Study_ID": "TITLE:theroleoftheanioninimidazoliumbasedionicliquidsforfuelandterpenesprocessing",
+        "rule": "Complete original JSON ref.title equals the current source03 reported title exactly; no values or similarity matching infer DOI. DOI promotion, if any, requires exact normalized full title with one existing DOI-backed original study."
+      },
+      {
+        "Source": "ILThermo",
+        "original_record_id": "ILTIDAC::mtvna::POINT5",
+        "source_file": "02_ILThermo\\00_Source\\ILThermo.Activity.source\\ilset\\mtvna.json",
+        "source_location": "ref.title / ref.full",
+        "original_title": "The Role of the Anion in Imidazolium-Based Ionic Liquids for Fuel and Terpenes Processing",
+        "original_full_reference": "Aline Zambom, Sergio M. Vilas-Boas; Silva, Liliana P.; Martins, Monia A. R.; Olga Ferreira, Simao P. Pinho (2023) Molecules 28, 2456.",
+        "Reported_Study_ID": "TITLE:theroleoftheanioninimidazoliumbasedionicliquidsforfuelandterpenesprocessing",
+        "rule": "Complete original JSON ref.title equals the current source03 reported title exactly; no values or similarity matching infer DOI. DOI promotion, if any, requires exact normalized full title with one existing DOI-backed original study."
+      },
+      {
+        "Source": "ILThermo",
+        "original_record_id": "ILTIDAC::mtvna::POINT6",
+        "source_file": "02_ILThermo\\00_Source\\ILThermo.Activity.source\\ilset\\mtvna.json",
+        "source_location": "ref.title / ref.full",
+        "original_title": "The Role of the Anion in Imidazolium-Based Ionic Liquids for Fuel and Terpenes Processing",
+        "original_full_reference": "Aline Zambom, Sergio M. Vilas-Boas; Silva, Liliana P.; Martins, Monia A. R.; Olga Ferreira, Simao P. Pinho (2023) Molecules 28, 2456.",
+        "Reported_Study_ID": "TITLE:theroleoftheanioninimidazoliumbasedionicliquidsforfuelandterpenesprocessing",
+        "rule": "Complete original JSON ref.title equals the current source03 reported title exactly; no values or similarity matching infer DOI. DOI promotion, if any, requires exact normalized full title with one existing DOI-backed original study."
+      },
+      {
+        "Source": "ILThermo",
+        "original_record_id": "ILTIDAC::wbYYA::POINT1",
+        "source_file": "02_ILThermo\\00_Source\\ILThermo.Activity.source\\ilset\\wbYYA.json",
+        "source_location": "ref.title / ref.full",
+        "original_title": "The Role of the Anion in Imidazolium-Based Ionic Liquids for Fuel and Terpenes Processing",
+        "original_full_reference": "Aline Zambom, Sergio M. Vilas-Boas; Silva, Liliana P.; Martins, Monia A. R.; Olga Ferreira, Simao P. Pinho (2023) Molecules 28, 2456.",
+        "Reported_Study_ID": "TITLE:theroleoftheanioninimidazoliumbasedionicliquidsforfuelandterpenesprocessing",
+        "rule": "Complete original JSON ref.title equals the current source03 reported title exactly; no values or similarity matching infer DOI. DOI promotion, if any, requires exact normalized full title with one existing DOI-backed original study."
+      },
+      {
+        "Source": "ILThermo",
+        "original_record_id": "ILTIDAC::wbYYA::POINT2",
+        "source_file": "02_ILThermo\\00_Source\\ILThermo.Activity.source\\ilset\\wbYYA.json",
+        "source_location": "ref.title / ref.full",
+        "original_title": "The Role of the Anion in Imidazolium-Based Ionic Liquids for Fuel and Terpenes Processing",
+        "original_full_reference": "Aline Zambom, Sergio M. Vilas-Boas; Silva, Liliana P.; Martins, Monia A. R.; Olga Ferreira, Simao P. Pinho (2023) Molecules 28, 2456.",
+        "Reported_Study_ID": "TITLE:theroleoftheanioninimidazoliumbasedionicliquidsforfuelandterpenesprocessing",
+        "rule": "Complete original JSON ref.title equals the current source03 reported title exactly; no values or similarity matching infer DOI. DOI promotion, if any, requires exact normalized full title with one existing DOI-backed original study."
+      },
+      {
+        "Source": "ILThermo",
+        "original_record_id": "ILTIDAC::wbYYA::POINT3",
+        "source_file": "02_ILThermo\\00_Source\\ILThermo.Activity.source\\ilset\\wbYYA.json",
+        "source_location": "ref.title / ref.full",
+        "original_title": "The Role of the Anion in Imidazolium-Based Ionic Liquids for Fuel and Terpenes Processing",
+        "original_full_reference": "Aline Zambom, Sergio M. Vilas-Boas; Silva, Liliana P.; Martins, Monia A. R.; Olga Ferreira, Simao P. Pinho (2023) Molecules 28, 2456.",
+        "Reported_Study_ID": "TITLE:theroleoftheanioninimidazoliumbasedionicliquidsforfuelandterpenesprocessing",
+        "rule": "Complete original JSON ref.title equals the current source03 reported title exactly; no values or similarity matching infer DOI. DOI promotion, if any, requires exact normalized full title with one existing DOI-backed original study."
+      },
+      {
+        "Source": "ILThermo",
+        "original_record_id": "ILTIDAC::wbYYA::POINT4",
+        "source_file": "02_ILThermo\\00_Source\\ILThermo.Activity.source\\ilset\\wbYYA.json",
+        "source_location": "ref.title / ref.full",
+        "original_title": "The Role of the Anion in Imidazolium-Based Ionic Liquids for Fuel and Terpenes Processing",
+        "original_full_reference": "Aline Zambom, Sergio M. Vilas-Boas; Silva, Liliana P.; Martins, Monia A. R.; Olga Ferreira, Simao P. Pinho (2023) Molecules 28, 2456.",
+        "Reported_Study_ID": "TITLE:theroleoftheanioninimidazoliumbasedionicliquidsforfuelandterpenesprocessing",
+        "rule": "Complete original JSON ref.title equals the current source03 reported title exactly; no values or similarity matching infer DOI. DOI promotion, if any, requires exact normalized full title with one existing DOI-backed original study."
+      },
+      {
+        "Source": "ILThermo",
+        "original_record_id": "ILTIDAC::wbYYA::POINT5",
+        "source_file": "02_ILThermo\\00_Source\\ILThermo.Activity.source\\ilset\\wbYYA.json",
+        "source_location": "ref.title / ref.full",
+        "original_title": "The Role of the Anion in Imidazolium-Based Ionic Liquids for Fuel and Terpenes Processing",
+        "original_full_reference": "Aline Zambom, Sergio M. Vilas-Boas; Silva, Liliana P.; Martins, Monia A. R.; Olga Ferreira, Simao P. Pinho (2023) Molecules 28, 2456.",
+        "Reported_Study_ID": "TITLE:theroleoftheanioninimidazoliumbasedionicliquidsforfuelandterpenesprocessing",
+        "rule": "Complete original JSON ref.title equals the current source03 reported title exactly; no values or similarity matching infer DOI. DOI promotion, if any, requires exact normalized full title with one existing DOI-backed original study."
+      },
+      {
+        "Source": "ILThermo",
+        "original_record_id": "ILTIDAC::wbYYA::POINT6",
+        "source_file": "02_ILThermo\\00_Source\\ILThermo.Activity.source\\ilset\\wbYYA.json",
+        "source_location": "ref.title / ref.full",
+        "original_title": "The Role of the Anion in Imidazolium-Based Ionic Liquids for Fuel and Terpenes Processing",
+        "original_full_reference": "Aline Zambom, Sergio M. Vilas-Boas; Silva, Liliana P.; Martins, Monia A. R.; Olga Ferreira, Simao P. Pinho (2023) Molecules 28, 2456.",
+        "Reported_Study_ID": "TITLE:theroleoftheanioninimidazoliumbasedionicliquidsforfuelandterpenesprocessing",
+        "rule": "Complete original JSON ref.title equals the current source03 reported title exactly; no values or similarity matching infer DOI. DOI promotion, if any, requires exact normalized full title with one existing DOI-backed original study."
+      }
+    ]
+  },
+  "frozen_original_values_never_corrected": true,
+  "historical_bank_scientific_scope_not_reused": true,
+  "source_hash_mismatch_policy": "Fail closed and require audited snapshot rebuild; never silently reuse stale source03 data"
+}

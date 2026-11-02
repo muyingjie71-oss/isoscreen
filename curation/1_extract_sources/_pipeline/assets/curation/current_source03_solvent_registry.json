@@ -1,0 +1,4652 @@
+{
+  "DIOQZVSQGTUSAI-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_DIOQZVSQGTUSAI-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "SNRUBQQJIBEYMU-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_SNRUBQQJIBEYMU-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "GSGLHYXFTXGIAQ-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_GSGLHYXFTXGIAQ-UHFFFAOYSA-M",
+    "smiles": "COP(=O)([O-])OC.Cn1cc[n+](C)c1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "LRESCJAINPKJTO-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_LRESCJAINPKJTO-UHFFFAOYSA-N",
+    "smiles": "CCn1cc[n+](C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "INDFXCHYORWHLQ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_INDFXCHYORWHLQ-UHFFFAOYSA-N",
+    "smiles": "CCCCn1cc[n+](C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "HEKABVMGXQRBFH-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_HEKABVMGXQRBFH-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.FC(F)(F)C(F)(F)[P-](F)(F)(F)(C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "XLYOFNOQVPJJNP-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+    "smiles": "O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "JMXOUHNHEFFQIW-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_JMXOUHNHEFFQIW-UHFFFAOYSA-M",
+    "smiles": "CCCC[P+](C)(CCCC)CCCC.COS(=O)(=O)[O-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "OKKJLVBELUTLKV-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_OKKJLVBELUTLKV-UHFFFAOYSA-N",
+    "smiles": "CO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "XRWKLCUUSVWUNG-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_XRWKLCUUSVWUNG-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCCCCCCCC(CCCCCCCCCCCCCCCCCC)CCCCC(CCCCCCCCCCCCCCCCCC)CCCCCCCCCCCCCCCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "VISYYHYJMCAKAF-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_VISYYHYJMCAKAF-UHFFFAOYSA-N",
+    "smiles": "CCCC[n+]1ccc(C)cc1.F[B-](F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "YNQLUTRBYVCPMQ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_YNQLUTRBYVCPMQ-UHFFFAOYSA-N",
+    "smiles": "CCc1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "LFQSCWFLJHTTHZ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_LFQSCWFLJHTTHZ-UHFFFAOYSA-N",
+    "smiles": "CCO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BDERNNFJNOPAEC-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BDERNNFJNOPAEC-UHFFFAOYSA-N",
+    "smiles": "CCCO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "LRHPLDYGYMQRHN-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_LRHPLDYGYMQRHN-UHFFFAOYSA-N",
+    "smiles": "CCCCO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "AMQJEAYHLZJPGS-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_AMQJEAYHLZJPGS-UHFFFAOYSA-N",
+    "smiles": "CCCCCO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ZSIAUFGUXNUGDI-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ZSIAUFGUXNUGDI-UHFFFAOYSA-N",
+    "smiles": "CCCCCCO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ZPVFWPFBNIEHGJ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ZPVFWPFBNIEHGJ-UHFFFAOYSA-N",
+    "smiles": "CCCCCCC(C)=O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "RCNFOZUBFOFJKZ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_RCNFOZUBFOFJKZ-UHFFFAOYSA-N",
+    "smiles": "CCCCCCn1cc[n+](C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "RABFGPMWVQNDHI-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_RABFGPMWVQNDHI-UHFFFAOYSA-M",
+    "smiles": "CCCCCCn1cc[n+](C)c1.O=S(=O)([O-])C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "IZSJXAHBNZXKSK-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_IZSJXAHBNZXKSK-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCC[N+]1(C)CCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "VRFOKYHDLYBVAL-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_VRFOKYHDLYBVAL-UHFFFAOYSA-M",
+    "smiles": "CCOS(=O)(=O)[O-].CCn1cc[n+](C)c1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "WZJDNKTZWIOOJE-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_WZJDNKTZWIOOJE-UHFFFAOYSA-M",
+    "smiles": "CCCC[N+]1(C)CCCC1.O=S(=O)([O-])C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "WEVYAHXRMPXWCK-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_WEVYAHXRMPXWCK-UHFFFAOYSA-N",
+    "smiles": "CC#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "CCEFMUBVSUDRLG-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_CCEFMUBVSUDRLG-UHFFFAOYSA-N",
+    "smiles": "C=C(C)C1CCC2(C)OC2C1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "IAZHALJTQWGCQP-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_IAZHALJTQWGCQP-UHFFFAOYSA-M",
+    "smiles": "CCCC[n+]1ccc(C)cc1.Cc1ccc(S(=O)(=O)[O-])cc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "WHLFUNXODNBHOT-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_WHLFUNXODNBHOT-UHFFFAOYSA-N",
+    "smiles": "CCCCCC[N+]1(C)CCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "LSBXQLQATZTAPE-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_LSBXQLQATZTAPE-UHFFFAOYSA-N",
+    "smiles": "CCCCn1cc[n+](C)c1.F[B-](F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "MFXLOVLEQJRXFP-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_MFXLOVLEQJRXFP-UHFFFAOYSA-N",
+    "smiles": "CCCCCCn1cc[n+](C)c1.F[B-](F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "LUIUCMVUOUIBJR-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_LUIUCMVUOUIBJR-UHFFFAOYSA-N",
+    "smiles": "CCCCCCOCn1cc[n+](C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "RSESQTXHUXDWSD-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_RSESQTXHUXDWSD-UHFFFAOYSA-N",
+    "smiles": "CCCCCCOCn1cc[n+](COCCCCCC)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "IXQYBUDWDLYNMA-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_IXQYBUDWDLYNMA-UHFFFAOYSA-N",
+    "smiles": "CCCCn1cc[n+](C)c1.F[P-](F)(F)(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "FRZPYEHDSAQGAS-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_FRZPYEHDSAQGAS-UHFFFAOYSA-M",
+    "smiles": "CCCCn1cc[n+](C)c1.O=S(=O)([O-])C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BCVMAYRUJBXMAP-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BCVMAYRUJBXMAP-UHFFFAOYSA-M",
+    "smiles": "CCCCCCCCn1cc[n+](C)c1.O=S(=O)([O-])C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BTILDMKCQRWRPS-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BTILDMKCQRWRPS-UHFFFAOYSA-N",
+    "smiles": "CCCCCC[n+]1cccc(C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "YTDRLIJVVMNOAI-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_YTDRLIJVVMNOAI-UHFFFAOYSA-N",
+    "smiles": "CCCCn1cc[n+](C)c1.O=C1O[B-]2(OC1=O)OC(=O)C(=O)O2",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "AOPLXXUPNOTRNE-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_AOPLXXUPNOTRNE-UHFFFAOYSA-N",
+    "smiles": "CCCCCCn1cc[n+](C)c1.O=C1O[B-]2(OC1=O)OC(=O)C(=O)O2",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "IXLWEDFOKSJYBD-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_IXLWEDFOKSJYBD-UHFFFAOYSA-M",
+    "smiles": "CCn1cc[n+](C)c1.CS(=O)(=O)[O-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "PAFZNILMFXTMIY-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_PAFZNILMFXTMIY-UHFFFAOYSA-N",
+    "smiles": "NC1CCCCC1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "VPDXTNVWIXNBDB-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_VPDXTNVWIXNBDB-UHFFFAOYSA-M",
+    "smiles": "CCOP(=O)([O-])OCC.CC[N+](C)(C)CCO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "NQHPXYPSGSMQMA-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_NQHPXYPSGSMQMA-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCn1cc[n+](C)c1.O=[N+]([O-])[O-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BXSDLSWVIAITRQ-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BXSDLSWVIAITRQ-UHFFFAOYSA-M",
+    "smiles": "CCn1cc[n+](C)c1.COS(=O)(=O)[O-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "HZKDSQCZNUUQIF-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_HZKDSQCZNUUQIF-UHFFFAOYSA-M",
+    "smiles": "CCn1cc[n+](C)c1.O=S(=O)([O-])O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "MWKFXSUHUHTGQN-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_MWKFXSUHUHTGQN-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "LQZZUXJYWNFBMV-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_LQZZUXJYWNFBMV-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "HLZKNKRTKFSKGZ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_HLZKNKRTKFSKGZ-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCCCO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "LYCAIKOWRPUZTN-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_LYCAIKOWRPUZTN-UHFFFAOYSA-N",
+    "smiles": "OCCO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "YPFDHNVEDLHUCE-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_YPFDHNVEDLHUCE-UHFFFAOYSA-N",
+    "smiles": "OCCCO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "QAFROUJQBHAMIP-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_QAFROUJQBHAMIP-UHFFFAOYSA-N",
+    "smiles": "C[N+]1(CCCCCCCCCCCC[N+]2(C)CCCC2)CCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "PXYKADKIWNXJNF-UHFFFAOYSA-O": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_PXYKADKIWNXJNF-UHFFFAOYSA-O",
+    "smiles": "C[N+]1=C[NH+](CCCCS(=O)(=O)[O-])C=C1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "IIKVGQCZBHDHGV-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_IIKVGQCZBHDHGV-UHFFFAOYSA-N",
+    "smiles": "C[n+]1ccn(CCCCS(=O)(=O)O)c1.O=S(=O)([O-])C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "IEKJIBPFXKAASL-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_IEKJIBPFXKAASL-UHFFFAOYSA-N",
+    "smiles": "C[n+]1ccn(CCCCS(=O)(=O)[O-])c1.O=S(=O)(O)O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "KFZMGEQAYNKOFK-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_KFZMGEQAYNKOFK-UHFFFAOYSA-N",
+    "smiles": "CC(C)O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "DNIAPMSPPWPWGF-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_DNIAPMSPPWPWGF-UHFFFAOYSA-N",
+    "smiles": "CC(O)CO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BMRWNKZVCUKKSR-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BMRWNKZVCUKKSR-UHFFFAOYSA-N",
+    "smiles": "CCC(O)CO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "PUPZLCDOIYMWBV-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_PUPZLCDOIYMWBV-UHFFFAOYSA-N",
+    "smiles": "CC(O)CCO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "OWBTYPJTUOEWEK-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_OWBTYPJTUOEWEK-UHFFFAOYSA-N",
+    "smiles": "CC(O)C(C)O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "MTHSVFCYNBDYFN-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_MTHSVFCYNBDYFN-UHFFFAOYSA-N",
+    "smiles": "OCCOCCO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ZIBGPFATKBEMQZ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ZIBGPFATKBEMQZ-UHFFFAOYSA-N",
+    "smiles": "OCCOCCOCCO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "XNWFRZJHXBZDAG-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_XNWFRZJHXBZDAG-UHFFFAOYSA-N",
+    "smiles": "COCCO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ATHHXGZTWNVVOU-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ATHHXGZTWNVVOU-UHFFFAOYSA-N",
+    "smiles": "CNC=O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "IMNFDUFMRHMDMM-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_IMNFDUFMRHMDMM-UHFFFAOYSA-N",
+    "smiles": "CCCCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "TVMXDCGIABBOFY-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_TVMXDCGIABBOFY-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "XDTMQSROBMDMFD-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_XDTMQSROBMDMFD-UHFFFAOYSA-N",
+    "smiles": "C1CCCCC1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "UHOVQNZJYSORNB-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_UHOVQNZJYSORNB-UHFFFAOYSA-N",
+    "smiles": "c1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "WSLDOOZREJYCGB-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_WSLDOOZREJYCGB-UHFFFAOYSA-N",
+    "smiles": "ClCCCl",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "XEKOWRVHYACXOJ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_XEKOWRVHYACXOJ-UHFFFAOYSA-N",
+    "smiles": "CCOC(C)=O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "XUXLNLDGUFRISA-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_XUXLNLDGUFRISA-UHFFFAOYSA-N",
+    "smiles": "CCCOCn1cc[n+](C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "KZJKWYZGXSLOPN-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_KZJKWYZGXSLOPN-UHFFFAOYSA-N",
+    "smiles": "CCCOCn1cc[n+](C)c1.F[B-](F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "YKFYAVZHUIRRMU-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_YKFYAVZHUIRRMU-UHFFFAOYSA-N",
+    "smiles": "CCCOCn1cc[n+](C)c1.N#C[N-]C#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "GZOSECLWOQYXAQ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_GZOSECLWOQYXAQ-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCC[n+]1ccn(COCCC)c1C.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "SBFIYGPYGMNDOQ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_SBFIYGPYGMNDOQ-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCC[n+]1ccn(COCCC)c1C.N#C[N-]C#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "VGYKGEHOEROUHA-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_VGYKGEHOEROUHA-UHFFFAOYSA-N",
+    "smiles": "CCCOCn1cc[n+](Cc2ccccc2)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "UUUNKTBFZGOCQC-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_UUUNKTBFZGOCQC-UHFFFAOYSA-N",
+    "smiles": "CCCOCn1cc[n+](Cc2ccccc2)c1.F[B-](F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "NSGWBSQEXKJSTK-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_NSGWBSQEXKJSTK-UHFFFAOYSA-N",
+    "smiles": "CCCOCn1cc[n+](Cc2ccccc2)c1.N#C[N-]C#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "VUOILQYMZXTRDC-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_VUOILQYMZXTRDC-UHFFFAOYSA-N",
+    "smiles": "C[n+]1ccn(COCCCOCn2cc[n+](C)c2)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "VFJRBCJJKMIAQG-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_VFJRBCJJKMIAQG-UHFFFAOYSA-N",
+    "smiles": "C[n+]1ccn(COCCCOCn2cc[n+](C)c2)c1.N#C[N-]C#N.N#C[N-]C#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "FSAACHNGEKQCCX-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_FSAACHNGEKQCCX-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCC[n+]1ccn(COCCCOCn2cc[n+](CCCCCCCC)c2C)c1C.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "RTIFDCMCDGTLPY-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_RTIFDCMCDGTLPY-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCC[n+]1ccn(COCCCOCn2cc[n+](CCCCCCCC)c2C)c1C.F[B-](F)(F)F.F[B-](F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "GQKUSZSWYZMHQP-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_GQKUSZSWYZMHQP-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCC[n+]1ccn(COCCCOCn2cc[n+](CCCCCCCC)c2C)c1C.N#C[N-]C#N.N#C[N-]C#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "FGEWGKCYHQFEDU-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_FGEWGKCYHQFEDU-UHFFFAOYSA-N",
+    "smiles": "N#C[N-]C#N.N#C[N-]C#N.c1ccc(C[n+]2ccn(COCCCOCn3cc[n+](Cc4ccccc4)c3)c2)cc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "QEKMNZGVLPRCEP-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_QEKMNZGVLPRCEP-UHFFFAOYSA-N",
+    "smiles": "CCCOCn1ccc(=[N+](C)C)cc1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "OWWXFSKTMWUJNT-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_OWWXFSKTMWUJNT-UHFFFAOYSA-N",
+    "smiles": "C[N+](C)=c1ccn(COCCCOCn2ccc(=[N+](C)C)cc2)cc1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ZTLWMUBOQHZKNS-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ZTLWMUBOQHZKNS-UHFFFAOYSA-M",
+    "smiles": "CCOS(=O)(=O)[O-].CC[n+]1cccc(C)c1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "YMWUJEATGCHHMB-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_YMWUJEATGCHHMB-UHFFFAOYSA-N",
+    "smiles": "ClCCl",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ICIVTHOGIQHZRY-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ICIVTHOGIQHZRY-UHFFFAOYSA-N",
+    "smiles": "CCCCn1cc[n+](C)c1.N#C[N-]C#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "JUJWROOIHBZHMG-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_JUJWROOIHBZHMG-UHFFFAOYSA-N",
+    "smiles": "c1ccncc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "VRTBGAYKIUPPSH-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_VRTBGAYKIUPPSH-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCC[P+](CCCCCCCC)(CCCCCCCC)CCCCCCCC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "JXXDZPHPJHURCR-UETGHTDLSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_JXXDZPHPJHURCR-UETGHTDLSA-M",
+    "smiles": "CCCCCCCCCCCCCC[N+](C)(C)Cc1ccccc1.O=C([O-])/C=C/c1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "LBHLGZNUPKUZJC-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_LBHLGZNUPKUZJC-UHFFFAOYSA-N",
+    "smiles": "CCCC[N+]1(C)CCCC1.N#C[N-]C#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "VJLXYWPNTKVSLC-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_VJLXYWPNTKVSLC-UHFFFAOYSA-N",
+    "smiles": "CCCC[P+](CCCC)(CCCC)CCCC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "HWPLBIFLKPIVAQ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_HWPLBIFLKPIVAQ-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCC[N+](C)(C)CCOc1ccccc1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "HJYGUNDNGUVCAA-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_HJYGUNDNGUVCAA-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCC[N+](C)(C)CCOc1ccccc1.N#C[N-]C#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "PXRLDNVFVBWWMO-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_PXRLDNVFVBWWMO-UHFFFAOYSA-M",
+    "smiles": "CCCCCCCCCC[N+](C)(C)CCCCCCCCCC.[O-][Cl+3]([O-])([O-])[O-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "RGFVYLBNDXOUNB-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_RGFVYLBNDXOUNB-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCC[N+](C)(C)CCCCCCCCCC.F[B-](F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "FHDQNOXQSTVAIC-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_FHDQNOXQSTVAIC-UHFFFAOYSA-M",
+    "smiles": "CCCCn1cc[n+](C)c1.[Cl-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "DOMOOBQQQGXLGU-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_DOMOOBQQQGXLGU-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.N#C[N-]C#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "HYBBIBNJHNGZAN-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_HYBBIBNJHNGZAN-UHFFFAOYSA-N",
+    "smiles": "O=Cc1ccco1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "XPFVYQJUAUNWIW-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_XPFVYQJUAUNWIW-UHFFFAOYSA-N",
+    "smiles": "OCc1ccco1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ZXEKIIBDNHEJCQ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ZXEKIIBDNHEJCQ-UHFFFAOYSA-N",
+    "smiles": "CC(C)CO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "DKGAVHZHDRPRBM-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_DKGAVHZHDRPRBM-UHFFFAOYSA-N",
+    "smiles": "CC(C)(C)O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "JYVLIDXNZAXMDK-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_JYVLIDXNZAXMDK-UHFFFAOYSA-N",
+    "smiles": "CCCC(C)O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "AQIXEPGDORPWBJ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_AQIXEPGDORPWBJ-UHFFFAOYSA-N",
+    "smiles": "CCC(O)CC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BSQPRRIYLXHOGO-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BSQPRRIYLXHOGO-UHFFFAOYSA-M",
+    "smiles": "CCCCn1cc[n+](C)c1.COCCOCCOS(=O)(=O)[O-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "LECQXINNQGHJBM-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_LECQXINNQGHJBM-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCn1cc[n+](C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "HSLXOARVFIWOQF-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_HSLXOARVFIWOQF-UHFFFAOYSA-N",
+    "smiles": "CCCC[N+]1(C)CCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "GXZCAMSPWNHTAE-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_GXZCAMSPWNHTAE-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCn1cc[n+](C)c1.F[B-](F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "CUNYTRQQXKCRTJ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_CUNYTRQQXKCRTJ-UHFFFAOYSA-N",
+    "smiles": "CCn1cc[n+](C)c1.F[B-](F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "PZFSKXKDHVSKPC-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_PZFSKXKDHVSKPC-UHFFFAOYSA-M",
+    "smiles": "CCCCCCCCn1cc[n+](C)c1.COCCOCCOS(=O)(=O)[O-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BTANRVKWQNVYAZ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BTANRVKWQNVYAZ-UHFFFAOYSA-N",
+    "smiles": "CCC(C)O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "QPRQEDXDYOZYLA-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_QPRQEDXDYOZYLA-UHFFFAOYSA-N",
+    "smiles": "CCC(C)CO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "PHTQWCKDNZKARW-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_PHTQWCKDNZKARW-UHFFFAOYSA-N",
+    "smiles": "CC(C)CCO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "WXCIBNGOVJQXTI-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_WXCIBNGOVJQXTI-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCCCCCn1cc[n+](C)c1.F[B-](F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "VASPYXGQVWPGAB-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_VASPYXGQVWPGAB-UHFFFAOYSA-M",
+    "smiles": "CCn1cc[n+](C)c1.N#C[S-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ZKQLVOZSJHOZBL-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ZKQLVOZSJHOZBL-UHFFFAOYSA-M",
+    "smiles": "CC(CC(C)(C)C)CP(=O)([O-])CC(C)CC(C)(C)C.CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "FYHLFBVHUIJIII-UHFFFAOYSA-J": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_FYHLFBVHUIJIII-UHFFFAOYSA-J",
+    "smiles": "CCCCn1cc[n+](C)c1.[Cl][Fe-]([Cl])([Cl])[Cl]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BLODSRKENWXTLO-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BLODSRKENWXTLO-UHFFFAOYSA-N",
+    "smiles": "CC[S+](CC)CC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "SIXHYMZEOJSYQH-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_SIXHYMZEOJSYQH-UHFFFAOYSA-M",
+    "smiles": "CCCCn1cc[n+](C)c1.N#C[S-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "PQABPVGVABDFHN-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_PQABPVGVABDFHN-UHFFFAOYSA-N",
+    "smiles": "CCCC[n+]1ccc(C)cc1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "LAGQNGWYNLUQRI-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_LAGQNGWYNLUQRI-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCC[N+](C)(CCCCCCCC)CCCCCCCC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "GRCIJNHHTXBJAK-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_GRCIJNHHTXBJAK-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCn1cc[n+](C)c1.F[P-](F)(F)(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "SNXTZFCNWIVLKZ-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_SNXTZFCNWIVLKZ-UHFFFAOYSA-M",
+    "smiles": "CC(C)C[P+](C)(CC(C)C)CC(C)C.Cc1ccc(S(=O)(=O)[O-])cc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "CPZCMVDICTVHIP-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_CPZCMVDICTVHIP-UHFFFAOYSA-N",
+    "smiles": "CCn1cc[n+](C)c1.N#C[B-](C#N)(C#N)C#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "IAZDPXIOMUYVGZ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_IAZDPXIOMUYVGZ-UHFFFAOYSA-N",
+    "smiles": "CS(C)=O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "DCAYPVUWAIABOU-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_DCAYPVUWAIABOU-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "GNWJDYQCOZNHPC-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_GNWJDYQCOZNHPC-UHFFFAOYSA-N",
+    "smiles": "CC[n+]1ccccc1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "XHIHMDHAPXMAQK-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_XHIHMDHAPXMAQK-UHFFFAOYSA-N",
+    "smiles": "CCCC[n+]1ccccc1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BHMRBZVWGZMOGY-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BHMRBZVWGZMOGY-UHFFFAOYSA-N",
+    "smiles": "CCCCC[n+]1ccccc1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "LBBNMQYLIROEOP-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_LBBNMQYLIROEOP-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCC[n+]1ccc2ccccc2c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "YHQJUXXKYKJFRJ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_YHQJUXXKYKJFRJ-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.F[B-](F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "CSHAOLBENQQIBR-UHFFFAOYSA-H": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_CSHAOLBENQQIBR-UHFFFAOYSA-H",
+    "smiles": "CCCCn1cc[n+](C)c1.[F-].[F-].[F-].[F-].[F-].[F-].[Sb+5]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "NJOSLBYBLJVAMY-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_NJOSLBYBLJVAMY-UHFFFAOYSA-M",
+    "smiles": "CCCCCCCC[N+](C)(CCCCCCCC)CCCCCCCC.O=C([O-])c1ccccc1S",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "DUOPENHPRULZKU-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_DUOPENHPRULZKU-UHFFFAOYSA-N",
+    "smiles": "O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.OCCC[n+]1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "WOHURVUYHLHFNG-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_WOHURVUYHLHFNG-UHFFFAOYSA-N",
+    "smiles": "CCCC[N+]1(C)CCCC1.N#C[B-](C#N)(C#N)C#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "XIYUIMLQTKODPS-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_XIYUIMLQTKODPS-UHFFFAOYSA-M",
+    "smiles": "CC(=O)[O-].CCn1cc[n+](C)c1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "FWAJFKBWAYQGML-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_FWAJFKBWAYQGML-UHFFFAOYSA-N",
+    "smiles": "COCC[N+]1(C)CCOCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "WCGQGOJUXRSIKT-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_WCGQGOJUXRSIKT-UHFFFAOYSA-N",
+    "smiles": "CCCCCCn1cc[n+](C)c1.N#C[B-](C#N)(C#N)C#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "WCKLETBLOAOZDE-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_WCKLETBLOAOZDE-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.F[P-](F)(F)(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "SQFQRSIWKXWVEG-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_SQFQRSIWKXWVEG-UHFFFAOYSA-N",
+    "smiles": "COCC[N+]1(C)CCCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "NLMPZJBZQUPZSN-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_NLMPZJBZQUPZSN-UHFFFAOYSA-N",
+    "smiles": "COCC[N+]1(C)CCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "LJKARUJLXZJBKU-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_LJKARUJLXZJBKU-UHFFFAOYSA-N",
+    "smiles": "COCC[N+]1(C)CCOCC1.FC(F)(F)C(F)(F)[P-](F)(F)(F)(C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "TUNFSRHWOTWDNC-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_TUNFSRHWOTWDNC-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCCC(=O)O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "IPCSVZSSVZVIGE-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_IPCSVZSSVZVIGE-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCCCCC(=O)O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "GHVNFZFCNZKVNT-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_GHVNFZFCNZKVNT-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCC(=O)O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "POULHZVOKOAJMA-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_POULHZVOKOAJMA-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCC(=O)O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "UCMOOLWYUOODCH-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_UCMOOLWYUOODCH-UHFFFAOYSA-N",
+    "smiles": "COCC[N+]1(C)CCCCC1.FC(F)(F)C(F)(F)[P-](F)(F)(F)(C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "KXCVJPJCRAEILX-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_KXCVJPJCRAEILX-UHFFFAOYSA-M",
+    "smiles": "CCCCn1cc[n+](C)c1.O=S(=O)([O-])O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "XRNWIYJNJAPLNK-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_XRNWIYJNJAPLNK-UHFFFAOYSA-M",
+    "smiles": "C[n+]1ccn(C[Si](C)(C)C)c1.[Cl-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "GZBLDZPBUHQNNZ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_GZBLDZPBUHQNNZ-UHFFFAOYSA-N",
+    "smiles": "CCCC[N+]1(C)CCCC1.O=C1O[B-]2(OC1=O)OC(=O)C(=O)O2",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "WPXLLKKBRCRHHE-UHFFFAOYSA-O": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_WPXLLKKBRCRHHE-UHFFFAOYSA-O",
+    "smiles": "CN1CCCN2CCC[NH+]=C12.O=S(=O)([N-]S(=O)(=O)C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "QIQXTHQIDYTFRH-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_QIQXTHQIDYTFRH-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCCCCCCC(=O)O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ZQPPMHVWECSIRJ-KTKRTIGZSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ZQPPMHVWECSIRJ-KTKRTIGZSA-N",
+    "smiles": "CCCCCCCC/C=C\\CCCCCCCC(=O)O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "OYHQOLUKZRVURQ-HZJYTTRNSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_OYHQOLUKZRVURQ-HZJYTTRNSA-N",
+    "smiles": "CCCCC/C=C\\C/C=C\\CCCCCCCC(=O)O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "DTOSIQBPPRVQHS-PDBXOOCHSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_DTOSIQBPPRVQHS-PDBXOOCHSA-N",
+    "smiles": "CC/C=C\\C/C=C\\C/C=C\\CCCCCCCC(=O)O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "VAYVIEMGFGCACR-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_VAYVIEMGFGCACR-UHFFFAOYSA-N",
+    "smiles": "CCCCC[N+]1(C)CCCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "AKAWCHRYTTZVHZ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_AKAWCHRYTTZVHZ-UHFFFAOYSA-N",
+    "smiles": "CCCCCC[N+]1(C)CCCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "GASFHSJHQSCGAG-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_GASFHSJHQSCGAG-UHFFFAOYSA-N",
+    "smiles": "COCC[N+]1(C)CCCC1.FC(F)(F)C(F)(F)[P-](F)(F)(F)(C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "NUMFZVUNFKUTGN-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_NUMFZVUNFKUTGN-UHFFFAOYSA-M",
+    "smiles": "CCCCCC[n+]1ccc2ccccc2c1.N#C[S-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "LCEDQNDDFOCWGG-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_LCEDQNDDFOCWGG-UHFFFAOYSA-N",
+    "smiles": "O=CN1CCOCC1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "SECXISVLQFMRJM-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_SECXISVLQFMRJM-UHFFFAOYSA-N",
+    "smiles": "CN1CCCC1=O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ZHNUHDYFZUAESO-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ZHNUHDYFZUAESO-UHFFFAOYSA-N",
+    "smiles": "N=CO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "VCOUFPBBYYVIQI-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_VCOUFPBBYYVIQI-UHFFFAOYSA-N",
+    "smiles": "C[n+]1ccn(CCO)c1.FC(F)(F)C(F)(F)[P-](F)(F)(F)(C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "HYNYWFRJHNNLJA-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_HYNYWFRJHNNLJA-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "NSZMIQHKJOPSCZ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_NSZMIQHKJOPSCZ-UHFFFAOYSA-N",
+    "smiles": "CCCC[N+]1(C)CCCC1.N#CC(=C=[N-])C#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "GSFSQIZTUYFYIR-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_GSFSQIZTUYFYIR-UHFFFAOYSA-N",
+    "smiles": "CCCC[N+]1(C)CCOCC1.N#CC(=C=[N-])C#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "FYBPOFIFDAOGDM-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_FYBPOFIFDAOGDM-UHFFFAOYSA-N",
+    "smiles": "CCCC[n+]1cccc(C)c1.N#C[N-]C#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "YWHZQHRLNXKZNA-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_YWHZQHRLNXKZNA-UHFFFAOYSA-M",
+    "smiles": "CCn1cc[n+](C)c1.COCCOCCOS(=O)(=O)[O-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "LHANHNZKXMSRMR-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_LHANHNZKXMSRMR-UHFFFAOYSA-N",
+    "smiles": "CCCCCC[N+]12CCN(CC1)CC2.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "QOYGAQXZSGRRKU-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_QOYGAQXZSGRRKU-UHFFFAOYSA-M",
+    "smiles": "CCCCCCn1cc[n+](C)c1.O=C([O-])C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "MEMNKNZDROKJHP-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_MEMNKNZDROKJHP-UHFFFAOYSA-M",
+    "smiles": "CCCCn1cc[n+](C)c1.COS(=O)(=O)[O-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "XFXJXURAALDGSW-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_XFXJXURAALDGSW-UHFFFAOYSA-N",
+    "smiles": "C[N+](C)(C)CCO.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "RGGQRDONXKEDFR-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_RGGQRDONXKEDFR-UHFFFAOYSA-N",
+    "smiles": "O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.c1ccc2cc(C[N+]3(CCCCCCCCC[N+]4(Cc5ccc6ccccc6c5)CCCC4)CCCC3)ccc2c1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "YUDSETQBLNHGHF-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_YUDSETQBLNHGHF-UHFFFAOYSA-N",
+    "smiles": "CCCCn1cc[n+](C)c1.N#CC(=C=[N-])C#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "PZMMDZJTQQXDEO-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_PZMMDZJTQQXDEO-UHFFFAOYSA-N",
+    "smiles": "CCCC[n+]1ccc(C)cc1.N#CC(=C=[N-])C#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "MFMXWJRLXFZYPY-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_MFMXWJRLXFZYPY-UHFFFAOYSA-M",
+    "smiles": "CO[PH](=O)[O-].Cn1cc[n+](C)c1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "FBPWGCCPLPHQQH-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_FBPWGCCPLPHQQH-UHFFFAOYSA-M",
+    "smiles": "CCn1cc[n+](C)c1.CO[PH](=O)[O-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ZMWJDAAYJDRWOU-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ZMWJDAAYJDRWOU-UHFFFAOYSA-N",
+    "smiles": "C[N+]1(CCCO)CCOCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "LIUCPTHPKXOICK-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_LIUCPTHPKXOICK-UHFFFAOYSA-M",
+    "smiles": "CC(O)C(=O)[O-].CC[N+]1(C)CCCC1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ZRKVQQDBSVOJCJ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ZRKVQQDBSVOJCJ-UHFFFAOYSA-N",
+    "smiles": "CC[N+](C)(C)CCOC.FC(F)(F)C(F)(F)[P-](F)(F)(F)(C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "KRGMPUIAPYZEKL-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_KRGMPUIAPYZEKL-UHFFFAOYSA-N",
+    "smiles": "CCCCCC[n+]1ccccc1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "PUHVBRXUKOGSBC-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_PUHVBRXUKOGSBC-UHFFFAOYSA-M",
+    "smiles": "CCCCn1cc[n+](C)c1.CS(=O)(=O)[O-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "FSUAYRLKFSKOJG-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_FSUAYRLKFSKOJG-UHFFFAOYSA-M",
+    "smiles": "CCCCn1cc[n+](C)c1.COP(=O)([O-])OC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "WTKUDOCGUOSPGV-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_WTKUDOCGUOSPGV-UHFFFAOYSA-M",
+    "smiles": "CCn1cc[n+](C)c1.COP(=O)([O-])OC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "DAFDIILBFQKIIA-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_DAFDIILBFQKIIA-UHFFFAOYSA-M",
+    "smiles": "CCCCCCCCOS(=O)(=O)[O-].CCn1cc[n+](C)c1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "CSCPPACGZOOCGX-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_CSCPPACGZOOCGX-UHFFFAOYSA-N",
+    "smiles": "CC(C)=O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "WXMRKFPCWSDZLN-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_WXMRKFPCWSDZLN-UHFFFAOYSA-N",
+    "smiles": "CCCC[n+]1ccc(C#N)cc1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "DHMWATGUEVQTIY-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_DHMWATGUEVQTIY-UHFFFAOYSA-N",
+    "smiles": "C=CCn1cc[n+](C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "WUFQNPMBKMKEHN-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_WUFQNPMBKMKEHN-UHFFFAOYSA-N",
+    "smiles": "CC[N+](C)(CC)CCOC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "MOGRWIKMHQNYNZ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_MOGRWIKMHQNYNZ-UHFFFAOYSA-N",
+    "smiles": "CCCCCCn1cc[n+](C)c1C.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "RJCNRVFKCLDBEC-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_RJCNRVFKCLDBEC-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCn1cc[n+](C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "RXIWYIPOYLADBK-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_RXIWYIPOYLADBK-UHFFFAOYSA-N",
+    "smiles": "N#C[N-]C#N.OCCC[n+]1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "OPGGSNAFGYWGCT-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_OPGGSNAFGYWGCT-UHFFFAOYSA-M",
+    "smiles": "CCCCn1cc[n+](C)c1.[O-][Cl+3]([O-])([O-])[O-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "RBYSMYZUXKEBSE-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_RBYSMYZUXKEBSE-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCn1cc[n+](CCCCCCCCCC)c1C.N#C[N-]C#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "NWOFVCUTADAMEF-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_NWOFVCUTADAMEF-UHFFFAOYSA-N",
+    "smiles": "C[n+]1ccn(CCCO)c1.N#C[N-]C#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "LQHYDLIATHKUKQ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_LQHYDLIATHKUKQ-UHFFFAOYSA-N",
+    "smiles": "C[N+]1(CCCO)CCOCC1.N#C[N-]C#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "OHDZVKBRHQNCIO-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_OHDZVKBRHQNCIO-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCn1cc[n+](C)c1C.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "WNDKXUXYAXFTCB-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_WNDKXUXYAXFTCB-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.N#CC(=C=[N-])C#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "JNIYLTBMWOMTSJ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_JNIYLTBMWOMTSJ-UHFFFAOYSA-N",
+    "smiles": "CC[N+]1(C)CCOCC1.N#C[N-]C#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "PGMYKACGEOXYJE-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_PGMYKACGEOXYJE-UHFFFAOYSA-N",
+    "smiles": "CCCCCOC(C)=O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "CIESUHNZUBZXPO-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_CIESUHNZUBZXPO-UHFFFAOYSA-N",
+    "smiles": "CCCCCCn1cc[n+](C)c1C.F[B-](F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "IAOGBHNVDOABCO-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_IAOGBHNVDOABCO-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCC[N+](CC)(CC)CC.O=S(=O)(F)[N-]S(=O)(=O)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "RWCIVBBAADOXMK-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_RWCIVBBAADOXMK-UHFFFAOYSA-N",
+    "smiles": "CCCC[N+]1(C)CCCC1.O=S(=O)(F)[N-]S(=O)(=O)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "NKRASMXHSQKLHA-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_NKRASMXHSQKLHA-UHFFFAOYSA-M",
+    "smiles": "CCCCCCn1cc[n+](C)c1.[Cl-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "YXWXROJUTIFXES-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_YXWXROJUTIFXES-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCn1cc[n+](C)c1C.F[B-](F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "AJRFBXAXVLBZMP-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_AJRFBXAXVLBZMP-UHFFFAOYSA-M",
+    "smiles": "CCCn1cc[n+](C)c1.[Br-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "PEDCQBHIVMGVHV-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_PEDCQBHIVMGVHV-UHFFFAOYSA-N",
+    "smiles": "OCC(O)CO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "FIMHASWLGDDANN-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_FIMHASWLGDDANN-UHFFFAOYSA-M",
+    "smiles": "CCCC[N+](C)(CCCC)CCCC.COS(=O)(=O)[O-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "RDCTYOLAEUHRGG-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_RDCTYOLAEUHRGG-UHFFFAOYSA-M",
+    "smiles": "CCCC[P+](CC)(CCCC)CCCC.CCOP(=O)([O-])OCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "VEHRTBDCBGVMBE-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_VEHRTBDCBGVMBE-UHFFFAOYSA-M",
+    "smiles": "C[n+]1ccn(CCO)c1.O=S(=O)([O-])C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "XYVJKJSDFFMIBB-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_XYVJKJSDFFMIBB-UHFFFAOYSA-N",
+    "smiles": "O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.c1ccc2cc(-n3cc[n+](Cc4cc(C[n+]5ccn(-c6ccc7ccccc7c6)c5)cc(C[n+]5ccn(-c6ccc7ccccc7c6)c5)c4)c3)ccc2c1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "TYDFWJHDNHXBRF-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_TYDFWJHDNHXBRF-UHFFFAOYSA-N",
+    "smiles": "CCCCC(CC)CN(CC(CC)CCCC)C(=O)C(C)C",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ASGDIFVPPWDWRA-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ASGDIFVPPWDWRA-UHFFFAOYSA-M",
+    "smiles": "C[N+]1(CC(O)CO)CCCC1=O.[Cl-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "KMTRUDSVKNLOMY-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_KMTRUDSVKNLOMY-UHFFFAOYSA-N",
+    "smiles": "O=C1OCCO1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "SERHXTVXHNVDKA-BYPYZUCNSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_SERHXTVXHNVDKA-BYPYZUCNSA-N",
+    "smiles": "CC1(C)COC(=O)[C@@H]1O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "DHKHKXVYLBGOIT-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_DHKHKXVYLBGOIT-UHFFFAOYSA-N",
+    "smiles": "CCOC(C)OCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "UWHCKJMYHZGTIT-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_UWHCKJMYHZGTIT-UHFFFAOYSA-N",
+    "smiles": "OCCOCCOCCOCCO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "YPWSSSRXUOQNMQ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_YPWSSSRXUOQNMQ-UHFFFAOYSA-N",
+    "smiles": "CCCCCCn1cc[n+](C)c1.F[P-](F)(F)(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BKIMMITUMNQMOS-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BKIMMITUMNQMOS-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "RSJKGSCJYJTIGS-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_RSJKGSCJYJTIGS-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "MSXVEPNJUHWQHW-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_MSXVEPNJUHWQHW-UHFFFAOYSA-N",
+    "smiles": "CCC(C)(C)O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "KIDIBVPFLKLKAH-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_KIDIBVPFLKLKAH-UHFFFAOYSA-M",
+    "smiles": "CCCCCCCCOS(=O)(=O)[O-].CCCCn1cc[n+](C)c1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "XXROGKLTLUQVRX-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_XXROGKLTLUQVRX-UHFFFAOYSA-N",
+    "smiles": "C=CCO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "HNVRRHSXBLFLIG-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_HNVRRHSXBLFLIG-UHFFFAOYSA-N",
+    "smiles": "C=CC(C)(C)O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "CPJRRXSHAYUTGL-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_CPJRRXSHAYUTGL-UHFFFAOYSA-N",
+    "smiles": "C=C(C)CCO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "XSGKJXQWZSFJEJ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_XSGKJXQWZSFJEJ-UHFFFAOYSA-N",
+    "smiles": "CCCC[N+](C)(C)C.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "KLFDZFIZKMEUGI-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_KLFDZFIZKMEUGI-UHFFFAOYSA-M",
+    "smiles": "C=CCn1cc[n+](C)c1.[Br-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "DZCPABITBMLQNE-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_DZCPABITBMLQNE-UHFFFAOYSA-M",
+    "smiles": "C=CC[n+]1ccn(CCCCCCCC)c1.[Br-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "MWNSPUXBGXEOHN-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_MWNSPUXBGXEOHN-UHFFFAOYSA-M",
+    "smiles": "C=CC[n+]1ccn(CCCCCCCCCC)c1.[Br-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "HJRXXLSLQXUGFY-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_HJRXXLSLQXUGFY-UHFFFAOYSA-M",
+    "smiles": "C=CC[n+]1ccn(CCCCCCCCCCCC)c1.[Br-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "YOLGPCRGKXLODV-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_YOLGPCRGKXLODV-UHFFFAOYSA-M",
+    "smiles": "CCCCCCCC[n+]1ccn(CCCB(O)O)c1.[Br-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "SNMIZMNZXZIJFA-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_SNMIZMNZXZIJFA-UHFFFAOYSA-M",
+    "smiles": "CCCCCCCCCC[n+]1ccn(CCCB(O)O)c1.[Br-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "GZPFLHXEIQUXCA-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_GZPFLHXEIQUXCA-UHFFFAOYSA-M",
+    "smiles": "CCCCCCCCCCCC[n+]1ccn(CCCB(O)O)c1.[Br-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "WMYBILTULYWZDJ-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_WMYBILTULYWZDJ-UHFFFAOYSA-M",
+    "smiles": "C[n+]1ccn(CCCB(O)O)c1.[Br-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "JCQGIZYNVAZYOH-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_JCQGIZYNVAZYOH-UHFFFAOYSA-M",
+    "smiles": "CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.[Cl-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "YXFVVABEGXRONW-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_YXFVVABEGXRONW-UHFFFAOYSA-N",
+    "smiles": "Cc1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "CTQNGGLPUBDAKN-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_CTQNGGLPUBDAKN-UHFFFAOYSA-N",
+    "smiles": "Cc1ccccc1C",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "IVSZLXZYQVIEFR-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_IVSZLXZYQVIEFR-UHFFFAOYSA-N",
+    "smiles": "Cc1cccc(C)c1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "URLKBWYHVLBVBO-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_URLKBWYHVLBVBO-UHFFFAOYSA-N",
+    "smiles": "Cc1ccc(C)cc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "PPBRXRYQALVLMV-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_PPBRXRYQALVLMV-UHFFFAOYSA-N",
+    "smiles": "C=Cc1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "SZBRISJDXSIRRE-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_SZBRISJDXSIRRE-UHFFFAOYSA-M",
+    "smiles": "CCCC[n+]1cccc(C)c1.O=S(=O)([O-])C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "VWFZFKKEKWMXIA-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_VWFZFKKEKWMXIA-UHFFFAOYSA-M",
+    "smiles": "CCCCn1cc[n+](C)c1.Cc1ccc(S(=O)(=O)[O-])cc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "QWVGKYWNOKOFNN-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_QWVGKYWNOKOFNN-UHFFFAOYSA-N",
+    "smiles": "Cc1ccccc1O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "RLSSMJSEOOYNOY-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_RLSSMJSEOOYNOY-UHFFFAOYSA-N",
+    "smiles": "Cc1cccc(O)c1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "IWDCLRJOBJJRNH-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_IWDCLRJOBJJRNH-UHFFFAOYSA-N",
+    "smiles": "Cc1ccc(O)cc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "GLDOVTGHNKAZLK-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_GLDOVTGHNKAZLK-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCCCCCCCO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BTFJIXJJCSYFAL-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BTFJIXJJCSYFAL-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCCCCCCCCCO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "QGUMDWFYJYXDTH-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_QGUMDWFYJYXDTH-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCn1cc[n+](C)c1.F[B-](F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "WPHIMOZSRUCGGU-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_WPHIMOZSRUCGGU-UHFFFAOYSA-N",
+    "smiles": "CCCCn1cc[n+](C)c1.O=[N+]([O-])[O-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "YXKNKLYBUCGKHR-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_YXKNKLYBUCGKHR-UHFFFAOYSA-M",
+    "smiles": "CCCC[N+]1(C)CCCCC1.N#C[S-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "RDTBYJUWNPIEFT-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_RDTBYJUWNPIEFT-UHFFFAOYSA-N",
+    "smiles": "CCCCCCn1cc[n+](C)c1.FC(F)(F)C(F)(F)[P-](F)(F)(F)(C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "KRYUJCKNUTUQQZ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_KRYUJCKNUTUQQZ-UHFFFAOYSA-N",
+    "smiles": "CCCCn1cc[n+](C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "GGZWKSNNSYYYKC-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_GGZWKSNNSYYYKC-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCn1cc[n+](CCCCCCCCCC)c1C.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "HQWOEDCLDNFWEV-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_HQWOEDCLDNFWEV-UHFFFAOYSA-M",
+    "smiles": "CCOP(=O)([O-])OCC.CCn1cc[n+](C)c1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "PWGJDPKCLMLPJW-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_PWGJDPKCLMLPJW-UHFFFAOYSA-N",
+    "smiles": "NCCCCCCCCN",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "YQLZOAVZWJBZSY-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_YQLZOAVZWJBZSY-UHFFFAOYSA-N",
+    "smiles": "NCCCCCCCCCCN",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "QFTYSVGGYOXFRQ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_QFTYSVGGYOXFRQ-UHFFFAOYSA-N",
+    "smiles": "NCCCCCCCCCCCCN",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "RNNKOIIZECPRKX-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_RNNKOIIZECPRKX-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCC[N+](CCCCCCCC)(CCCCCCCC)CCCCCCCC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "PUGJHFPCXCUBEW-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_PUGJHFPCXCUBEW-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCC[N+](C)(C)C.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "XALVHDZWUBSWES-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_XALVHDZWUBSWES-UHFFFAOYSA-N",
+    "smiles": "CCCC[N+](C)(CCCC)CCCC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "IILODIKRIYRHFO-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_IILODIKRIYRHFO-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCC[N+](C)(C)C.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "UCUCKBABZWHSJZ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_UCUCKBABZWHSJZ-UHFFFAOYSA-N",
+    "smiles": "C[n+]1ccn(COCC(COCn2cc[n+](C)c2)OCn2cc[n+](C)c2)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ZDIJSMCZZABVNU-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ZDIJSMCZZABVNU-UHFFFAOYSA-N",
+    "smiles": "C[n+]1ccn(COCC(COCn2cc[n+](C)c2)OCn2cc[n+](C)c2)c1.N#C[N-]C#N.N#C[N-]C#N.N#C[N-]C#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BDBAYSPIRRCORY-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BDBAYSPIRRCORY-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCC[n+]1ccn(COCC(COCn2cc[n+](CCCCCCCC)c2C)OCn2cc[n+](CCCCCCCC)c2C)c1C.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "SWWYXVDSRSSEAA-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_SWWYXVDSRSSEAA-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCC[n+]1ccn(COCC(COCn2cc[n+](CCCCCCCC)c2C)OCn2cc[n+](CCCCCCCC)c2C)c1C.F[B-](F)(F)F.F[B-](F)(F)F.F[B-](F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BZNHDHMHRVLNRA-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BZNHDHMHRVLNRA-UHFFFAOYSA-N",
+    "smiles": "O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.c1ccc(C[n+]2ccn(COCC(COCn3cc[n+](Cc4ccccc4)c3)OCn3cc[n+](Cc4ccccc4)c3)c2)cc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "DQYHBLDJONOGFM-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_DQYHBLDJONOGFM-UHFFFAOYSA-N",
+    "smiles": "C[N+](C)=c1ccn(COCC(COCn2ccc(=[N+](C)C)cc2)OCn2ccc(=[N+](C)C)cc2)cc1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "NTXQJRGQUZXUMU-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_NTXQJRGQUZXUMU-UHFFFAOYSA-M",
+    "smiles": "CCCCOP(=O)([O-])OCCCC.CCCCn1cc[n+](C)c1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BSKSXTBYXTZWFI-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BSKSXTBYXTZWFI-UHFFFAOYSA-M",
+    "smiles": "CC(=O)[O-].CCCCn1cc[n+](C)c1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "XUZFNEAIMDGBMY-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_XUZFNEAIMDGBMY-UHFFFAOYSA-M",
+    "smiles": "CCCCn1cc[n+](CCCC)c1.[Br-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "OCPRAEZZXQXBBI-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_OCPRAEZZXQXBBI-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCC[N+]1(C)CCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "DKNRELLLVOYIIB-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_DKNRELLLVOYIIB-UHFFFAOYSA-N",
+    "smiles": "CCC[N+]1(C)CCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "UODQEMVTULZGKO-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_UODQEMVTULZGKO-UHFFFAOYSA-N",
+    "smiles": "CCCCC[N+]1(C)CCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "UKRWBRZCHMVAMG-WNQIDUERSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_UKRWBRZCHMVAMG-WNQIDUERSA-M",
+    "smiles": "CCCCCCCCCCCCCC[N+](CCCCCC)(CCCCCC)CCCCCC.C[C@H](O)C(=O)[O-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "PWOGMHMRXHQJAL-STOWLHSFSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_PWOGMHMRXHQJAL-STOWLHSFSA-M",
+    "smiles": "CC1(C)[C@@H]2CC[C@@]1(CS(=O)(=O)[O-])C(=O)C2.CCCCCCCCCCCCCC[N+](CCCCCC)(CCCCCC)CCCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "VLYRTGGVSZQHBT-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_VLYRTGGVSZQHBT-UHFFFAOYSA-N",
+    "smiles": "CCCn1cc[n+](C)c1C.F[B-](F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "HXJUTPCZVOIRIF-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_HXJUTPCZVOIRIF-UHFFFAOYSA-N",
+    "smiles": "O=S1(=O)CCCC1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "DHXVGJBLRPWPCS-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_DHXVGJBLRPWPCS-UHFFFAOYSA-N",
+    "smiles": "C1CCOCC1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "CDUMCTSAVAPKMQ-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_CDUMCTSAVAPKMQ-UHFFFAOYSA-M",
+    "smiles": "CCCCCCCCCCCCCCCCCC(=O)[O-].CCCCn1cc[n+](C)c1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "NNNHNBMBLGKXSW-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_NNNHNBMBLGKXSW-UHFFFAOYSA-N",
+    "smiles": "C[n+]1ccn(CCCC#N)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "GPLYXNDEHINOHN-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_GPLYXNDEHINOHN-UHFFFAOYSA-N",
+    "smiles": "C[n+]1ccn(CCCC#N)c1.N#C[N-]C#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ODFPMSMVXJKXGP-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ODFPMSMVXJKXGP-UHFFFAOYSA-N",
+    "smiles": "Cc1n(CCCC#N)cc[n+]1C.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BSPLYCYQPXRSES-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BSPLYCYQPXRSES-UHFFFAOYSA-N",
+    "smiles": "Cc1n(CCCC#N)cc[n+]1C.N#C[N-]C#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "LRTXDHZCWRAPCO-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_LRTXDHZCWRAPCO-UHFFFAOYSA-M",
+    "smiles": "CCCCCCCCCCCCCCCC(=O)[O-].CCCCn1cc[n+](C)c1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "PZMFVKDFXFYHCI-UHFFFAOYSA-J": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_PZMFVKDFXFYHCI-UHFFFAOYSA-J",
+    "smiles": "CCCCn1cc[n+](C)c1.CCCCn1cc[n+](C)c1.[Br-].[Br-].[Br-].[Br-].[Co+2]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "KLTUZFZUYLXTFF-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_KLTUZFZUYLXTFF-UHFFFAOYSA-N",
+    "smiles": "C[n+]1ccn(CCO)c1.F[B-](F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "MKHFCTXNDRMIDR-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_MKHFCTXNDRMIDR-UHFFFAOYSA-N",
+    "smiles": "CCn1cc[n+](C)c1.N#C[N-]C#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "SLEKRZBYCSJUNO-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_SLEKRZBYCSJUNO-UHFFFAOYSA-N",
+    "smiles": "CCCCCC[N+](C)(C)C.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "GIIZYNGNGTZORC-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_GIIZYNGNGTZORC-UHFFFAOYSA-N",
+    "smiles": "C[n+]1ccn(CCO)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "QTWXKUATXFJTAM-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_QTWXKUATXFJTAM-UHFFFAOYSA-N",
+    "smiles": "COCCn1cc[n+](C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "PPGPWZWXCSNVNK-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_PPGPWZWXCSNVNK-UHFFFAOYSA-N",
+    "smiles": "COn1cc[n+](OC)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BAIKZQHYJQUGQN-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BAIKZQHYJQUGQN-UHFFFAOYSA-N",
+    "smiles": "CCn1cc[n+](C)c1.FC(F)(F)C(F)(F)[P-](F)(F)(F)(C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "NXPRQOCQANEODQ-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_NXPRQOCQANEODQ-UHFFFAOYSA-M",
+    "smiles": "CCCCCCn1cc[n+](C)c1.N#C[S-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "LNKPCMOUFKLBCM-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_LNKPCMOUFKLBCM-UHFFFAOYSA-M",
+    "smiles": "CCCCCCCC[n+]1ccccc1.[Br-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "RNYQFSORRNDVSP-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_RNYQFSORRNDVSP-UHFFFAOYSA-N",
+    "smiles": "CCn1cc[n+](CCOC)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "FKGPBSVVUFJRJU-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_FKGPBSVVUFJRJU-UHFFFAOYSA-N",
+    "smiles": "CCCC[N+](C)(C)CCOCCN(C)C.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "PXINGOXMLBWROH-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_PXINGOXMLBWROH-UHFFFAOYSA-N",
+    "smiles": "C[N+]1(Cc2ccccc2)CCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ZFICSDNLWZUZID-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ZFICSDNLWZUZID-UHFFFAOYSA-N",
+    "smiles": "O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.c1cc[n+](CC2CCCCC2)cc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "SCAQVLGGENTPGK-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_SCAQVLGGENTPGK-UHFFFAOYSA-N",
+    "smiles": "CCn1cc[n+](C)c1.N#CC(=C=[N-])C#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "NGKRPXJMOLQFTR-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_NGKRPXJMOLQFTR-UHFFFAOYSA-N",
+    "smiles": "C[N+](C)(C)CCO.N#C[N-]C#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BSBLLTKEIBPPTM-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BSBLLTKEIBPPTM-UHFFFAOYSA-N",
+    "smiles": "C[N+]1(CCCC#N)CCCC1.N#C[N-]C#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "WOKQGMYCUGJNIJ-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_WOKQGMYCUGJNIJ-UHFFFAOYSA-M",
+    "smiles": "COS(=O)(=O)[O-].Cn1cc[n+](C)c1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "LAYIDOPTTZCESY-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_LAYIDOPTTZCESY-UHFFFAOYSA-N",
+    "smiles": "C=CCn1cc[n+](C)c1.N#C[N-]C#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "FVCRZRKGJHUTIW-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_FVCRZRKGJHUTIW-UHFFFAOYSA-N",
+    "smiles": "CCC[N+](C)(C)CCN(C)C.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "FDQOYQXSSYLXDL-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_FDQOYQXSSYLXDL-UHFFFAOYSA-M",
+    "smiles": "C[n+]1ccn(CCCO)c1.N#C[S-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "QVRCRKLLQYOIKY-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_QVRCRKLLQYOIKY-UHFFFAOYSA-M",
+    "smiles": "C=CCn1cc[n+](C)c1.[Cl-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BQYCSALNXZOIRR-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BQYCSALNXZOIRR-UHFFFAOYSA-N",
+    "smiles": "CCCCCC[N+]12CCC(CC1)CC2.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "OXFBEEDAZHXDHB-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_OXFBEEDAZHXDHB-UHFFFAOYSA-M",
+    "smiles": "CCCCCCCCn1cc[n+](C)c1.[Cl-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "HPBOWUBDTSAEMA-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_HPBOWUBDTSAEMA-UHFFFAOYSA-M",
+    "smiles": "C[N+]1(CC2CO2)CCCC1=O.[Cl-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "FTEJFNBKEFYMEC-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_FTEJFNBKEFYMEC-UHFFFAOYSA-N",
+    "smiles": "C[N+]1(CC2CCCCC2)CCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ZJOBUQBYWGEHAS-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ZJOBUQBYWGEHAS-UHFFFAOYSA-N",
+    "smiles": "CCC[N+](C)(C)C(C)C.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "DYCAHPJVRPAYHC-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_DYCAHPJVRPAYHC-UHFFFAOYSA-N",
+    "smiles": "O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.c1ccc(C[n+]2ccccc2)cc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ZKLGHXJDQNCVAG-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ZKLGHXJDQNCVAG-UHFFFAOYSA-M",
+    "smiles": "CCO[PH](=O)[O-].CCn1cc[n+](C)c1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "YMRUMKAZFATNJX-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_YMRUMKAZFATNJX-UHFFFAOYSA-M",
+    "smiles": "C[N+]1(CC2CO2)CCCC1=O.O=C([O-])c1ccccc1O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "RXKLBLXXQQRGJH-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_RXKLBLXXQQRGJH-UHFFFAOYSA-N",
+    "smiles": "CCC[N+]1(C)CCCC1.O=S(=O)(F)[N-]S(=O)(=O)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "XOZHIVUWCICHSQ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_XOZHIVUWCICHSQ-UHFFFAOYSA-N",
+    "smiles": "CCCn1cc[n+](C)c1C.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "MAINKKBVLPNSLZ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_MAINKKBVLPNSLZ-UHFFFAOYSA-N",
+    "smiles": "CCN(CC)c1c(N(CC)CC)c1=[N+](CC)CC.N#C[N-]C#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "JDOJFSVGXRJFLL-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_JDOJFSVGXRJFLL-UHFFFAOYSA-N",
+    "smiles": "CCn1cc[n+](C)c1.O=[N+]([O-])[O-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "FZADXSXAAILZPN-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_FZADXSXAAILZPN-UHFFFAOYSA-N",
+    "smiles": "COC(=O)CCCn1cc[n+](C)c1.N#C[N-]C#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "IXLJBVOYGKIXPL-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_IXLJBVOYGKIXPL-UHFFFAOYSA-N",
+    "smiles": "C[N+]1(CCCC#N)CCOCC1.N#CC(=C=[N-])C#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ZPTRYWVRCNOTAS-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ZPTRYWVRCNOTAS-UHFFFAOYSA-M",
+    "smiles": "CCn1cc[n+](C)c1.O=S(=O)([O-])C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "GLZFVSJQOPNIQS-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_GLZFVSJQOPNIQS-UHFFFAOYSA-N",
+    "smiles": "CCC[N+](C)(C)CCOCCN(C)C.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ZDMWZUAOSLBMEY-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ZDMWZUAOSLBMEY-UHFFFAOYSA-N",
+    "smiles": "CCCC[N+]1(C)CCCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "UYYXEZMYUOVMPT-UHFFFAOYSA-J": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_UYYXEZMYUOVMPT-UHFFFAOYSA-J",
+    "smiles": "CCn1cc[n+](C)c1.[Cl][Al-]([Cl])([Cl])[Cl]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "GBKJWOWBPPXXGB-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_GBKJWOWBPPXXGB-UHFFFAOYSA-N",
+    "smiles": "C[n+]1ccn(CC2CCCCC2)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "JOKVYNJKBRLDAT-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_JOKVYNJKBRLDAT-UHFFFAOYSA-M",
+    "smiles": "CCn1cc[n+](C)c1.O=C([O-])C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "KOMJLZBDIKGQIY-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_KOMJLZBDIKGQIY-UHFFFAOYSA-N",
+    "smiles": "CC[P+](CC)(CC)CCOC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "KNGDDPFNUUIHKR-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_KNGDDPFNUUIHKR-UHFFFAOYSA-N",
+    "smiles": "CCCC[N+]1(C)CCCC1.FC(F)(F)C(F)(F)[P-](F)(F)(F)(C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "QFLRMCUVYQFPCO-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_QFLRMCUVYQFPCO-UHFFFAOYSA-N",
+    "smiles": "CCCC[P+](CCCC)(CCCC)CCOC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "UBQLCZUQCFNAGM-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_UBQLCZUQCFNAGM-UHFFFAOYSA-N",
+    "smiles": "C[n+]1ccn(CCO)c1.N#C[N-]C#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "IGIMEULMQQQZIJ-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_IGIMEULMQQQZIJ-UHFFFAOYSA-M",
+    "smiles": "CCCCn1cc[n+](C)c1C.N#C[S-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "XDJYSDBSJWNTQT-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_XDJYSDBSJWNTQT-UHFFFAOYSA-N",
+    "smiles": "CCn1cc[n+](C)c1C.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "YUSZLXHZJRCISC-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_YUSZLXHZJRCISC-UHFFFAOYSA-N",
+    "smiles": "CCCCCC[N+](C)(C)C(C)C.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "WVLULMWXBGUXGN-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_WVLULMWXBGUXGN-UHFFFAOYSA-N",
+    "smiles": "CC(C)[N+](C)(C)CC#N.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "OPXNHKQUEXEWAM-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_OPXNHKQUEXEWAM-UHFFFAOYSA-M",
+    "smiles": "CCCCCCCCCCCCn1cc[n+](C)c1.[Cl-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "NQPNRAVAWZEPBS-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_NQPNRAVAWZEPBS-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCC[N+]12CCC(CC1)CC2.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "WZPQUMDXDSBRSR-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_WZPQUMDXDSBRSR-UHFFFAOYSA-N",
+    "smiles": "C[n+]1ccn(CCCl)c1.N#C[N-]C#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "CRINGPXRIWLLTL-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_CRINGPXRIWLLTL-UHFFFAOYSA-N",
+    "smiles": "CC(C)[N+](C)(C)CCO.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "XXTZRXNMEYUIDE-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_XXTZRXNMEYUIDE-UHFFFAOYSA-M",
+    "smiles": "CCCC[N+]1(C)CCCC1.N#C[S-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BGMNWBQPCOEGHI-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BGMNWBQPCOEGHI-UHFFFAOYSA-N",
+    "smiles": "CCC[N+]1(C)CCCCC1.O=S(=O)(F)[N-]S(=O)(=O)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ZFDJUHAAYUGIBR-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ZFDJUHAAYUGIBR-UHFFFAOYSA-N",
+    "smiles": "CCCC[N+](C)(C)CCN(C)C.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "NOKCNHVTVJCJDW-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_NOKCNHVTVJCJDW-UHFFFAOYSA-M",
+    "smiles": "CCCC[n+]1ccc(C)cc1.N#C[S-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "SAYMDKMGIAANGQ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_SAYMDKMGIAANGQ-UHFFFAOYSA-N",
+    "smiles": "Cn1cc[n+](C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "DZZLOTCSCGUCJT-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_DZZLOTCSCGUCJT-UHFFFAOYSA-N",
+    "smiles": "COCC[n+]1ccccc1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "LDAIAWJJBORYJR-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_LDAIAWJJBORYJR-UHFFFAOYSA-M",
+    "smiles": "CCn1cc[n+](C)c1C.N#C[S-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "YNVYDROGEIEGDY-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_YNVYDROGEIEGDY-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCn1cc[n+](C)c1.N#C[B-](C#N)(C#N)C#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "HJHSZIBZANYEGW-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_HJHSZIBZANYEGW-UHFFFAOYSA-N",
+    "smiles": "C[n+]1ccn(Cc2ccccc2)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "CUGMTLJRLADFCN-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_CUGMTLJRLADFCN-UHFFFAOYSA-N",
+    "smiles": "CC(C)[N+](C)(C)CCCCCCCCC[N+](C)(C)C(C)C.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ZYVGZWFCGPUVSH-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ZYVGZWFCGPUVSH-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCn1cc[n+](C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "HXMUPILCYSJMLQ-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_HXMUPILCYSJMLQ-UHFFFAOYSA-M",
+    "smiles": "CCn1cc[n+](C)c1.Cc1ccc(S(=O)(=O)[O-])cc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ANFWGAAJBJPAHX-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ANFWGAAJBJPAHX-UHFFFAOYSA-N",
+    "smiles": "CCn1cc[n+](C)c1.O=S(=O)(F)[N-]S(=O)(=O)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "IPYQZLGLLJNFAT-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_IPYQZLGLLJNFAT-UHFFFAOYSA-M",
+    "smiles": "CCC[n+]1ccn(C)c1C.N#C[S-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "CMQJWXUIKLWXFA-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_CMQJWXUIKLWXFA-UHFFFAOYSA-M",
+    "smiles": "CCCn1cc[n+](C)c1.N#C[S-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "PCIKPLOQZCYVND-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_PCIKPLOQZCYVND-UHFFFAOYSA-N",
+    "smiles": "CC[N+](CC)(CC)CCOC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "SZRSEFNUSHACPD-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_SZRSEFNUSHACPD-UHFFFAOYSA-M",
+    "smiles": "CCCCCC[n+]1ccccc1.[Br-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "CDWUIWLQQDTHRA-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_CDWUIWLQQDTHRA-UHFFFAOYSA-N",
+    "smiles": "CCC[n+]1ccn(C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "TVHLWXSJYMSLNH-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_TVHLWXSJYMSLNH-UHFFFAOYSA-M",
+    "smiles": "COCCOS(=O)(=O)[O-].Cn1cc[n+](C)c1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "YOSCFRUIZREJKL-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_YOSCFRUIZREJKL-UHFFFAOYSA-N",
+    "smiles": "C[n+]1ccn(CCO)c1.F[P-](F)(F)(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "XFTQQJUVYZPNRC-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_XFTQQJUVYZPNRC-UHFFFAOYSA-N",
+    "smiles": "CCCn1cc[n+](C)c1.F[B-](F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "MCNGJXAXOJDJKO-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_MCNGJXAXOJDJKO-UHFFFAOYSA-M",
+    "smiles": "CCCCCCC[CH2][Sn]([Cl])([CH2]CCCCCCC)[CH2]CCCCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "QLKGUVGAXDXFFW-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_QLKGUVGAXDXFFW-UHFFFAOYSA-M",
+    "smiles": "CC(=O)[O-].C[N+](C)(C)CCO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ZOPBBSJTLFLEOG-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ZOPBBSJTLFLEOG-UHFFFAOYSA-M",
+    "smiles": "COP(=O)([O-])OC.C[N+]1(CCO)CCCC1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "RPPSJZLIDOQJAD-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_RPPSJZLIDOQJAD-UHFFFAOYSA-M",
+    "smiles": "CCCCCCCCCCCCC[N+](C)(CCOCCO)CCOCCOCCO.COS(=O)(=O)[O-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "DXBLSHGDRZIBJZ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_DXBLSHGDRZIBJZ-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCn1cc[n+](C)c1.F[B-](F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ANSFZIQTHITJNJ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ANSFZIQTHITJNJ-UHFFFAOYSA-N",
+    "smiles": "C[N+]1(CCCO)CCOCC1.N#CC(=C=[N-])C#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "LTUJTQNLFHRCMU-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_LTUJTQNLFHRCMU-UHFFFAOYSA-M",
+    "smiles": "CCCCCCCn1cc[n+](C)c1.[Cl-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "FGOQIIXMYAVTDQ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_FGOQIIXMYAVTDQ-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCC[N+]1(C)CCOCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "KPRFVTLNZRINIH-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_KPRFVTLNZRINIH-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCC[N+]1(C)CCOCC1.N#C[B-](C#N)(C#N)C#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ZWXPDGCFMMFNRW-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ZWXPDGCFMMFNRW-UHFFFAOYSA-N",
+    "smiles": "CN1CCCCCC1=O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ZMXDDKWLCZADIW-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ZMXDDKWLCZADIW-UHFFFAOYSA-N",
+    "smiles": "CN(C)C=O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "QJQAMHYHNCADNR-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_QJQAMHYHNCADNR-UHFFFAOYSA-N",
+    "smiles": "CCC(O)=NC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "OHLUUHNLEMFGTQ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_OHLUUHNLEMFGTQ-UHFFFAOYSA-N",
+    "smiles": "CN=C(C)O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "UHNHTTIUNATJKL-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_UHNHTTIUNATJKL-UHFFFAOYSA-N",
+    "smiles": "CNS(C)(=O)=O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "PMDCZENCAXMSOU-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_PMDCZENCAXMSOU-UHFFFAOYSA-N",
+    "smiles": "CCN=C(C)O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "MBHINSULENHCMF-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_MBHINSULENHCMF-UHFFFAOYSA-N",
+    "smiles": "CCC(=O)N(C)C",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "FXHOOIRPVKKKFG-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_FXHOOIRPVKKKFG-UHFFFAOYSA-N",
+    "smiles": "CC(=O)N(C)C",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BEPAFCGSDWSTEL-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BEPAFCGSDWSTEL-UHFFFAOYSA-N",
+    "smiles": "COC(=O)CC(=O)OC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "IPBVNPXQWQGGJP-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_IPBVNPXQWQGGJP-UHFFFAOYSA-N",
+    "smiles": "CC(=O)Oc1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "NZMAJUHVSZBJHL-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_NZMAJUHVSZBJHL-UHFFFAOYSA-N",
+    "smiles": "CCCCN(C=O)CCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ZUHZGEOKBKGPSW-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ZUHZGEOKBKGPSW-UHFFFAOYSA-N",
+    "smiles": "COCCOCCOCCOCCOC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "RERATEUBWLKDFE-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_RERATEUBWLKDFE-UHFFFAOYSA-N",
+    "smiles": "COCC(C)OCC(C)OCC(C)OC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "KTSVVTQTKRGWGU-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_KTSVVTQTKRGWGU-UHFFFAOYSA-N",
+    "smiles": "CCCCOCCOCCOCCOCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "KZVBBTZJMSWGTK-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_KZVBBTZJMSWGTK-UHFFFAOYSA-N",
+    "smiles": "CCCCOCCOCCOCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "RUOJZAUFBMNUDX-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_RUOJZAUFBMNUDX-UHFFFAOYSA-N",
+    "smiles": "CC1COC(=O)O1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "KERBAAIBDHEFDD-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_KERBAAIBDHEFDD-UHFFFAOYSA-N",
+    "smiles": "CCN=CO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BTGRAWJCKBQKAO-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BTGRAWJCKBQKAO-UHFFFAOYSA-N",
+    "smiles": "N#CCCCCC#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "PAYRUJLWNCNPSJ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_PAYRUJLWNCNPSJ-UHFFFAOYSA-N",
+    "smiles": "Nc1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "LQNUZADURLCDLV-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_LQNUZADURLCDLV-UHFFFAOYSA-N",
+    "smiles": "O=[N+]([O-])c1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "KWOLFJPFCHCOCG-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_KWOLFJPFCHCOCG-UHFFFAOYSA-N",
+    "smiles": "CC(=O)c1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "NNBZCPXTIHJBJL-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_NNBZCPXTIHJBJL-UHFFFAOYSA-N",
+    "smiles": "C1CCC2CCCCC2C1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "AHRQMWOXLCFNAV-UHFFFAOYSA-O": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_AHRQMWOXLCFNAV-UHFFFAOYSA-O",
+    "smiles": "CC[NH3+].O=[N+]([O-])[O-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "CIFVCEHOLIWYSK-UHFFFAOYSA-O": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_CIFVCEHOLIWYSK-UHFFFAOYSA-O",
+    "smiles": "CCC[NH3+].O=[N+]([O-])[O-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "IEFUHGXOQSVRDQ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_IEFUHGXOQSVRDQ-UHFFFAOYSA-N",
+    "smiles": "CCC[N+]1(C)CCCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BWXSKLJLEZMKGG-WNQIDUERSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BWXSKLJLEZMKGG-WNQIDUERSA-M",
+    "smiles": "CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.C[C@H](O)C(=O)[O-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "HXJKEIWCLVUXNG-STOWLHSFSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_HXJKEIWCLVUXNG-STOWLHSFSA-M",
+    "smiles": "CC1(C)[C@@H]2CC[C@@]1(CS(=O)(=O)[O-])C(=O)C2.CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "PBKONEOXTCPAFI-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_PBKONEOXTCPAFI-UHFFFAOYSA-N",
+    "smiles": "Clc1ccc(Cl)c(Cl)c1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "NDVLTZFQVDXFAN-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_NDVLTZFQVDXFAN-UHFFFAOYSA-N",
+    "smiles": "N#CCCSCCC#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "PRAKJMSDJKAYCZ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_PRAKJMSDJKAYCZ-UHFFFAOYSA-N",
+    "smiles": "CC(C)CCCC(C)CCCC(C)CCCCC(C)CCCC(C)CCCC(C)C",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "RZJRJXONCZWCBN-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_RZJRJXONCZWCBN-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCCCCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "CBFCDTFDPHXCNY-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_CBFCDTFDPHXCNY-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCCCCCCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "OFBQJSOFQDEBGM-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_OFBQJSOFQDEBGM-UHFFFAOYSA-N",
+    "smiles": "CCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "VLKZOEOYAKHREP-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_VLKZOEOYAKHREP-UHFFFAOYSA-N",
+    "smiles": "CCCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "NHTMVDHEPJAVLT-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_NHTMVDHEPJAVLT-UHFFFAOYSA-N",
+    "smiles": "CC(C)CC(C)(C)C",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "KBPLFHHGFOOTCA-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_KBPLFHHGFOOTCA-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "LIKMAJRDDDTEIG-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_LIKMAJRDDDTEIG-UHFFFAOYSA-N",
+    "smiles": "C=CCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "KWKAKUADMBZCLK-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_KWKAKUADMBZCLK-UHFFFAOYSA-N",
+    "smiles": "C=CCCCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "AFFLGGQVNFXPEV-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_AFFLGGQVNFXPEV-UHFFFAOYSA-N",
+    "smiles": "C=CCCCCCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ZWEHNKRNPOVVGH-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ZWEHNKRNPOVVGH-UHFFFAOYSA-N",
+    "smiles": "CCC(C)=O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "XNLICIUVMPYHGG-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_XNLICIUVMPYHGG-UHFFFAOYSA-N",
+    "smiles": "CCCC(C)=O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "CATSNJVOTSVZJV-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_CATSNJVOTSVZJV-UHFFFAOYSA-N",
+    "smiles": "CCCCCC(C)=O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "FVSKHRXBFJPNKK-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_FVSKHRXBFJPNKK-UHFFFAOYSA-N",
+    "smiles": "CCC#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "KVNRLNFWIYMESJ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_KVNRLNFWIYMESJ-UHFFFAOYSA-N",
+    "smiles": "CCCC#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "KRKQHNVYOWTEQO-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_KRKQHNVYOWTEQO-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCCCC#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "KXKVLQRXCPHEJC-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_KXKVLQRXCPHEJC-UHFFFAOYSA-N",
+    "smiles": "COC(C)=O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "DKPFZGUDAPQIHT-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_DKPFZGUDAPQIHT-UHFFFAOYSA-N",
+    "smiles": "CCCCOC(C)=O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "AOGQPLXWSUTHQB-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_AOGQPLXWSUTHQB-UHFFFAOYSA-N",
+    "smiles": "CCCCCCOC(C)=O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "OBNCKNCVKJNDBV-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_OBNCKNCVKJNDBV-UHFFFAOYSA-N",
+    "smiles": "CCCC(=O)OCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "WVDDGKGOMKODPV-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_WVDDGKGOMKODPV-UHFFFAOYSA-N",
+    "smiles": "OCc1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "RDOXTESZEPMUJZ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_RDOXTESZEPMUJZ-UHFFFAOYSA-N",
+    "smiles": "COc1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "JFDZBHWFFUWGJE-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_JFDZBHWFFUWGJE-UHFFFAOYSA-N",
+    "smiles": "N#Cc1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "MVPPADPHJFYWMZ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_MVPPADPHJFYWMZ-UHFFFAOYSA-N",
+    "smiles": "Clc1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "QTBSBXVTEAMEQO-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_QTBSBXVTEAMEQO-UHFFFAOYSA-N",
+    "smiles": "CC(=O)O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "HEDRZPFGACZZDS-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_HEDRZPFGACZZDS-UHFFFAOYSA-N",
+    "smiles": "ClC(Cl)Cl",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "VZGDMQKNWNREIO-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_VZGDMQKNWNREIO-UHFFFAOYSA-N",
+    "smiles": "ClC(Cl)(Cl)Cl",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "WYURNTSHIVDZCO-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_WYURNTSHIVDZCO-UHFFFAOYSA-N",
+    "smiles": "C1CCOC1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "RYHBNJHYFVUHQT-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_RYHBNJHYFVUHQT-UHFFFAOYSA-N",
+    "smiles": "C1COCCO1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ZMANZCXQSJIPKH-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ZMANZCXQSJIPKH-UHFFFAOYSA-N",
+    "smiles": "CCN(CC)CC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "YEJRWHAVMIAJKC-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_YEJRWHAVMIAJKC-UHFFFAOYSA-N",
+    "smiles": "O=C1CCCO1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "GNOIPBMMFNIUFM-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_GNOIPBMMFNIUFM-UHFFFAOYSA-N",
+    "smiles": "CN(C)P(=O)(N(C)C)N(C)C",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "RHQDFWAXVIIEBN-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_RHQDFWAXVIIEBN-UHFFFAOYSA-N",
+    "smiles": "OCC(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BYEAHWXPCBROCE-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BYEAHWXPCBROCE-UHFFFAOYSA-N",
+    "smiles": "OC(C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ZJIJAJXFLBMLCK-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ZJIJAJXFLBMLCK-UHFFFAOYSA-N",
+    "smiles": "FC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "YVBBRRALBYAZBM-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_YVBBRRALBYAZBM-UHFFFAOYSA-N",
+    "smiles": "FC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "LYGJENNIWJXYER-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_LYGJENNIWJXYER-UHFFFAOYSA-N",
+    "smiles": "C[N+](=O)[O-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "JSZOAYXJRCEYSX-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_JSZOAYXJRCEYSX-UHFFFAOYSA-N",
+    "smiles": "CCC[N+](=O)[O-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "QGJOPFRUJISHPQ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_QGJOPFRUJISHPQ-UHFFFAOYSA-N",
+    "smiles": "S=C=S",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "JHIVVAPYMSGYDF-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_JHIVVAPYMSGYDF-UHFFFAOYSA-N",
+    "smiles": "O=C1CCCCC1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "URAYPUMNDPQOKB-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_URAYPUMNDPQOKB-UHFFFAOYSA-N",
+    "smiles": "CC(=O)OCC(COC(C)=O)OC(C)=O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "YWAKXRMUMFPDSH-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_YWAKXRMUMFPDSH-UHFFFAOYSA-N",
+    "smiles": "C=CCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "QWTDNUCVQCZILF-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_QWTDNUCVQCZILF-UHFFFAOYSA-N",
+    "smiles": "CCC(C)C",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "QHZLMUACJMDIAE-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_QHZLMUACJMDIAE-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCCCCC(=O)OCC(O)CO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "PVNIQBQSYATKKL-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_PVNIQBQSYATKKL-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCCCCC(=O)OCC(COC(=O)CCCCCCCCCCCCCCC)OC(=O)CCCCCCCCCCCCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "HNJBEVLQSNELDL-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_HNJBEVLQSNELDL-UHFFFAOYSA-N",
+    "smiles": "OC1=NCCC1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "GGYVTHJIUNGKFZ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_GGYVTHJIUNGKFZ-UHFFFAOYSA-N",
+    "smiles": "CN1CCCCC1=O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "YUPOCHDBBHTUBJ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_YUPOCHDBBHTUBJ-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCC(=O)CCCCCCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "AJFDBNQQDYLMJN-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_AJFDBNQQDYLMJN-UHFFFAOYSA-N",
+    "smiles": "CCN(CC)C(C)=O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "FLKPEMZONWLCSK-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_FLKPEMZONWLCSK-UHFFFAOYSA-N",
+    "smiles": "CCOC(=O)c1ccccc1C(=O)OCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ZTOMUSMDRMJOTH-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ZTOMUSMDRMJOTH-UHFFFAOYSA-N",
+    "smiles": "N#CCCCC#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ZFPGARUNNKGOBB-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ZFPGARUNNKGOBB-UHFFFAOYSA-N",
+    "smiles": "CCN1CCCC1=O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "FILVIKOEJGORQS-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_FILVIKOEJGORQS-UHFFFAOYSA-N",
+    "smiles": "CC1CCC(=O)N1C",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "MTZQAGJQAFMTAQ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_MTZQAGJQAFMTAQ-UHFFFAOYSA-N",
+    "smiles": "CCOC(=O)c1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "PAPBSGBWRJIAAV-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_PAPBSGBWRJIAAV-UHFFFAOYSA-N",
+    "smiles": "O=C1CCCCCO1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "INQOMBQAUSQDDS-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_INQOMBQAUSQDDS-UHFFFAOYSA-N",
+    "smiles": "CI",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "SWRHBXSDADDWGZ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_SWRHBXSDADDWGZ-UHFFFAOYSA-N",
+    "smiles": "CCN(CC)c1c(N(CC)CC)c1=[N+](CC)CC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "SEHOZXUHYICVDI-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_SEHOZXUHYICVDI-UHFFFAOYSA-N",
+    "smiles": "CCCCCC[N+](CCCC)(CCCC)CCCC.F[P-](F)(F)(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "DYIJKSACJPQNQJ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_DYIJKSACJPQNQJ-UHFFFAOYSA-N",
+    "smiles": "CCCCCC[N+](CCCC)(CCCC)CCCC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "YNWRXTPPRLEOLH-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_YNWRXTPPRLEOLH-UHFFFAOYSA-N",
+    "smiles": "CCCCCC[P+](CCCC)(CCCC)CCCC.F[P-](F)(F)(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "LHIQEMFNKDHLPH-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_LHIQEMFNKDHLPH-UHFFFAOYSA-N",
+    "smiles": "CCCCCC[P+](CCCC)(CCCC)CCCC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "DRJKBWXHBPHULV-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_DRJKBWXHBPHULV-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCC[P+](C)(CCCCCCCC)CCCCCCCC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "RGPHDVUJHZMMLN-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_RGPHDVUJHZMMLN-UHFFFAOYSA-N",
+    "smiles": "C=CCn1cc[n+](C)c1.F[B-](F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "DKMXRJQRVFBTNU-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_DKMXRJQRVFBTNU-UHFFFAOYSA-N",
+    "smiles": "CCCCCCn1cc[n+](C)c1.O=[N+]([O-])[O-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "XEZNGIUYQVAUSS-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_XEZNGIUYQVAUSS-UHFFFAOYSA-N",
+    "smiles": "C1COCCOCCOCCOCCOCCO1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "POOSGDOYLQNASK-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_POOSGDOYLQNASK-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCCCCCCCCCCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "GQEZCXVZFLOKMC-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_GQEZCXVZFLOKMC-UHFFFAOYSA-N",
+    "smiles": "C=CCCCCCCCCCCCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "CCCMONHAUSKTEQ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_CCCMONHAUSKTEQ-UHFFFAOYSA-N",
+    "smiles": "C=CCCCCCCCCCCCCCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "CLWAXFZCVYJLLM-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_CLWAXFZCVYJLLM-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCCCCCCl",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "VUQPJRPDRDVQMN-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_VUQPJRPDRDVQMN-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCCCCCCCCl",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "LSKONYYRONEBKA-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_LSKONYYRONEBKA-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCC(C)=O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "WTJKUFMLQFLJOT-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_WTJKUFMLQFLJOT-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCC(=O)CCCCCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "DROMNWUQASBTFM-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_DROMNWUQASBTFM-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCOC(=O)c1ccccc1C(=O)OCCCCCCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "LGUZHRODIJCVOC-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_LGUZHRODIJCVOC-UHFFFAOYSA-N",
+    "smiles": "FC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BBMCTIGTTCKYKF-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BBMCTIGTTCKYKF-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ZWRUINPWMLAQRD-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ZWRUINPWMLAQRD-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "AJDIZQLSFPQPEY-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_AJDIZQLSFPQPEY-UHFFFAOYSA-N",
+    "smiles": "FC(F)(Cl)C(F)(Cl)Cl",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "UZILCZKGXMQEQR-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_UZILCZKGXMQEQR-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCc1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "KWKXNDCHNDYVRT-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_KWKXNDCHNDYVRT-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCc1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "JZALLXAUNPOCEU-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_JZALLXAUNPOCEU-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCCCc1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "JIRNEODMTPGRGV-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_JIRNEODMTPGRGV-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCCCCc1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "SHWJJBRTHGGZBE-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_SHWJJBRTHGGZBE-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCCCCCCCCc1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "HNTGIJLWHDPAFN-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_HNTGIJLWHDPAFN-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCCCCCBr",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "KMWHQYDMBYABKL-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_KMWHQYDMBYABKL-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCCCCCI",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "QJRSPJSHRYYBJL-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_QJRSPJSHRYYBJL-UHFFFAOYSA-N",
+    "smiles": "CCCOC(=O)c1c(Cl)c(Cl)c(Cl)c(Cl)c1C(=O)OCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "JXTPJDDICSTXJX-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_JXTPJDDICSTXJX-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "YDLYQMBWCWFRAI-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_YDLYQMBWCWFRAI-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "CUONGYYJJVDODC-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_CUONGYYJJVDODC-UHFFFAOYSA-N",
+    "smiles": "N#CCC#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "IAHFWCOBPZCAEA-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_IAHFWCOBPZCAEA-UHFFFAOYSA-N",
+    "smiles": "N#CCCC#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "FPPLREPCQJZDAQ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_FPPLREPCQJZDAQ-UHFFFAOYSA-N",
+    "smiles": "CC(C#N)CCC#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "NGCJVMZXRCLPRQ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_NGCJVMZXRCLPRQ-UHFFFAOYSA-N",
+    "smiles": "C=C(C#N)CCC#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "LLEVMYXEJUDBTA-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_LLEVMYXEJUDBTA-UHFFFAOYSA-N",
+    "smiles": "N#CCCCCCC#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BTNXBLUGMAMSSH-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BTNXBLUGMAMSSH-UHFFFAOYSA-N",
+    "smiles": "N#CCCCCCCC#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "RFFFKMOABOFIDF-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_RFFFKMOABOFIDF-UHFFFAOYSA-N",
+    "smiles": "CCCCC#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "AILKHAQXUAOOFU-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_AILKHAQXUAOOFU-UHFFFAOYSA-N",
+    "smiles": "CCCCCC#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "SDAXRHHPNYTELL-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_SDAXRHHPNYTELL-UHFFFAOYSA-N",
+    "smiles": "CCCCCCC#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "YSIMAPNUZAVQER-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_YSIMAPNUZAVQER-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCC#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "PLZZPPHAMDJOSR-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_PLZZPPHAMDJOSR-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCC#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "SUSQOBVLVYHIEX-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_SUSQOBVLVYHIEX-UHFFFAOYSA-N",
+    "smiles": "N#CCc1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "UHBZEAPZATVYKV-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_UHBZEAPZATVYKV-UHFFFAOYSA-N",
+    "smiles": "CC(=O)CC1CCCCC1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "QCCDLTOVEPVEJK-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_QCCDLTOVEPVEJK-UHFFFAOYSA-N",
+    "smiles": "CC(=O)Cc1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "AKGGYBADQZYZPD-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_AKGGYBADQZYZPD-UHFFFAOYSA-N",
+    "smiles": "CC(=O)CCc1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "QPFMBZIOSGYJDE-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_QPFMBZIOSGYJDE-UHFFFAOYSA-N",
+    "smiles": "ClC(Cl)C(Cl)Cl",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "YBYIRNPNPLQARY-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_YBYIRNPNPLQARY-UHFFFAOYSA-N",
+    "smiles": "C1=Cc2ccccc2C1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "JTPNRXUCIXHOKM-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_JTPNRXUCIXHOKM-UHFFFAOYSA-N",
+    "smiles": "Clc1cccc2ccccc12",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "QPUYECUOLPXSFR-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_QPUYECUOLPXSFR-UHFFFAOYSA-N",
+    "smiles": "Cc1cccc2ccccc12",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "MBDNRNMVTZADMQ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_MBDNRNMVTZADMQ-UHFFFAOYSA-N",
+    "smiles": "O=S1(=O)CC=CC1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "WKFQMDFSDQFAIC-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_WKFQMDFSDQFAIC-UHFFFAOYSA-N",
+    "smiles": "CC1CC(C)S(=O)(=O)C1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "OVKIDXBGVUQFFC-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_OVKIDXBGVUQFFC-UHFFFAOYSA-N",
+    "smiles": "NC1CCS(=O)(=O)C1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "WSGYTJNNHPZFKR-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_WSGYTJNNHPZFKR-UHFFFAOYSA-N",
+    "smiles": "N#CCCO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BCGCCTGNWPKXJL-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BCGCCTGNWPKXJL-UHFFFAOYSA-N",
+    "smiles": "N#CCCOCCC#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "SBAJRGRUGUQKAF-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_SBAJRGRUGUQKAF-UHFFFAOYSA-N",
+    "smiles": "N#CCCNCCC#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ISWSIDIOOBJBQZ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ISWSIDIOOBJBQZ-UHFFFAOYSA-N",
+    "smiles": "Oc1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "WRMNZCZEMHIOCP-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_WRMNZCZEMHIOCP-UHFFFAOYSA-N",
+    "smiles": "OCCc1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BSYVTEYKTMYBMK-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BSYVTEYKTMYBMK-UHFFFAOYSA-N",
+    "smiles": "OCC1CCCO1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "WGQKYBSKWIADBV-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_WGQKYBSKWIADBV-UHFFFAOYSA-N",
+    "smiles": "NCc1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "QXSZNDIIPUOQMB-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_QXSZNDIIPUOQMB-UHFFFAOYSA-N",
+    "smiles": "BrC(Br)C(Br)Br",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "JXTHNDFMNIQAHM-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_JXTHNDFMNIQAHM-UHFFFAOYSA-N",
+    "smiles": "O=C(O)C(Cl)Cl",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "SZIFAVKTNFCBPC-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_SZIFAVKTNFCBPC-UHFFFAOYSA-N",
+    "smiles": "OCCCl",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "PIICEJLVQHRZGT-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_PIICEJLVQHRZGT-UHFFFAOYSA-N",
+    "smiles": "NCCN",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "SBOSGIJGEHWBKV-UHFFFAOYSA-L": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_SBOSGIJGEHWBKV-UHFFFAOYSA-L",
+    "smiles": "[CH2]CCCCCCC.[CH2]CCCCCCC.[Cl-].[Cl-].[Sn+2]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "JTGNPNLBCGBCMP-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_JTGNPNLBCGBCMP-UHFFFAOYSA-N",
+    "smiles": "[CH2]CCCCCCC.[CH2]CCCCCCC.[CH2]CCCCCCC.[CH2]CCCCCCC.[Sn]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BOSMZFBHAYFUBJ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BOSMZFBHAYFUBJ-UHFFFAOYSA-N",
+    "smiles": "Cc1ccc(OP(=O)(Oc2ccc(C)cc2)Oc2ccc(C)cc2)cc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "XZZNDPSIHUTMOC-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_XZZNDPSIHUTMOC-UHFFFAOYSA-N",
+    "smiles": "O=P(Oc1ccccc1)(Oc1ccccc1)Oc1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "GTVWRXDRKAHEAD-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_GTVWRXDRKAHEAD-UHFFFAOYSA-N",
+    "smiles": "CCCCC(CC)COP(=O)(OCC(CC)CCCC)OCC(CC)CCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "OJIAEXACITVMDV-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_OJIAEXACITVMDV-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCCCCCCCC(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ZKYMFADZZFTYJH-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ZKYMFADZZFTYJH-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCCCCCC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "SSVQUYHNTDJHGP-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_SSVQUYHNTDJHGP-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "GGMKNRLOOXZGNL-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_GGMKNRLOOXZGNL-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "XYGYVZPNAGJLRE-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_XYGYVZPNAGJLRE-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "STCOOQWBFONSKY-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_STCOOQWBFONSKY-UHFFFAOYSA-N",
+    "smiles": "CCCCOP(=O)(OCCCC)OCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "HPNMFZURTQLUMO-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_HPNMFZURTQLUMO-UHFFFAOYSA-N",
+    "smiles": "CCNCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "AWJUIBRHMBBTKR-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_AWJUIBRHMBBTKR-UHFFFAOYSA-N",
+    "smiles": "c1ccc2cnccc2c1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "SMWDFEZZVXVKRB-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_SMWDFEZZVXVKRB-UHFFFAOYSA-N",
+    "smiles": "c1ccc2ncccc2c1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "SMUQFGGVLNAIOZ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_SMUQFGGVLNAIOZ-UHFFFAOYSA-N",
+    "smiles": "Cc1ccc2ccccc2n1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "MUDSDYNRBDKLGK-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_MUDSDYNRBDKLGK-UHFFFAOYSA-N",
+    "smiles": "Cc1ccnc2ccccc12",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "CXMXRPHRNRROMY-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_CXMXRPHRNRROMY-UHFFFAOYSA-N",
+    "smiles": "O=C(O)CCCCCCCCC(=O)O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "WLJVNTCWHIRURA-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_WLJVNTCWHIRURA-UHFFFAOYSA-N",
+    "smiles": "O=C(O)CCCCCC(=O)O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "JVTAAEKCZFNVCJ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_JVTAAEKCZFNVCJ-UHFFFAOYSA-N",
+    "smiles": "CC(O)C(=O)O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ZYURHZPYMFLWSH-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ZYURHZPYMFLWSH-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "QHMGJGNTMQDRQA-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_QHMGJGNTMQDRQA-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BXWNKGSJHAJOGX-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BXWNKGSJHAJOGX-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCCCCCO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "FQXSTGKJHBFSIQ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_FQXSTGKJHBFSIQ-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCCC(=O)N(C)C",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "CZYWSKLOYGOGRT-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_CZYWSKLOYGOGRT-UHFFFAOYSA-N",
+    "smiles": "CCCCOC(=O)c1c(Cl)c(Cl)c(Cl)c(Cl)c1C(=O)OCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ZOYJYNLKJSQUEM-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ZOYJYNLKJSQUEM-UHFFFAOYSA-N",
+    "smiles": "c1ccc(Cc2ccccc2-c2ccccc2)cc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "DOIRQSBPFJWKBE-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_DOIRQSBPFJWKBE-UHFFFAOYSA-N",
+    "smiles": "CCCCOC(=O)c1ccccc1C(=O)OCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "HOWGUJZVBDQJKV-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_HOWGUJZVBDQJKV-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCCCCCCCCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "GWVDBZWVFGFBCN-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_GWVDBZWVFGFBCN-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "YNPNZTXNASCQKK-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_YNPNZTXNASCQKK-UHFFFAOYSA-N",
+    "smiles": "c1ccc2c(c1)ccc1ccccc12",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "HMMGMWAXVFQUOA-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_HMMGMWAXVFQUOA-UHFFFAOYSA-N",
+    "smiles": "C[Si]1(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "WVIIMZNLDWSIRH-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_WVIIMZNLDWSIRH-UHFFFAOYSA-N",
+    "smiles": "C1CCC(C2CCCCC2)CC1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "CXWXQJXEFPUFDZ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_CXWXQJXEFPUFDZ-UHFFFAOYSA-N",
+    "smiles": "c1ccc2c(c1)CCCC2",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "IGARGHRYKHJQSM-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_IGARGHRYKHJQSM-UHFFFAOYSA-N",
+    "smiles": "c1ccc(C2CCCCC2)cc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "YYGNTYWPHWGJRM-AAJYLUCBSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_YYGNTYWPHWGJRM-AAJYLUCBSA-N",
+    "smiles": "CC(C)=CCC/C(C)=C/CC/C(C)=C/CC/C=C(\\C)CC/C=C(\\C)CCC=C(C)C",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "MGWAVDBGNNKXQV-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_MGWAVDBGNNKXQV-UHFFFAOYSA-N",
+    "smiles": "CC(C)COC(=O)c1ccccc1C(=O)OCC(C)C",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "VOWAEIGWURALJQ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_VOWAEIGWURALJQ-UHFFFAOYSA-N",
+    "smiles": "O=C(OC1CCCCC1)c1ccccc1C(=O)OC1CCCCC1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BJQHLKABXJIVAM-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BJQHLKABXJIVAM-UHFFFAOYSA-N",
+    "smiles": "CCCCC(CC)COC(=O)c1ccccc1C(=O)OCC(CC)CCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ZVFDTKUVRCTHQE-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ZVFDTKUVRCTHQE-UHFFFAOYSA-N",
+    "smiles": "CC(C)CCCCCCCOC(=O)c1ccccc1C(=O)OCCCCCCCC(C)C",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "IRIAEXORFWYRCZ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_IRIAEXORFWYRCZ-UHFFFAOYSA-N",
+    "smiles": "CCCCOC(=O)c1ccccc1C(=O)OCc1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "WGGPIODSUQZNTP-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_WGGPIODSUQZNTP-UHFFFAOYSA-N",
+    "smiles": "CCCCCC(CC)OC(=O)c1ccccc1C(=O)OCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ACCCMOQWYVYDOT-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ACCCMOQWYVYDOT-UHFFFAOYSA-N",
+    "smiles": "CCCCCC(O)O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "FVXBCDWMKCEPCL-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_FVXBCDWMKCEPCL-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCC(O)O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ALPIESLRVWNLAX-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ALPIESLRVWNLAX-UHFFFAOYSA-N",
+    "smiles": "CCCCCC(S)S",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "AVQYXBDAZWIFTO-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_AVQYXBDAZWIFTO-UHFFFAOYSA-N",
+    "smiles": "N#CCCCCCCCCCCC#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BOOXKGZZTBKJFE-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BOOXKGZZTBKJFE-UHFFFAOYSA-M",
+    "smiles": "CCCC[N+]1(C)CCCC1.[Cl-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "WHGYBXFWUBPSRW-FOUAGVGXSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_WHGYBXFWUBPSRW-FOUAGVGXSA-N",
+    "smiles": "OC[C@H]1O[C@@H]2O[C@H]3[C@H](O)[C@@H](O)[C@@H](O[C@H]4[C@H](O)[C@@H](O)[C@@H](O[C@H]5[C@H](O)[C@@H](O)[C@@H](O[C@H]6[C@H](O)[C@@H](O)[C@@H](O[C@H]7[C@H](O)[C@@H](O)[C@@H](O[C@H]8[C@H](O)[C@@H](O)[C@@H](O[C@H]1[C@H](O)[C@H]2O)O[C@@H]8CO)O[C@@H]7CO)O[C@@H]6CO)O[C@@H]5CO)O[C@@H]4CO)O[C@@H]3CO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "POAOYUHQDCAZBD-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_POAOYUHQDCAZBD-UHFFFAOYSA-N",
+    "smiles": "CCCCOCCO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "YEYKMVJDLWJFOA-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_YEYKMVJDLWJFOA-UHFFFAOYSA-N",
+    "smiles": "CCCOCCO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "HCGFUIQPSOCUHI-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_HCGFUIQPSOCUHI-UHFFFAOYSA-N",
+    "smiles": "CC(C)OCCO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "SGMZJAMFUVOLNK-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_SGMZJAMFUVOLNK-UHFFFAOYSA-M",
+    "smiles": "C[N+](C)(C)CCO.[Cl-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "JEHHMOWXLBXVHN-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_JEHHMOWXLBXVHN-UHFFFAOYSA-N",
+    "smiles": "CCCC[CH2][Sn]([CH2]CCCC)([CH2]CCCC)[CH2]CCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "FDNSKZMGQQDYQB-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_FDNSKZMGQQDYQB-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCC[CH2][Sn]([CH2]CCCCCCCCCCC)([CH2]CCCCCCCCCCC)[CH2]CCCCCCCCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ZMLKENVAWQJBIR-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ZMLKENVAWQJBIR-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCOC1CCS(=O)(=O)C1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "AMXKVIWWXBYXRS-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_AMXKVIWWXBYXRS-UHFFFAOYSA-N",
+    "smiles": "O=S1(=O)CCC(O)C1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "DGVVWUTYPXICAM-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_DGVVWUTYPXICAM-UHFFFAOYSA-N",
+    "smiles": "OCCS",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "LNRIEBFNWGMXKP-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_LNRIEBFNWGMXKP-UHFFFAOYSA-N",
+    "smiles": "CCSCCO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "YODZTKMDCQEPHD-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_YODZTKMDCQEPHD-UHFFFAOYSA-N",
+    "smiles": "OCCSCCO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "MYWWWNVEZBAKHR-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_MYWWWNVEZBAKHR-UHFFFAOYSA-N",
+    "smiles": "COC(=O)CCSCCC(=O)OC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "CNUDBTRUORMMPA-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_CNUDBTRUORMMPA-UHFFFAOYSA-N",
+    "smiles": "O=Cc1cccs1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "WYJOVVXUZNRJQY-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_WYJOVVXUZNRJQY-UHFFFAOYSA-N",
+    "smiles": "CC(=O)c1cccs1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ISXOBTBCNRIIQO-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ISXOBTBCNRIIQO-UHFFFAOYSA-N",
+    "smiles": "O=S1CCCC1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "CMJLMPKFQPJDKP-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_CMJLMPKFQPJDKP-UHFFFAOYSA-N",
+    "smiles": "CC1CCS(=O)(=O)C1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "FSSPGSAQUIYDCN-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_FSSPGSAQUIYDCN-UHFFFAOYSA-N",
+    "smiles": "O=S1(=O)CCCO1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "WDXYVJKNSMILOQ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_WDXYVJKNSMILOQ-UHFFFAOYSA-N",
+    "smiles": "O=S1OCCO1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BQCCJWMQESHLIT-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BQCCJWMQESHLIT-UHFFFAOYSA-N",
+    "smiles": "CCCS(=O)CCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "DENRZWYUOJLTMF-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_DENRZWYUOJLTMF-UHFFFAOYSA-N",
+    "smiles": "CCOS(=O)(=O)OCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "OUQMXTJYCAJLGO-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_OUQMXTJYCAJLGO-UHFFFAOYSA-N",
+    "smiles": "Cc1csc(=N)[nH]1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "VRVRGVPWCUEOGV-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_VRVRGVPWCUEOGV-UHFFFAOYSA-N",
+    "smiles": "Nc1ccccc1S",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "RJELOMHXBLDMDB-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_RJELOMHXBLDMDB-UHFFFAOYSA-M",
+    "smiles": "CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.[Br-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "VEVFXLWLEHXVAT-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_VEVFXLWLEHXVAT-UHFFFAOYSA-N",
+    "smiles": "CC[N+]1(CCCCCCCCC[N+]2(CC)CCOCC2)CCOCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "GMAZLQLKNWCVQB-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_GMAZLQLKNWCVQB-UHFFFAOYSA-N",
+    "smiles": "C[N+]1(CCCCCCCCC[N+]2(C)CCOCC2)CCOCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "DFKZFXORKBHSLO-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_DFKZFXORKBHSLO-UHFFFAOYSA-N",
+    "smiles": "C[N+]1(CCCCCCCCCCCC[N+]2(C)CCOCC2)CCOCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "NEEGWWAZPCUDOX-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_NEEGWWAZPCUDOX-UHFFFAOYSA-N",
+    "smiles": "CC[N+]1(CCCCCCCCCCCC[N+]2(CC)CCOCC2)CCOCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "FGLBSLMDCBOPQK-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_FGLBSLMDCBOPQK-UHFFFAOYSA-N",
+    "smiles": "CC(C)[N+](=O)[O-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "QUKGYYKBILRGFE-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_QUKGYYKBILRGFE-UHFFFAOYSA-N",
+    "smiles": "CC(=O)OCc1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "KCXMKQUNVWSEMD-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_KCXMKQUNVWSEMD-UHFFFAOYSA-N",
+    "smiles": "ClCc1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "HTDQSWDEWGSAMN-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_HTDQSWDEWGSAMN-UHFFFAOYSA-N",
+    "smiles": "COc1ccccc1Br",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "DLKQHBOKULLWDQ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_DLKQHBOKULLWDQ-UHFFFAOYSA-N",
+    "smiles": "Brc1cccc2ccccc12",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "VFWCMGCRMGJXDK-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_VFWCMGCRMGJXDK-UHFFFAOYSA-N",
+    "smiles": "CCCCCl",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "MCSAJNNLRCFZED-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_MCSAJNNLRCFZED-UHFFFAOYSA-N",
+    "smiles": "CC[N+](=O)[O-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "KRIOVPPHQSLHCZ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_KRIOVPPHQSLHCZ-UHFFFAOYSA-N",
+    "smiles": "CCC(=O)c1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "NTIZESTWPVYFNL-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_NTIZESTWPVYFNL-UHFFFAOYSA-N",
+    "smiles": "CC(=O)CC(C)C",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "DDRPCXLAQZKBJP-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_DDRPCXLAQZKBJP-UHFFFAOYSA-N",
+    "smiles": "NCc1ccco1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "CWNSVVHTTQBGQB-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_CWNSVVHTTQBGQB-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCC(=O)N(CC)CC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ULFIAHFQEURGOU-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ULFIAHFQEURGOU-UHFFFAOYSA-N",
+    "smiles": "CCc1ccc(C(=O)Oc2ccc(C#N)cc2)cc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "NCTWNVKZQMMLIV-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_NCTWNVKZQMMLIV-UHFFFAOYSA-N",
+    "smiles": "CCCc1ccc(C(=O)Oc2ccc(C#N)cc2)cc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "XQRFASOUJIKXRE-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_XQRFASOUJIKXRE-UHFFFAOYSA-N",
+    "smiles": "CCCCc1ccc(C(=O)Oc2ccc(C#N)cc2)cc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "WCCDNUMASFDPFO-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_WCCDNUMASFDPFO-UHFFFAOYSA-N",
+    "smiles": "CCCCCc1ccc(C(=O)Oc2ccc(C#N)cc2)cc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "DEUWEGPRKHPNKB-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_DEUWEGPRKHPNKB-UHFFFAOYSA-N",
+    "smiles": "CCCCCCc1ccc(C(=O)Oc2ccc(C#N)cc2)cc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ZWAUTNYPKHVAEZ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ZWAUTNYPKHVAEZ-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCc1ccc(C(=O)Oc2ccc(C#N)cc2)cc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "HQABUPZFAYXKJW-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_HQABUPZFAYXKJW-UHFFFAOYSA-N",
+    "smiles": "CCCCN",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "XFNJVJPLKCPIBV-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_XFNJVJPLKCPIBV-UHFFFAOYSA-N",
+    "smiles": "NCCCN",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "VKCYHJWLYTUGCC-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_VKCYHJWLYTUGCC-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCC(C)=O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "FBWSQIKCOAWUQM-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_FBWSQIKCOAWUQM-UHFFFAOYSA-N",
+    "smiles": "CC[N+]1(C)CCOCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "HOZRXKYFIZZUAR-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_HOZRXKYFIZZUAR-UHFFFAOYSA-N",
+    "smiles": "CCCC[N+]1(C)CCOCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "HJOVHMDZYOCNQW-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_HJOVHMDZYOCNQW-UHFFFAOYSA-N",
+    "smiles": "CC1=CC(=O)CC(C)(C)C1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "MUXOBHXGJLMRAB-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_MUXOBHXGJLMRAB-UHFFFAOYSA-N",
+    "smiles": "COC(=O)CCC(=O)OC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "DBOAVDSSZWDGTH-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_DBOAVDSSZWDGTH-UHFFFAOYSA-N",
+    "smiles": "CCCCc1ccc(N=Cc2ccc(OCC)cc2)cc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "GWRSINRMEBHRIO-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_GWRSINRMEBHRIO-UHFFFAOYSA-N",
+    "smiles": "CCCCCCOc1ccc(N=[N+]([O-])c2ccc(OCCCCCC)cc2)cc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BAULSHLTGVOYKM-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BAULSHLTGVOYKM-UHFFFAOYSA-N",
+    "smiles": "CCCCN=C(O)c1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "KULYLNKSNZKYIU-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_KULYLNKSNZKYIU-UHFFFAOYSA-N",
+    "smiles": "CCCCCCC(=O)Oc1ccc(N=Nc2ccc(OCC)cc2)cc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "HZAXFHJVJLSVMW-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_HZAXFHJVJLSVMW-UHFFFAOYSA-N",
+    "smiles": "NCCO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "CYSGHNMQYZDMIA-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_CYSGHNMQYZDMIA-UHFFFAOYSA-N",
+    "smiles": "CN1CCN(C)C1=O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "WSVDSBZMYJJMSB-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_WSVDSBZMYJJMSB-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCCCCCCCc1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "STWFZICHPLEOIC-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_STWFZICHPLEOIC-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCC1CCCCC1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "NQAVPKIJZCHUNS-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_NQAVPKIJZCHUNS-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCCCC1CCCCC1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "MWWVNZNVTGBKQO-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_MWWVNZNVTGBKQO-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCCCCCCCC1CCCCC1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "FEIWNULTQYHCDN-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_FEIWNULTQYHCDN-UHFFFAOYSA-N",
+    "smiles": "CCCCc1ccc(N=Cc2ccc(OC)cc2)cc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "HHPCNRKYVYWYAU-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_HHPCNRKYVYWYAU-UHFFFAOYSA-N",
+    "smiles": "CCCCCc1ccc(-c2ccc(C#N)cc2)cc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "KHQGKIVXOUKYDN-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_KHQGKIVXOUKYDN-UHFFFAOYSA-N",
+    "smiles": "Cc1ccc(N=Nc2ccc(OCc3ccc(Cl)cc3)c(C)c2)cc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "UGCSPKPEHQEOSR-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_UGCSPKPEHQEOSR-UHFFFAOYSA-N",
+    "smiles": "FC(Cl)(Cl)C(F)(Cl)Cl",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ZJUDTXCEVUJEOX-DTWKUNHWSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ZJUDTXCEVUJEOX-DTWKUNHWSA-N",
+    "smiles": "CC1=C[C@H]2C[C@@H](C1)C2(C)C",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "WTARULDDTDQWMU-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_WTARULDDTDQWMU-UHFFFAOYSA-N",
+    "smiles": "C=C1CCC2CC1C2(C)C",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "HGCIXCUEYOPUTN-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_HGCIXCUEYOPUTN-UHFFFAOYSA-N",
+    "smiles": "C1=CCCCC1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "XCIXKGXIYUWCLL-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_XCIXKGXIYUWCLL-UHFFFAOYSA-N",
+    "smiles": "OC1CCCC1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "HPXRVTGHNJAIIH-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_HPXRVTGHNJAIIH-UHFFFAOYSA-N",
+    "smiles": "OC1CCCCC1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "QCRFMSUKWRQZEM-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_QCRFMSUKWRQZEM-UHFFFAOYSA-N",
+    "smiles": "OC1CCCCCC1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "MQHNKCZKNAJROC-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_MQHNKCZKNAJROC-UHFFFAOYSA-N",
+    "smiles": "CCCOC(=O)c1ccccc1C(=O)OCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "QWDBCIAVABMJPP-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_QWDBCIAVABMJPP-UHFFFAOYSA-N",
+    "smiles": "CC(C)OC(=O)c1ccccc1C(=O)OC(C)C",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "QUDWYFHPNIMBFC-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_QUDWYFHPNIMBFC-UHFFFAOYSA-N",
+    "smiles": "C=CCOC(=O)c1ccccc1C(=O)OCC=C",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "HAPGVMADJBQOGC-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_HAPGVMADJBQOGC-UHFFFAOYSA-N",
+    "smiles": "CCC(C)OC(=O)c1ccccc1C(=O)OC(C)CC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "KCXZNSGUUQJJTR-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_KCXZNSGUUQJJTR-UHFFFAOYSA-N",
+    "smiles": "CCCCCCOC(=O)c1ccccc1C(=O)OCCCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "MQIUGAXCHLFZKX-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_MQIUGAXCHLFZKX-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCOC(=O)c1ccccc1C(=O)OCCCCCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "PGIBJVOPLXHHGS-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_PGIBJVOPLXHHGS-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCOC(=O)c1ccccc1C(=O)OCCCCCCCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "DWNAQMUDCDVSLT-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_DWNAQMUDCDVSLT-UHFFFAOYSA-N",
+    "smiles": "O=C(Oc1ccccc1)c1ccccc1C(=O)Oc1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "UCVPKAZCQPRWAY-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_UCVPKAZCQPRWAY-UHFFFAOYSA-N",
+    "smiles": "O=C(OCc1ccccc1)c1ccccc1C(=O)OCc1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "OKZWQVKHTJIFLP-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_OKZWQVKHTJIFLP-UHFFFAOYSA-N",
+    "smiles": "O=C(OCCc1ccccc1)c1ccccc1C(=O)OCCc1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "YCPGFFUNLDSSRX-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_YCPGFFUNLDSSRX-UHFFFAOYSA-N",
+    "smiles": "O=C(OCCCc1ccccc1)c1ccccc1C(=O)OCCCc1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "FGWAPOKSKMNBEN-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_FGWAPOKSKMNBEN-UHFFFAOYSA-N",
+    "smiles": "CCCCCCOC(=O)c1cccc(C(=O)OCCCCCC)c1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "MLIPQTRXLNTCRS-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_MLIPQTRXLNTCRS-UHFFFAOYSA-N",
+    "smiles": "CCCCCCOC(=O)c1ccc(C(=O)OCCCCCC)cc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ZEAASJMMPYXDKX-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ZEAASJMMPYXDKX-UHFFFAOYSA-N",
+    "smiles": "CC1(C)C2CCC1(C)C(OC(=O)c1ccccc1C(=O)OC1CC3CCC1(C)C3(C)C)C2",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "QSDMFAMHWCHMFL-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_QSDMFAMHWCHMFL-UHFFFAOYSA-N",
+    "smiles": "CCCC(=O)Oc1ccccc1OC(=O)CCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "LVTPRIAGCBEGPW-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_LVTPRIAGCBEGPW-UHFFFAOYSA-N",
+    "smiles": "O=C(Oc1ccccc1OC(=O)c1ccccc1)c1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "GOJCZVPJCKEBQV-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_GOJCZVPJCKEBQV-UHFFFAOYSA-N",
+    "smiles": "CCCCOC(=O)COC(=O)c1ccccc1C(=O)OCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "HHECSPXBQJHZAF-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_HHECSPXBQJHZAF-UHFFFAOYSA-N",
+    "smiles": "CCCCCCOC(=O)CCCCC(=O)OCCCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "SZHOZZSBXPUVHJ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_SZHOZZSBXPUVHJ-UHFFFAOYSA-N",
+    "smiles": "CCCCCCOC(=O)CCCCCCC(=O)OCCCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BYACHAOCSIPLCM-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BYACHAOCSIPLCM-UHFFFAOYSA-N",
+    "smiles": "OCCN(CCO)CCN(CCO)CCO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "FAGUFWYHJQFNRV-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_FAGUFWYHJQFNRV-UHFFFAOYSA-N",
+    "smiles": "NCCNCCNCCNCCN",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "YKYONYBAUNKHLG-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_YKYONYBAUNKHLG-UHFFFAOYSA-N",
+    "smiles": "CCCOC(C)=O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "CCAFPWNGIUBUSD-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_CCAFPWNGIUBUSD-UHFFFAOYSA-N",
+    "smiles": "CCS(=O)CC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "WOBARLJSXVAEGX-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_WOBARLJSXVAEGX-UHFFFAOYSA-N",
+    "smiles": "CCCS(C)=O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "DPWSGFWYGDIGTM-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_DPWSGFWYGDIGTM-UHFFFAOYSA-N",
+    "smiles": "CCS(=O)C(C)C",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "RNGILROQIVKDFC-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_RNGILROQIVKDFC-UHFFFAOYSA-N",
+    "smiles": "CCCS(=O)C(C)C",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "GAUOLZMDPTWNNX-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_GAUOLZMDPTWNNX-UHFFFAOYSA-N",
+    "smiles": "O=S1CCOCC1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "YBJCDTIWNDBNTM-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_YBJCDTIWNDBNTM-UHFFFAOYSA-N",
+    "smiles": "CCS(C)(=O)=O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "JTOFSXGLSGTDCB-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_JTOFSXGLSGTDCB-UHFFFAOYSA-N",
+    "smiles": "N#CCCCCCCCCCCCCC#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "WBJINCZRORDGAQ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_WBJINCZRORDGAQ-UHFFFAOYSA-N",
+    "smiles": "CCOC=O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "RYGJQVQEGCQNHM-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_RYGJQVQEGCQNHM-UHFFFAOYSA-N",
+    "smiles": "CCCCN(CCCC)C(=O)c1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "RGSFGYAAUTVSQA-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_RGSFGYAAUTVSQA-UHFFFAOYSA-N",
+    "smiles": "C1CCCC1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "AFABGHUZZDYHJO-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_AFABGHUZZDYHJO-UHFFFAOYSA-N",
+    "smiles": "CCCC(C)C",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "UAEPNZWRGJTJPN-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_UAEPNZWRGJTJPN-UHFFFAOYSA-N",
+    "smiles": "CC1CCCCC1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "NOPFSRXAKWQILS-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_NOPFSRXAKWQILS-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCCCCCCCCCCCO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "VAMFXQBUQXONLZ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_VAMFXQBUQXONLZ-UHFFFAOYSA-N",
+    "smiles": "C=CCCCCCCCCCCCCCCCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ZGEGCLOFRBLKSE-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ZGEGCLOFRBLKSE-UHFFFAOYSA-N",
+    "smiles": "C=CCCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "GEAWFZNTIFJMHR-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_GEAWFZNTIFJMHR-UHFFFAOYSA-N",
+    "smiles": "C=CCCCC=C",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "LCGLNKUTAGEVQW-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_LCGLNKUTAGEVQW-UHFFFAOYSA-N",
+    "smiles": "COC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "XOBKSJJDNFUZPF-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_XOBKSJJDNFUZPF-UHFFFAOYSA-N",
+    "smiles": "CCOC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "JMMWKPVZQRWMSS-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_JMMWKPVZQRWMSS-UHFFFAOYSA-N",
+    "smiles": "CC(=O)OC(C)C",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BCQZXOMGPXTTIC-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BCQZXOMGPXTTIC-UHFFFAOYSA-N",
+    "smiles": "FC(F)(F)C(Cl)Br",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BGHCVCJVXZWKCC-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BGHCVCJVXZWKCC-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "YCOZIPAWZNQLMR-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_YCOZIPAWZNQLMR-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCCCCCCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "CYNYIHKIEHGYOZ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_CYNYIHKIEHGYOZ-UHFFFAOYSA-N",
+    "smiles": "CCCBr",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "UOCLXMDMGBRAIB-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_UOCLXMDMGBRAIB-UHFFFAOYSA-N",
+    "smiles": "CC(Cl)(Cl)Cl",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "SCYULBFZEHDVBN-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_SCYULBFZEHDVBN-UHFFFAOYSA-N",
+    "smiles": "CC(Cl)Cl",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "GWHJZXXIDMPWGX-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_GWHJZXXIDMPWGX-UHFFFAOYSA-N",
+    "smiles": "Cc1ccc(C)c(C)c1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "YYZUSRORWSJGET-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_YYZUSRORWSJGET-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCC(=O)OCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "SBBLWFHKFTVQAB-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_SBBLWFHKFTVQAB-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCC[N+](CC)(CC)CC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BEBRLXUSBAFEDU-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BEBRLXUSBAFEDU-UHFFFAOYSA-N",
+    "smiles": "CCC(C)n1cc[n+](C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "MALVKCXDDYFAJQ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_MALVKCXDDYFAJQ-UHFFFAOYSA-N",
+    "smiles": "C[n+]1ccn(C(C)(C)C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ALGVJKNIAOBBBJ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ALGVJKNIAOBBBJ-UHFFFAOYSA-N",
+    "smiles": "N#CCCOCC(COCCC#N)OCCC#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "FGNLFSAENBNXST-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_FGNLFSAENBNXST-UHFFFAOYSA-N",
+    "smiles": "N#CCCOC(O)C(C(O)OCCC#N)(C(O)OCCC#N)C(O)OCCC#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "DFJYZCUIKPGCSG-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_DFJYZCUIKPGCSG-UHFFFAOYSA-N",
+    "smiles": "N#CCCCCCCCCC#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "LAWZWSDBCFAOAW-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_LAWZWSDBCFAOAW-UHFFFAOYSA-N",
+    "smiles": "CCOCCOS(=O)(=O)O.c1ccncc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "AGMAEMODEVCHEV-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_AGMAEMODEVCHEV-UHFFFAOYSA-N",
+    "smiles": "FC(F)(F)C(F)(F)[P-](F)(F)(F)(C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F.OCCC[n+]1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "QDUYWLHHQDXZDC-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_QDUYWLHHQDXZDC-UHFFFAOYSA-N",
+    "smiles": "C[n+]1ccn(CCCO)c1.O=[N+]([O-])[O-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "OZTBKVUXRNLVGO-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_OZTBKVUXRNLVGO-UHFFFAOYSA-M",
+    "smiles": "CCCCCC[n+]1cccc(C)c1.Cc1ccc(S(=O)(=O)[O-])cc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "DGZUFUSISJAHHN-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_DGZUFUSISJAHHN-UHFFFAOYSA-N",
+    "smiles": "CCCCn1cc[n+](C)c1.N#Cc1nc(C(F)(F)F)[n-]c1C#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "QQBNAAPNDZUOMJ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_QQBNAAPNDZUOMJ-UHFFFAOYSA-N",
+    "smiles": "CCCC[n+]1cccc(C)c1.N#Cc1nc(C(F)(F)F)[n-]c1C#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "JYOYRLPZEKYUTG-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_JYOYRLPZEKYUTG-UHFFFAOYSA-N",
+    "smiles": "CCCC[n+]1ccc(C)cc1.N#C[N-]C#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "MUVYIRZYHQNTHV-KBSFAJRQSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_MUVYIRZYHQNTHV-KBSFAJRQSA-N",
+    "smiles": "CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.CCOS(=O)(=O)C[C@]12CCC(CC1=O)C2(C)C",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BWXSKLJLEZMKGG-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BWXSKLJLEZMKGG-UHFFFAOYSA-M",
+    "smiles": "CC(O)C(=O)[O-].CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "JGXUHEPOUQAWNE-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_JGXUHEPOUQAWNE-UHFFFAOYSA-N",
+    "smiles": "C[n+]1ccn(Cc2ccccc2)c1.N#C[N-]C#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "SDTAXUVLXYGRNE-UHFFFAOYSA-O": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_SDTAXUVLXYGRNE-UHFFFAOYSA-O",
+    "smiles": "Cn1cc[nH+]c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BQOCKQSOOTWYTB-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BQOCKQSOOTWYTB-UHFFFAOYSA-M",
+    "smiles": "C[N+]1(CCCC#N)CCCC1.N#C[S-]",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "UDXKJIIXPBTOBN-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_UDXKJIIXPBTOBN-UHFFFAOYSA-N",
+    "smiles": "N#CCCC[n+]1ccccc1.N#C[N-]C#N",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "UEOUNLQUFCMBKH-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_UEOUNLQUFCMBKH-UHFFFAOYSA-N",
+    "smiles": "C=CCn1cc[n+](C=C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BGTOWKSIORTVQH-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BGTOWKSIORTVQH-UHFFFAOYSA-N",
+    "smiles": "O=C1CCCC1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "YRKCREAYFQTBPV-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_YRKCREAYFQTBPV-UHFFFAOYSA-N",
+    "smiles": "CC(=O)CC(C)=O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "DURPTKYDGMDSBL-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_DURPTKYDGMDSBL-UHFFFAOYSA-N",
+    "smiles": "CCCCOCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ZAFNJMIOTHYJRJ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ZAFNJMIOTHYJRJ-UHFFFAOYSA-N",
+    "smiles": "CC(C)OC(C)C",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "RDHPKYGYEGBMSE-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_RDHPKYGYEGBMSE-UHFFFAOYSA-N",
+    "smiles": "CCBr",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "RTZKZFJDLAIYFH-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_RTZKZFJDLAIYFH-UHFFFAOYSA-N",
+    "smiles": "CCOCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "GRWFGVWFFZKLTI-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_GRWFGVWFFZKLTI-UHFFFAOYSA-N",
+    "smiles": "CC1=CCC2CC1C2(C)C",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "DLRJIFUOBPOJNS-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_DLRJIFUOBPOJNS-UHFFFAOYSA-N",
+    "smiles": "CCOc1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "PYLWMHQQBFSUBP-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_PYLWMHQQBFSUBP-UHFFFAOYSA-N",
+    "smiles": "Fc1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "RRHGJUQNOFWUDK-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_RRHGJUQNOFWUDK-UHFFFAOYSA-N",
+    "smiles": "C=CC(=C)C",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "MHNNAWXXUZQSNM-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_MHNNAWXXUZQSNM-UHFFFAOYSA-N",
+    "smiles": "C=C(C)CC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BDAGIHXWWSANSR-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BDAGIHXWWSANSR-UHFFFAOYSA-N",
+    "smiles": "O=CO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "DLFVBJFMPXGRIB-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_DLFVBJFMPXGRIB-UHFFFAOYSA-N",
+    "smiles": "CC(=N)O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "PFEOZHBOMNWTJB-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_PFEOZHBOMNWTJB-UHFFFAOYSA-N",
+    "smiles": "CCC(C)CC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "WJTCGQSWYFHTAC-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_WJTCGQSWYFHTAC-UHFFFAOYSA-N",
+    "smiles": "C1CCCCCCC1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ZFFMLCVRJBZUDZ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ZFFMLCVRJBZUDZ-UHFFFAOYSA-N",
+    "smiles": "CC(C)C(C)C",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "HGINCPLSRVDWNT-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_HGINCPLSRVDWNT-UHFFFAOYSA-N",
+    "smiles": "C=CC=O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "DMEGYFMYUHOHGS-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_DMEGYFMYUHOHGS-UHFFFAOYSA-N",
+    "smiles": "C1CCCCCC1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "HNRMPXKDFBEGFZ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_HNRMPXKDFBEGFZ-UHFFFAOYSA-N",
+    "smiles": "CCC(C)(C)C",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "FDPIMTJIUBPUKL-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_FDPIMTJIUBPUKL-UHFFFAOYSA-N",
+    "smiles": "CCC(=O)CC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "IEJIGPNLZYLLBP-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_IEJIGPNLZYLLBP-UHFFFAOYSA-N",
+    "smiles": "COC(=O)OC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "NAQMVNRVTILPCV-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_NAQMVNRVTILPCV-UHFFFAOYSA-N",
+    "smiles": "NCCCCCCN",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ZQBFAOFFOQMSGJ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ZQBFAOFFOQMSGJ-UHFFFAOYSA-N",
+    "smiles": "Fc1c(F)c(F)c(F)c(F)c1F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ZTQSAGDEMFDKMZ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ZTQSAGDEMFDKMZ-UHFFFAOYSA-N",
+    "smiles": "CCCC=O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "WYACBZDAHNBPPB-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_WYACBZDAHNBPPB-UHFFFAOYSA-N",
+    "smiles": "CCOC(=O)C(=O)OCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "LJSQFQKUNVCTIA-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_LJSQFQKUNVCTIA-UHFFFAOYSA-N",
+    "smiles": "CCSCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "WQOXQRCZOLPYPM-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_WQOXQRCZOLPYPM-UHFFFAOYSA-N",
+    "smiles": "CSSC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "FFSAXUULYPJSKH-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_FFSAXUULYPJSKH-UHFFFAOYSA-N",
+    "smiles": "CCCC(=O)c1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BZLVMXJERCGZMT-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BZLVMXJERCGZMT-UHFFFAOYSA-N",
+    "smiles": "COC(C)(C)C",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "NZZFYRREKKOMAT-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_NZZFYRREKKOMAT-UHFFFAOYSA-N",
+    "smiles": "ICI",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "QARVLSVVCXYDNA-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_QARVLSVVCXYDNA-UHFFFAOYSA-N",
+    "smiles": "Brc1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "OIFBSDVPJOWBCH-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_OIFBSDVPJOWBCH-UHFFFAOYSA-N",
+    "smiles": "CCOC(=O)OCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BKOOMYPCSUNDGP-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BKOOMYPCSUNDGP-UHFFFAOYSA-N",
+    "smiles": "CC=C(C)C",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "DAZXVJBJRMWXJP-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_DAZXVJBJRMWXJP-UHFFFAOYSA-N",
+    "smiles": "CCN(C)C",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "WLJVXDMOQOGPHL-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_WLJVXDMOQOGPHL-UHFFFAOYSA-M",
+    "smiles": "O=C([O-])Cc1ccccc1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "OISVCGZHLKNMSJ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_OISVCGZHLKNMSJ-UHFFFAOYSA-N",
+    "smiles": "Cc1cccc(C)n1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "CETBSQOFQKLHHZ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_CETBSQOFQKLHHZ-UHFFFAOYSA-N",
+    "smiles": "CCSSCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "NQRYJNQNLNOLGT-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_NQRYJNQNLNOLGT-UHFFFAOYSA-N",
+    "smiles": "C1CCNCC1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BMVXCPBXGZKUPN-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BMVXCPBXGZKUPN-UHFFFAOYSA-N",
+    "smiles": "CCCCCCN",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ZERULLAPCVRMCO-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ZERULLAPCVRMCO-UHFFFAOYSA-N",
+    "smiles": "CCCSCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "HVZJRWJGKQPSFL-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_HVZJRWJGKQPSFL-UHFFFAOYSA-N",
+    "smiles": "CCC(C)(C)OC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "CRVGTESFCCXCTH-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_CRVGTESFCCXCTH-UHFFFAOYSA-N",
+    "smiles": "CN(CCO)CCO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "KDISMIMTGUMORD-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_KDISMIMTGUMORD-UHFFFAOYSA-N",
+    "smiles": "CC(=O)N1CCCCC1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "YHRUOJUYPBUZOS-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_YHRUOJUYPBUZOS-UHFFFAOYSA-N",
+    "smiles": "ClCCCCl",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "HWWYDZCSSYKIAD-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_HWWYDZCSSYKIAD-UHFFFAOYSA-N",
+    "smiles": "Cc1cncc(C)c1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "UDGSVBYJWHOHNN-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_UDGSVBYJWHOHNN-UHFFFAOYSA-N",
+    "smiles": "CCN(CC)CCN",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "RXYPXQSKLGGKOL-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_RXYPXQSKLGGKOL-UHFFFAOYSA-N",
+    "smiles": "CN1CCN(C)CC1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "KAKZBPTYRLMSJV-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_KAKZBPTYRLMSJV-UHFFFAOYSA-N",
+    "smiles": "C=CC=C",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "TZIHFWKZFHZASV-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_TZIHFWKZFHZASV-UHFFFAOYSA-N",
+    "smiles": "COC=O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "RJUFJBKOKNCXHH-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_RJUFJBKOKNCXHH-UHFFFAOYSA-N",
+    "smiles": "CCC(=O)OC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "IJDNQMDRQITEOD-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_IJDNQMDRQITEOD-UHFFFAOYSA-N",
+    "smiles": "CCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "XKIRHOWVQWCYBT-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_XKIRHOWVQWCYBT-UHFFFAOYSA-N",
+    "smiles": "CCC(O)(CC)CC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "CYTYCFOTNPOANT-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_CYTYCFOTNPOANT-UHFFFAOYSA-N",
+    "smiles": "ClC(Cl)=C(Cl)Cl",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BAPJBEWLBFYGME-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BAPJBEWLBFYGME-UHFFFAOYSA-N",
+    "smiles": "C=CC(=O)OC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "PULCKIYKBGOTTG-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_PULCKIYKBGOTTG-UHFFFAOYSA-N",
+    "smiles": "CC(C)C(=NO)C(C)C",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ALVPFGSHPUPROW-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ALVPFGSHPUPROW-UHFFFAOYSA-N",
+    "smiles": "CCCSSCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ZNQVEEAIQZEUHB-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ZNQVEEAIQZEUHB-UHFFFAOYSA-N",
+    "smiles": "CCOCCO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "NKDDWNXOKDWJAK-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_NKDDWNXOKDWJAK-UHFFFAOYSA-N",
+    "smiles": "COCOC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "XSTXAVWGXDQKEL-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_XSTXAVWGXDQKEL-UHFFFAOYSA-N",
+    "smiles": "ClC=C(Cl)Cl",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "KJDRSWPQXHESDQ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_KJDRSWPQXHESDQ-UHFFFAOYSA-N",
+    "smiles": "ClCCCCCl",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "CXBDYQVECUFKRK-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_CXBDYQVECUFKRK-UHFFFAOYSA-N",
+    "smiles": "CCCCOC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "CGHIBGNXEGJPQZ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_CGHIBGNXEGJPQZ-UHFFFAOYSA-N",
+    "smiles": "C#CCCCC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "AHHWIHXENZJRFG-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_AHHWIHXENZJRFG-UHFFFAOYSA-N",
+    "smiles": "C1COC1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "NUMQCACRALPSHD-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_NUMQCACRALPSHD-UHFFFAOYSA-N",
+    "smiles": "CCOC(C)(C)C",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "IKHGUXGNUITLKF-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_IKHGUXGNUITLKF-UHFFFAOYSA-N",
+    "smiles": "CC=O",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "WXEHBUMAEPOYKP-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_WXEHBUMAEPOYKP-UHFFFAOYSA-N",
+    "smiles": "CCSC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ROSDSFDQCJNGOL-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ROSDSFDQCJNGOL-UHFFFAOYSA-N",
+    "smiles": "CNC",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "BFKXQUWDMZRVGQ-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_BFKXQUWDMZRVGQ-UHFFFAOYSA-N",
+    "smiles": "CCCCCCCC[N+]1(C)CCOCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "MMXQIIYOECXDFR-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_MMXQIIYOECXDFR-UHFFFAOYSA-M",
+    "smiles": "CCOP(=O)([O-])OCC.CC[N+]1(C)CCCC1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "ZYJPNFMCUXPREO-UHFFFAOYSA-M": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_ZYJPNFMCUXPREO-UHFFFAOYSA-M",
+    "smiles": "CCOP(=O)([O-])OCC.CC[N+]1(C)CCOCC1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "XXMIOPMDWAUFGU-UHFFFAOYSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_XXMIOPMDWAUFGU-UHFFFAOYSA-N",
+    "smiles": "OCCCCCCO",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "XMGQYMWWDOXHJM-JTQLQIEISA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_XMGQYMWWDOXHJM-JTQLQIEISA-N",
+    "smiles": "C=C(C)[C@H]1CC=C(C)CC1",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  },
+  "WHIRALQRTSITMI-UJURSFKZSA-N": {
+    "status": "RESOLVED",
+    "Mol_ID": "MOL_WHIRALQRTSITMI-UJURSFKZSA-N",
+    "smiles": "O=C1CC[C@H]2CO[C@@H]1O2",
+    "reason": "当前来源原记录的完整具体结构已经统一审核"
+  }
+}

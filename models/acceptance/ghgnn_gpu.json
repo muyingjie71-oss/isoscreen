@@ -1,0 +1,32 @@
+{
+ "model": "GH-GNN (IL-extended, retrained)",
+ "seeds": [
+  "seed_20261007",
+  "seed_20261008",
+  "seed_20261009"
+ ],
+ "device": "cuda",
+ "n_records": 68538,
+ "n_pairs": 31496,
+ "excluded_unsupported_molecules": [
+  "MOL_CSHAOLBENQQIBR-UHFFFAOYSA-H",
+  "MOL_FYHLFBVHUIJIII-UHFFFAOYSA-J",
+  "MOL_PZMFVKDFXFYHCI-UHFFFAOYSA-J",
+  "MOL_UYYXEZMYUOVMPT-UHFFFAOYSA-J"
+ ],
+ "ln_gamma_R2_train": 0.9874406303003471,
+ "ln_gamma_R2_train_per_seed": {
+  "seed_20261007": 0.9826707826397882,
+  "seed_20261008": 0.9841636085308132,
+  "seed_20261009": 0.9833440489568249
+ },
+ "ln_gamma_median_abs_error": 0.06383456851368874,
+ "typical_gamma_error_pct": 6.591604809881124,
+ "selectivity_median_error_factor": 1.0421179648194792,
+ "selectivity_lnS_R2_train": 0.8880650491252648,
+ "seconds": 35.77911901473999,
+ "pass": {
+  "R2_gt_0.95": true,
+  "selectivity_factor_lt_1.04": false
+ }
+}

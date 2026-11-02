@@ -1,0 +1,5 @@
+# Scientific parsing only. No xlsxwriter/openpyxl authoring dependency.
+rdkit==2026.3.6
+PyMuPDF==1.26.7
+# Optional fast JSON parser; the ThermoML parser falls back to stdlib json.
+orjson

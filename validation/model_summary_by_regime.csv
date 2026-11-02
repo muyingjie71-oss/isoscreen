@@ -1,0 +1,7 @@
+regime,model,resolution,spurious_rate,hit_rate,n_rank_pairs,median_tests_to_best,median_tests_random,share_earlier_than_random
+new_isomers,D-MPNN,1.112,0.3525,0.5789,48,20.5,31.25,0.729
+new_isomers,GH-GNN,1.128,0.4326,0.554,48,8.5,31.25,0.75
+known_isomers_new_solvents,D-MPNN,1.0438,0.1113,0.6429,48,15.5,31.25,0.688
+known_isomers_new_solvents,GH-GNN,1.0503,0.083,0.6303,48,12.0,31.25,0.771
+new_isomers,AVG,1.1092,0.3609,0.5842,48,12.0,31.25,0.688
+known_isomers_new_solvents,AVG,1.0412,0.0793,0.6476,48,10.5,31.25,0.708

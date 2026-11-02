@@ -1,0 +1,109 @@
+{
+  "run_id": "a64ec837a38d99e156a98d4db7f42d9b2bc6ef838dc8dfa5f4c07368c3afe1f7",
+  "fold": 5,
+  "best_epoch": 82,
+  "epochs_run": 112,
+  "training_seconds": 2577.392829589001,
+  "test": {
+    "observations": {
+      "n": 13990,
+      "mae": 0.2656477189209272,
+      "rmse": 0.45908990207919065,
+      "r2": 0.8645902417399404,
+      "family_macro_mae": 0.5243905606627403,
+      "supported_families": 17
+    },
+    "isomer_pairs": {
+      "n": 6374,
+      "mae": 0.26537003700012074,
+      "rmse": 0.40348820942397523,
+      "r2": 0.7196411821485756,
+      "family_macro_mae": 0.5098732533125597,
+      "group_macro_mae": 0.22313825548379315,
+      "supported_families": 5,
+      "matched_groups": 2750,
+      "zero_diff_baseline_mae": 0.39446809635792995,
+      "zero_diff_family_macro_mae": 0.7379765688721761,
+      "mae_better_than_zero": true,
+      "family_macro_better_than_zero": true,
+      "sign_threshold": 0.05,
+      "sign_coverage": 0.7276435519297144,
+      "sign_n": 4638,
+      "sign_accuracy": 0.7102199223803364
+    },
+    "absolute_huber": 0.03468318310680327,
+    "group_macro_differential_huber": 0.024313084767902372,
+    "validation_score": 0.05899626787470564,
+    "relation_breakdown": {
+      "位置异构": {
+        "n": 1679,
+        "mae": 0.13833102335947325,
+        "rmse": 0.21677110763130522,
+        "r2": 0.17199628505625386,
+        "family_macro_mae": 0.18234522796229666,
+        "zero_diff_baseline_mae": 0.1308389336081266
+      },
+      "官能团异构": {
+        "n": 2074,
+        "mae": 0.37855038540081004,
+        "rmse": 0.5414453130155605,
+        "r2": 0.8183179135115785,
+        "family_macro_mae": 0.6153058206763562,
+        "zero_diff_baseline_mae": 0.8813702686565074
+      },
+      "环-链异构": {
+        "n": 663,
+        "mae": 0.3426402707902511,
+        "rmse": 0.44950852347396186,
+        "r2": -0.3971644702892876,
+        "family_macro_mae": 0.8336743847918563,
+        "zero_diff_baseline_mae": 0.2385433478731712
+      },
+      "骨架/链异构": {
+        "n": 1958,
+        "mae": 0.22825680733554518,
+        "rmse": 0.33277272596617025,
+        "r2": -0.330154442501033,
+        "family_macro_mae": 0.21824589352296386,
+        "zero_diff_baseline_mae": 0.15758166487430628
+      }
+    },
+    "pair_family_breakdown": {
+      "ISO_C2H2Cl4": {
+        "n": 3,
+        "mae": 0.2647233341653233,
+        "rmse": 0.2755127356576148,
+        "r2": -11.720439615965368,
+        "zero_diff_baseline_mae": 0.9468017420039058
+      },
+      "ISO_C4H10O": {
+        "n": 4655,
+        "mae": 0.2928576457303055,
+        "rmse": 0.4228193335236204,
+        "r2": 0.7626465319394828,
+        "zero_diff_baseline_mae": 0.4827647845850927
+      },
+      "ISO_C4H8O": {
+        "n": 792,
+        "mae": 0.32572296285383723,
+        "rmse": 0.4532002838498391,
+        "r2": -0.14927647309688252,
+        "zero_diff_baseline_mae": 0.24849858643645972
+      },
+      "ISO_C5H10O": {
+        "n": 920,
+        "mae": 0.06854287018145133,
+        "rmse": 0.1809327700675648,
+        "r2": 0.0373274534989394,
+        "zero_diff_baseline_mae": 0.0648155211056865
+      },
+      "ISO_C6H15N": {
+        "n": 4,
+        "mae": 1.5975194536318815,
+        "rmse": 1.7668294617390286,
+        "r2": 0.3118398087632578,
+        "zero_diff_baseline_mae": 1.9470022102297362
+      }
+    }
+  }
+}

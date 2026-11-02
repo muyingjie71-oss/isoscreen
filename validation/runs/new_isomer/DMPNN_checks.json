@@ -1,0 +1,5 @@
+{
+ "pass": true,
+ "gpu": "NVIDIA A100-SXM4-40GB",
+ "compare": "params sha 942f37e169ce7a66 942f37e169ce7a66 IDENTICAL"
+}

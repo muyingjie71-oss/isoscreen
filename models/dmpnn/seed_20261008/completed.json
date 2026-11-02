@@ -1,0 +1,17 @@
+{
+  "run_id": "e3b54b883ed814c8dc5bf002c9f4e10f4f2dbadf2dcc37a3a4cac32a159762b7",
+  "production": true,
+  "smoke_only": false,
+  "seed": 20261008,
+  "fixed_epochs": 44,
+  "epochs": 44,
+  "steps": 5940,
+  "final_params_sha256": "08d0f5755bd5038ca32ebda21c2e436bb6d9f1969d038d7cc93ddaaca16bb1c6",
+  "scalers": {
+    "y_mean": 1.479577495950382,
+    "y_std": 1.6765181719507534,
+    "t_mean": 2.997128340089938,
+    "t_std": 0.22453301406076176
+  },
+  "training_seconds": 834.444024961
+}

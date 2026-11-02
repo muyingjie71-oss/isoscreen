@@ -1,0 +1,9 @@
+{
+ "fold": 2,
+ "seed": 20261007,
+ "best_epoch": 46,
+ "epochs_run": 76,
+ "best_val_mae": 0.3030622911915198,
+ "test_mae": 0.367456278857686,
+ "training_seconds": 5122.588149309158
+}

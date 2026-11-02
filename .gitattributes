@@ -1,0 +1,5 @@
+*.bin binary
+*.wasm binary
+*.msgpack binary
+*.pt binary
+*.xlsx binary

@@ -1,0 +1,18 @@
+{
+ "production": true,
+ "smoke_only": false,
+ "seed": 20261007,
+ "fixed_epochs": 26,
+ "epochs": 26,
+ "final_train_mae": 0.13160897817935927,
+ "final_lr": 0.00020260010869214385,
+ "final_sha256": "be38a0aec2d7bd69d48016090a34f85ec2c82a060e52bc305ee9702be8b8ae62",
+ "excluded_unsupported_molecules": [
+  "MOL_CSHAOLBENQQIBR-UHFFFAOYSA-H",
+  "MOL_FYHLFBVHUIJIII-UHFFFAOYSA-J",
+  "MOL_PZMFVKDFXFYHCI-UHFFFAOYSA-J",
+  "MOL_UYYXEZMYUOVMPT-UHFFFAOYSA-J"
+ ],
+ "n_train": 68538,
+ "training_seconds": 3156.8680198192596
+}

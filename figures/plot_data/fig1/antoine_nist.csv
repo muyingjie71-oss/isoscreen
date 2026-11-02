@@ -1,0 +1,24 @@
+compound,CAS,T_min_K,T_max_K,A,B,C,reference,used_in
+m-xylene,108-38-3,273,333,5.09199,1996.545,-14.772,Pitzer and Scott 1943 (NIST-recalculated),Fig6c position pair at 323 K
+m-xylene,108-38-3,332.4,413.19,4.13607,1463.218,-57.991,Williamham/Willingham et al. 1945,alt set
+o-xylene,95-47-6,273,323,4.93755,1901.373,-26.268,Pitzer and Scott 1943,Fig6c position pair at 323 K
+o-xylene,95-47-6,336.61,418.52,4.12928,1478.244,-59.076,Williamham/Willingham et al. 1945,alt set
+p-xylene,106-42-3,286.43,452.38,4.14553,1474.403,-55.377,Osborn and Douslin 1974,candidate pool
+p-xylene,106-42-3,298,333,4.44889,1644.214,-40.229,Pitzer and Scott 1943,alt set
+ethylbenzene,100-41-4,329.74,410.27,4.07488,1419.315,-60.539,Williamham/Willingham et al. 1945,Fig6c chain-branching pair at 323 K (7 K extrapolation)
+methylcyclopentane,96-37-7,288.18,345.78,3.98773,1186.059,-47.108,Williamham/Willingham et al. 1945,Fig6c ring-system/ring-chain pairs
+cyclohexane,110-82-7,303,343,3.9920,1216.93,-48.621,Gaw and Swinton 1968,Fig6c ring-system pair at 333 K
+cyclohexane,110-82-7,293.06,354.73,3.96988,1203.526,-50.287,Williamham/Willingham et al. 1945,alt set
+1-hexene,592-41-6,289.04,337.46,3.99063,1152.971,-47.301,Forziati et al. 1950,Fig6c ring-chain pair at 323 K
+1-heptene,592-76-7,273.19,361.89,4.21811,1400.674,-34.193,Bent et al. 1936,candidate pool
+n-hexane,110-54-3,286.18,342.69,4.00266,1171.53,-48.784,Williamham/Willingham et al. 1945,candidate pool
+3-methylpentane,96-14-0,288.44,337.23,3.97377,1152.368,-46.021,Williamham/Willingham et al. 1945,candidate pool
+dipropyl ether,111-43-3,312.9,371.33,4.01971,1227.47,-57.449,Meyer and Hotz 1973,candidate pool
+diisopropyl ether,108-20-3,296.7,340.36,3.96649,1135.034,-54.92,Cidlinsky and Polak 1969,candidate pool
+diethyl ether,60-29-7,250.04,328.57,4.0220,1062.64,-44.93,Ambrose et al. 1972,candidate pool (functional group; alpha0 ~ 27 so excluded)
+2-methyl-1-propanol,78-83-1,353.36,388.77,4.43126,1236.991,-101.528,Biddiscombe et al. 1963,candidate pool (extrapolated at 323 K; excluded)
+1-butanol,71-36-3,295.8,391.0,4.54607,1351.555,-93.34,Kemme and Kreps 1969,candidate pool
+methyl propanoate,554-12-1,293.74,351.90,4.03986,1155.987,-65.979,Polak and Mertl 1965,Fig6c connectivity pair at 358 K (6 K extrapolation)
+ethyl acetate,141-78-6,288.73,348.98,4.22809,1245.702,-55.189,Polak and Mertl 1965,Fig6c connectivity pair at 358 K (9 K extrapolation)
+ethylcyclopentane,1640-89-7,301.93,377.54,4.02284,1305.001,-51.755,Forziati Norris et al. 1949 (NIST-recalculated),Fig1a ring-size pair (Tb 376.6 K = 103.5 C)
+methylcyclohexane,108-87-2,,,,,,NIST WebBook average Tboil 374.0 +/- 0.8 K (no Antoine row found),Fig1a ring-size pair (Tb 100.9 C; value is an average not an Antoine result)

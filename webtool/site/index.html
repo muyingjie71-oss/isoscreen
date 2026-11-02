@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IsoScreen: solvents for separating isomers</title>
+<meta name="description" content="Rank 6,911 solvents for separating any pair of constitutional isomers by predicted selectivity at infinite dilution. Runs in your browser.">
+<style>
+:root {
+  --ink: #2C2C2A; --grey: #5F5E5A; --grey-l: #BDBCB8; --rule: #D3D1C7; --hair: #ECEBE6;
+  --pur: #534AB7; --pur-l: #AFA9EC; --pur-w: #EFEDFA; --bad: #8A2B1C;
+  --f: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; background: #fff; color: var(--ink); font: 15px/1.5 var(--f); -webkit-font-smoothing: antialiased; }
+a { color: var(--pur); text-decoration: none; } a:hover { text-decoration: underline; }
+:focus-visible { outline: 2px solid var(--pur); outline-offset: 2px; }
+.wrap { max-width: 1040px; margin: 0 auto; padding: 0 28px; }
+header .wrap { display: flex; align-items: baseline; justify-content: space-between; padding-top: 22px; padding-bottom: 16px; border-bottom: 1px solid var(--rule); }
+.mark { font-size: 19px; font-weight: 700; letter-spacing: -0.2px; color: var(--ink); }
+nav a { color: var(--grey); margin-left: 26px; font-size: 14px; padding-bottom: 17px; }
+nav a.on { color: var(--ink); box-shadow: inset 0 -2px 0 var(--ink); }
+nav a:hover { text-decoration: none; color: var(--ink); }
+main.wrap { padding-top: 40px; padding-bottom: 90px; }
+.lede { font-size: 15px; color: var(--grey); max-width: 640px; margin: 0 0 26px; }
+
+/* isomer input */
+.pair { display: grid; grid-template-columns: 1fr 1fr 210px; gap: 0 36px; align-items: end; }
+.iso label, .tcol label { display: block; font-size: 13px; color: var(--grey); margin-bottom: 4px; }
+.iso input, .tcol input { width: 100%; font: 17px/1.3 var(--f); color: var(--ink); border: 0; border-bottom: 1px solid var(--grey-l); padding: 6px 0 7px; background: transparent; border-radius: 0; }
+.iso input:focus, .tcol input:focus { outline: none; border-bottom: 1px solid var(--pur); box-shadow: 0 1px 0 var(--pur); }
+.draw { height: 168px; display: flex; align-items: center; justify-content: flex-start; margin-top: 10px; }
+.draw svg { width: 220px; height: 160px; }
+.draw .ph { color: var(--grey-l); font-size: 13px; }
+.meta { font-size: 13px; color: var(--grey); min-height: 40px; }
+.meta b { color: var(--ink); font-weight: 400; }
+.err-in { color: var(--bad); }
+.tcol { align-self: start; }
+.tcol .c { font-size: 13px; color: var(--grey); margin-top: 6px; }
+.go { margin-top: 26px; }
+button { font: 15px var(--f); padding: 10px 20px; border-radius: 2px; border: 1px solid var(--ink); background: var(--ink); color: #fff; cursor: pointer; }
+button:hover:not(:disabled) { background: #000; }
+button:disabled { opacity: .4; cursor: default; }
+button.quiet { background: #fff; color: var(--ink); border-color: var(--rule); padding: 6px 12px; font-size: 13px; }
+button.quiet:hover { border-color: var(--ink); background: #fff; }
+.under { display: flex; justify-content: space-between; gap: 20px; flex-wrap: wrap; margin-top: 20px; font-size: 13px; color: var(--grey); }
+.ex a { margin-left: 14px; } .ex a:first-of-type { margin-left: 6px; }
+.prog { display: inline-block; width: 120px; height: 2px; background: var(--hair); vertical-align: middle; margin-left: 10px; }
+.prog i { display: block; height: 2px; background: var(--pur); width: 0; transition: width .2s; }
+.error { color: var(--bad); margin-top: 14px; font-size: 14px; }
+.load { margin-top: 22px; font-size: 13.5px; color: var(--grey); display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+.load .prog { width: 280px; margin-left: 0; }
+
+/* results */
+#results { margin-top: 46px; border-top: 1px solid var(--rule); padding-top: 34px; }
+#results:empty { display: none; }
+.headline { font-size: 27px; line-height: 1.25; font-weight: 700; letter-spacing: -0.3px; margin: 0 0 12px; max-width: 900px; }
+.context { max-width: 760px; margin: 0 0 6px; }
+.context.new { box-shadow: inset 2px 0 0 var(--pur); padding-left: 14px; }
+.context.known { box-shadow: inset 2px 0 0 var(--ink); padding-left: 14px; }
+.aside { font-size: 13.5px; color: var(--grey); max-width: 760px; margin: 6px 0; }
+figure { margin: 30px 0 0; }
+.chart text { font: 12px var(--f); fill: var(--ink); }
+.chart .g { fill: var(--grey); }
+.chart .p { fill: var(--pur); }
+.toolbar { display: flex; flex-wrap: wrap; gap: 8px 22px; align-items: center; margin: 34px 0 10px; font-size: 13.5px; color: var(--grey); }
+.toolbar label { cursor: pointer; } .toolbar input[type=checkbox] { accent-color: var(--pur); margin: 0 6px 0 0; vertical-align: -2px; }
+.toolbar input[type=search] { font: 13.5px var(--f); border: 0; border-bottom: 1px solid var(--grey-l); padding: 4px 0; width: 170px; color: var(--ink); }
+.toolbar input[type=search]:focus { outline: none; border-bottom-color: var(--pur); }
+.toolbar .sp { flex: 1; }
+.tbl { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 13.5px; }
+th { text-align: left; font-weight: 400; color: var(--grey); font-size: 12.5px; padding: 8px 10px 8px 0; border-bottom: 1px solid var(--ink); white-space: nowrap; }
+td { padding: 8px 10px 8px 0; border-bottom: 1px solid var(--hair); vertical-align: baseline; }
+.num { text-align: right; font-variant-numeric: tabular-nums; }
+td.rk { color: var(--grey); width: 34px; }
+td.sv { font-weight: 700; }
+tr.r { cursor: pointer; } tr.r:hover td { background: #FBFBF9; }
+tr.r.open td { border-bottom-color: transparent; }
+.sub { color: var(--grey); font-size: 12.5px; }
+.lv { display: inline-block; padding: 1px 8px; border-radius: 10px; font-size: 12px; white-space: nowrap; }
+.lv0 { color: var(--grey); background: #F2F1ED; } .lv1 { color: var(--pur); background: var(--pur-w); } .lv2 { color: #fff; background: var(--pur); }
+.flag { color: var(--grey); font-size: 12.5px; } .flag.out { color: var(--bad); }
+tr.d td { background: #FBFBF9; padding: 14px 10px 18px 0; }
+.dg { display: grid; grid-template-columns: 190px 1fr; gap: 20px; }
+.dg svg { width: 180px; height: 130px; }
+.kv { display: grid; grid-template-columns: 200px 1fr; gap: 3px 16px; font-size: 13px; }
+.kv .k { color: var(--grey); }
+.more { margin: 14px 0 0; }
+.foot { font-size: 12.5px; color: var(--grey); max-width: 760px; margin-top: 22px; }
+
+/* pages */
+h1.page { font-size: 27px; font-weight: 700; letter-spacing: -0.3px; margin: 0 0 12px; line-height: 1.25; }
+h2 { font-size: 17px; font-weight: 700; margin: 34px 0 8px; }
+.prose { max-width: 720px; }
+.prose ol { padding-left: 20px; } .prose li { margin: 8px 0; }
+.method table { max-width: 720px; margin: 10px 0 8px; }
+.hidden { display: none !important; }
+@media (max-width: 820px) {
+  .wrap { padding: 0 18px; } .pair { grid-template-columns: 1fr; gap: 18px; } .draw { height: 140px; } .draw svg { width: 190px; height: 132px; }
+  .headline, h1.page { font-size: 22px; } .dg, .kv { grid-template-columns: 1fr; } nav a { margin-left: 14px; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <span class="mark">IsoScreen</span>
+  <nav><a href="#screen" data-view="screen">Screen</a><a href="#pair" data-view="pair">Measured data</a><a href="#method" data-view="method">Method</a></nav>
+</div></header>
+<main class="wrap">
+  <section id="v-screen">
+    <p class="lede">Rank solvents for separating two isomers. Enter the isomers by name or SMILES; IsoScreen predicts their selectivity in 6,911 ionic liquids and organic solvents and says how far each prediction can be trusted.</p>
+    <div class="pair">
+      <div class="iso"><label for="inA">First isomer</label><input id="inA" type="text" list="dl" autocomplete="off" spellcheck="false" placeholder="e.g. o-xylene"><div class="draw" id="drawA"><span class="ph">Structure appears here</span></div><div class="meta" id="metaA"></div></div>
+      <div class="iso"><label for="inB">Second isomer</label><input id="inB" type="text" list="dl" autocomplete="off" spellcheck="false" placeholder="e.g. p-xylene"><div class="draw" id="drawB"><span class="ph">Structure appears here</span></div><div class="meta" id="metaB"></div></div>
+      <div class="tcol"><label for="inT">Temperature, K</label><input id="inT" type="number" min="273.15" max="423.15" step="5" value="323.15"><div class="c" id="tC">50.0 °C</div>
+        <div class="go"><button id="go" disabled>Screen solvents</button></div></div>
+    </div>
+    <div id="load" class="load hidden" role="status" aria-live="polite"><span id="loadText"></span><span class="prog"><i id="loadBar"></i></span></div>
+    <datalist id="dl"></datalist>
+    <div class="under"><span id="status">Loading</span><span class="ex">Try<a href="#screen" data-ex="0">o-xylene and p-xylene</a><a href="#screen" data-ex="1">1-hexene and cyclohexane</a><a href="#screen" data-ex="2">a pair never measured</a></span></div>
+    <div id="error" class="error"></div>
+    <div id="results"></div>
+  </section>
+  <section id="v-pair" class="hidden"></section>
+  <section id="v-method" class="hidden method prose"></section>
+</main>
+<script src="vendor/RDKit_minimal.js"></script>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

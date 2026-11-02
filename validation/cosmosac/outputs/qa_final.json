@@ -1,0 +1,21 @@
+{
+  "official_index_sha256": "1ee74aa5d015dd4e7eb4286ab0d9c28ed9bc2f6084ffb1ad6a46e0156f4e1702",
+  "NIST_index_fullkeys": 2262,
+  "candidate_pairs": 2913,
+  "mol_key_count": 279,
+  "profiles_available": 279,
+  "profile_failures": 0,
+  "frozen_OOF_untouched": true,
+  "NIST_repo": "https://github.com/usnistgov/COSMOSAC",
+  "model": "NIST COSMO3 2010 Hsieh + dispersion correction",
+  "status": "complete_for_available_profiles",
+  "NIST_reference_293.15K": [
+    -0.03152763098771855,
+    -0.03165329413987285,
+    0.0001256631521543029,
+    0.0
+  ],
+  "computed_pairs": 2913,
+  "failed_pairs": 0,
+  "matched_crosssolvent_edges": 9198
+}

@@ -1,0 +1,43 @@
+regime,model,isomer_type,n_pairs_pred_ge_1_12,hit_rate
+new_isomers,D-MPNN,connectivity (metamer),2048,0.8394
+new_isomers,D-MPNN,functional group,1927,0.8962
+new_isomers,D-MPNN,positional,2409,0.7812
+new_isomers,D-MPNN,ring-chain,4379,0.7604
+new_isomers,D-MPNN,skeletal (chain branching),6497,0.5872
+new_isomers,D-MPNN,skeletal (ring system),305,0.3377
+new_isomers,D-MPNN,unsaturation type,4,1.0
+new_isomers,GH-GNN,connectivity (metamer),1681,0.8049
+new_isomers,GH-GNN,functional group,2113,0.7118
+new_isomers,GH-GNN,positional,4150,0.5077
+new_isomers,GH-GNN,ring-chain,4563,0.7508
+new_isomers,GH-GNN,skeletal (chain branching),5390,0.6087
+new_isomers,GH-GNN,skeletal (ring system),439,0.4989
+new_isomers,GH-GNN,unsaturation type,4,1.0
+known_isomers_new_solvents,D-MPNN,connectivity (metamer),1620,0.9463
+known_isomers_new_solvents,D-MPNN,functional group,2052,0.942
+known_isomers_new_solvents,D-MPNN,positional,2481,0.9214
+known_isomers_new_solvents,D-MPNN,ring-chain,4232,0.8809
+known_isomers_new_solvents,D-MPNN,skeletal (chain branching),3290,0.8571
+known_isomers_new_solvents,D-MPNN,skeletal (ring system),628,0.5398
+known_isomers_new_solvents,D-MPNN,unsaturation type,4,1.0
+known_isomers_new_solvents,GH-GNN,connectivity (metamer),1530,0.9627
+known_isomers_new_solvents,GH-GNN,functional group,2044,0.9095
+known_isomers_new_solvents,GH-GNN,positional,2592,0.9209
+known_isomers_new_solvents,GH-GNN,ring-chain,3768,0.8612
+known_isomers_new_solvents,GH-GNN,skeletal (chain branching),3020,0.8825
+known_isomers_new_solvents,GH-GNN,skeletal (ring system),585,0.6256
+known_isomers_new_solvents,GH-GNN,unsaturation type,4,1.0
+new_isomers,AVG,connectivity (metamer),1537,0.9291
+new_isomers,AVG,functional group,1977,0.7962
+new_isomers,AVG,positional,3645,0.6384
+new_isomers,AVG,ring-chain,4409,0.7764
+new_isomers,AVG,skeletal (chain branching),5569,0.6337
+new_isomers,AVG,skeletal (ring system),310,0.4065
+new_isomers,AVG,unsaturation type,4,1.0
+known_isomers_new_solvents,AVG,connectivity (metamer),1553,0.9652
+known_isomers_new_solvents,AVG,functional group,2042,0.9407
+known_isomers_new_solvents,AVG,positional,2514,0.9248
+known_isomers_new_solvents,AVG,ring-chain,3943,0.8942
+known_isomers_new_solvents,AVG,skeletal (chain branching),3031,0.8981
+known_isomers_new_solvents,AVG,skeletal (ring system),597,0.6013
+known_isomers_new_solvents,AVG,unsaturation type,4,1.0

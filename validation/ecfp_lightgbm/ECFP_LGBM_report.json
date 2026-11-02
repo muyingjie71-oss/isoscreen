@@ -1,0 +1,43 @@
+{
+  "model": "ECFP4 count (1024+1024) + 1000/T, LightGBM Huber, absolute only",
+  "folds": [
+    {
+      "fold": 1,
+      "best_iteration": 2095,
+      "seconds": 17.4,
+      "test_mae": 0.4555352591224587
+    },
+    {
+      "fold": 2,
+      "best_iteration": 386,
+      "seconds": 4.7,
+      "test_mae": 0.5112252288657733
+    },
+    {
+      "fold": 3,
+      "best_iteration": 2176,
+      "seconds": 18.3,
+      "test_mae": 0.4591341105115631
+    },
+    {
+      "fold": 4,
+      "best_iteration": 2087,
+      "seconds": 17.8,
+      "test_mae": 0.572507036734238
+    },
+    {
+      "fold": 5,
+      "best_iteration": 2062,
+      "seconds": 18.6,
+      "test_mae": 0.5479344567385163
+    }
+  ],
+  "lng_mae": 0.5088980732218151,
+  "lng_r2": 0.8130144956805925,
+  "D_mae": 0.5870564664593623,
+  "D_zero_mae": 0.22917357561604138,
+  "D_family_macro_mae": 0.5797870720174688,
+  "sign_acc_|D|>=0.05": 0.5443867178676305,
+  "n_obs": 68763,
+  "n_pairs": 31541
+}
