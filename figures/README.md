@@ -10,6 +10,8 @@ pip install -r requirements.txt
 python -m playwright install chromium     # only Figure 1 needs it, to convert SVG to PDF and PNG
 python run_all.py                          # all six figures, written to out/
 python run_all.py 2 6                      # only Figures 2 and 6
+python ranking_stats.py .                  # solvent ranking statistics of Section 4 and Table S5
+python make_data_s2.py . figure_source_data.xlsx   # Data S2, the numerical data of all figures
 ```
 
 Each figure can also be drawn alone, for example `python fig3.py . out`. Every figure is written as SVG, as PDF with Type 42 fonts (editable text) and as PNG at 600 dpi. The font is Arial, replaced by Liberation Sans where Arial is not installed, which leaves the layout essentially unchanged.
@@ -20,6 +22,8 @@ Each figure can also be drawn alone, for example `python fig3.py . out`. Every f
 |---|---|
 | `fig1.py` – `fig6.py` | One script per figure. Figure 4 also reads the new-solvent predictions from `validation/oof_predictions_ln_gamma.csv` |
 | `run_all.py` | Runs all scripts in turn |
+| `ranking_stats.py` | Tests to find the best solvent and Spearman ρ for the 48 isomer pairs measured in at least 30 solvents, with the Wilcoxon tests (Section 4 and Table S5) |
+| `make_data_s2.py` | Writes Data S2 (`figure_source_data.xlsx`): every measured and predicted value behind the figures and the plotted summary values. Molecule names are read from `data/isomer_selectivity_dataset.xlsx` |
 | `scripts/load_all.py` | Reads the training tables (`training/data/new_isomer_test/`) and the out-of-fold predictions of the new-isomer test (`validation/oof_predictions_all_models.csv.gz`), and joins measured values, isomer pairs and the predictions of every model in one table |
 | `outputs/` | Summary tables used by Figures 2 and 4: metrics of every training run and deviations between cross-study replicates |
 | `plot_data/fig1/` | Inputs of Figure 1: example isomer pairs, boiling points and the number of pairs in each resolution range |

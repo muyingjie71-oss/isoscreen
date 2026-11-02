@@ -1,0 +1,12 @@
+{
+  "title": "IsoScreen: data, code and web tool for \"Resolution limits of predicted selectivities in isomer separation\"",
+  "description": "Dataset of 68,763 infinite-dilution activity coefficients and 31,541 isomer pairs, out-of-fold predictions of all models, trained models, and code for data curation, model training, the figures and the IsoScreen web tool (https://muyingjie71-oss.github.io/isoscreen/).",
+  "upload_type": "software",
+  "creators": [
+    {"name": "Liu, Congchao", "affiliation": "East China University of Science and Technology"},
+    {"name": "Mu, Yingjie", "affiliation": "Meiji University"},
+    {"name": "Wang, Hongshuo", "affiliation": "East China University of Science and Technology"},
+    {"name": "Li, Gen", "affiliation": "East China University of Science and Technology"}
+  ],
+  "keywords": ["isomer separation", "infinite-dilution activity coefficient", "selectivity", "solvent screening", "ionic liquids"]
+}

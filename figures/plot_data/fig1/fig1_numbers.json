@@ -1,7 +1,7 @@
 {
  "n_pairs": 31541,
  "n_observations": 68763,
- "n_studies": 486,
+ "n_studies": 485,
  "exp_resolution": 1.0260330923696246,
  "model_resolution_DMPNN": 1.1224345145482792,
  "zone_share": {

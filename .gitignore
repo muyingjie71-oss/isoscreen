@@ -16,3 +16,4 @@ validation/ecfp_lightgbm/ECFP_LGBM_oof_pairs.csv
 webtool/build/work/
 webtool/tests/*.jsonl
 webtool/tests/node_modules/
+figures/figure_source_data.xlsx
